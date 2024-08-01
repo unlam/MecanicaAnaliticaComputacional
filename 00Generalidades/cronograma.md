@@ -5,19 +5,19 @@ Mecánica Analítica Computacional (3024)
 
 | S  | Fecha | Área        | Título          | Temario                   |
 |:--:|:----- |:-----------:|:---------------:|:-------                |
-| 01 | 03-28 | _Feriado_   | _Feriado_       | _Feriado_              |
-| 02 | 04-04 | Newtoniana  | Vectorial       | Metodología del curso. Análisis matemático vectorial con Sympy. |  
-| 03 | 04-11 | Analítica   | Energía         | Grados de libertad. Coordenadas generalizadas. Energía cinética y potencial. |
-| 04 | 04-18 | “           | EulerLagrange   | Ecuaciones de Euler-Lagrange. |
-| 05 | 04-25 | “           | Ligaduras       | Ligaduras como función de coordenadas. |
-| 06 | 05-02 | Numérica    | Simulación      | Resolución numérica de las ecuaciones de Euler-Lagrange. |
-| 07 | 05-09 | Fuerzas     | FuerzasLigadura | Fuerzas de ligadura por multiplicadores de Lagrange. |
-| 08 | 05-16 | “           | NoConservativas | Fuerzas no conservativas en el marco de Euler-Lagrange. |
-| 09 | 05-23 | Rígido      | TensorInercia   | Tensor de inercia. |
-| 10 | 05-30 | “           | “               | “ |
-| 11 | 06-06 | “           | RotaciónEuler   | Ecuaciones de Euler para el cuerpo rígido. |
-| 12 | 06-13 | “           | “               | **Integrador: enunciado**. |
-| 13 | 06-20 | _Feriado_   | _Feriado_       | _Feriado_ |
-| 14 | 06-27 | Vibraciones | Vibraciones1GdL | Oscilaciones forzadas de un grado de libertad y en sistemas discretos. |
-| 15 | 07-04 | “           | VibracionesNGdL | **Integrador: presentación**. Modos normales de oscilación en sistemas discretos. |
-| 16 | 07-11 | “           | "               | " |
+| 01 | 08-12 | Newtoniana  | Vectorial       | Metodología del curso. Análisis matemático vectorial con Sympy. |  
+| 02 | 08-19 | Analítica   | Energía         | Grados de libertad. Coordenadas generalizadas. Energía cinética y potencial. |
+| 03 | 08-26 | “           | EulerLagrange   | Ecuaciones de Euler-Lagrange. |
+| 04 | 09-02 | “           | Ligaduras       | Ligaduras como función de coordenadas. |
+| 05 | 09-09 | Numérica    | Simulación      | Resolución numérica de las ecuaciones de Euler-Lagrange. |
+| 06 | 09-16 | Fuerzas     | FuerzasLigadura | Fuerzas de ligadura por multiplicadores de Lagrange. |
+| 07 | 09-23 | “           | NoConservativas | Fuerzas no conservativas en el marco de Euler-Lagrange. |
+| 08 | 09-30 | Rígido      | TensorInercia   | Tensor de inercia. |
+| 09 | 10-07 | “           | “               | “ |
+| 10 | 10-14 | “           | RotaciónEuler   | Ecuaciones de Euler para el cuerpo rígido. |
+| 11 | 10-21 | “           | “               | **Integrador: enunciado**. |
+| 12 | 10-28 | Vibraciones | Vibraciones1GdL | Oscilaciones forzadas de un grado de libertad y en sistemas discretos. |
+| 13 | 11-04 | “           | VibracionesNGdL | Modos normales de oscilación en sistemas discretos. |
+| 14 | 11-11 | “           | "               | " |
+| 15 | 11-18 | _Evaluación_           | _Evaluación_               | **Integrador: presentación**. |
+| 16 | 11-25 | _Buffer_           | _Buffer_               | _Buffer_ |
