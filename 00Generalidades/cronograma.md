@@ -1,7 +1,7 @@
 # Cronograma
 Mecánica Analítica Computacional (3024)  
 ![DIIT - UNLaM](https://raw.githubusercontent.com/bettachini/MecanicaAnaliticaComputacional/master/figurasLaTeX/ambos.png)   
-2024 1er cuatrimestre | [Cronograma académico](https://www.unlam.edu.ar/index.php?seccion=8&idArticulo=449)
+2024 2.o cuatrimestre | [Cronograma académico](https://www.unlam.edu.ar/index.php?seccion=8&idArticulo=449)
 
 | S  | Fecha | Área         | Título          | Temario                                                                      |
 |:--:|:----- |:------------:|:---------------:|:-----------------------------------------------------------------------------|
