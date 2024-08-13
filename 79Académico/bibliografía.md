@@ -1,6 +1,6 @@
 # Bibliografía | Mecánica analítica computacional
 
-![UNLaM | DIIT](../figurasLaTeX/ambos.png "UNLaM | DIIT")  
+![UNLaM | DIIT](../77figurasLaTeX/ambos.png "UNLaM | DIIT")  
 <!---
  ![by-nc-sa.png](../figurasLaTeX/by-nc-sa.png "CC-BY-NC-SA") 2022 [Víctor A. Bettachini](mailto:vbettachini@unlam.edu.ar)  
 ![UNLaM | DIIT](figuras/ambos.png "UNLaM | DIIT")  
