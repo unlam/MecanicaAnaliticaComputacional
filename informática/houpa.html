@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notebook Launcher</title>
+    <script>
+        const user = 'unlam';
+        const repo = 'MecanicaAnaliticaComputacional';
+        const branch = 'main'; // or your working branch
+        const token = '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'; // Insert your GitHub PAT here
+
+        async function fetchRepoContent(path = '') {
+            try {
+                const url = `https://api.github.com/repos/${user}/${repo}/contents/${path}?ref=${branch}`;
+                const headers = {
+                    'Authorization': `token ${token}`
+                };
+
+                const response = await fetch(url, { headers });
+
+                if (!response.ok) {
+                    throw new Error(`GitHub API responded with status ${response.status} ${response.statusText}`);
+                }
+
+                const data = await response.json();
+                console.log('Fetched content:', data);  // Debugging line
+                return data;
+            } catch (error) {
+                console.error('Failed to fetch repository content:', error);
+                return null;  // Return null in case of error
+            }
+        }
+
+        function createLink(path, name) {
+            const colabUrl = `https://colab.research.google.com/github/${user}/${repo}/blob/${branch}/${path}`;
+            const cocalcUrl = `https://cocalc.com/github/${user}/${repo}/blob/${branch}/${path}`;
+            const sagemakerUrl = `https://studiolab.sagemaker.aws/import/github/${user}/${repo}.git?notebook=${path}`;
+            
+            return `
+                <li>
+                    ${name} - 
+                    <a href="${colabUrl}" target="_blank">Open in Google Colab</a> | 
+                    <a href="${cocalcUrl}" target="_blank">Open in CoCalc</a> | 
+                    <a href="${sagemakerUrl}" target="_blank">Open in SageMaker</a>
+                </li>
+            `;
+        }
+
+        async function loadDirectory(path = '', container) {
+            // Avoid reloading if the container is already populated
+            if (container.dataset.loaded) {
+                return;
+            }
+
+            // Clear the container before repopulating
+            container.innerHTML = '';
+            container.dataset.loaded = 'true';
+
+            const content = await fetchRepoContent(path);
+            if (!content || !Array.isArray(content)) {
+                console.error('Expected an array but got:', content);
+                container.innerHTML = '<li>Failed to load content or no content available.</li>';
+                return;
+            }
+
+            content.forEach(item => {
+                const listItem = document.createElement('li');
+                listItem.textContent = item.name;
+
+                if (item.type === 'dir') {
+                    listItem.innerHTML = `<strong>${item.name}</strong>`;
+                    listItem.addEventListener('click', async () => {
+                        // Create a nested list for the directory
+                        let nestedList = listItem.querySelector('ul');
+                        if (!nestedList) {
+                            nestedList = document.createElement('ul');
+                            listItem.appendChild(nestedList);
+                        }
+                        // Clear the nested list before repopulating
+                        nestedList.innerHTML = '';
+                        await loadDirectory(`${path}${item.name}/`, nestedList);
+                    });
+                } else if (item.type === 'file' && item.name.endsWith('.ipynb')) {
+                    listItem.innerHTML = createLink(`${path}${item.name}`, item.name);
+                }
+
+                container.appendChild(listItem);
+            });
+        }
+
+        window.onload = () => {
+            const container = document.getElementById('notebook-list');
+            loadDirectory('', container);
+        };
+    </script>
+</head>
+<body>
+    <h1>Notebook Launcher</h1>
+    <ul id="notebook-list"></ul>
+</body>
+</html>
