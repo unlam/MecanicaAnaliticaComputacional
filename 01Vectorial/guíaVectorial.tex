@@ -20,13 +20,13 @@ Los problemas marcados con (*) entrañan dificultades adicionales. No dude en co
 % 	\section*{Vector posición}
 	
 	\item
-		\begin{minipage}[t][6cm]{0.55\textwidth}
+		\begin{minipage}[t][6.5cm]{0.55\textwidth}
 			\textbf{Posición suma}\\
 			\begin{enumerate}
 				\item Guardar en una variable llamada \verb"a_r" un vector que indique la posición $\vec{r}_a = 3 \hat{e}_x + 0 \hat{e}_y + 5 \hat{e}_z$. 
 				\item Guardar $\vec{r}_b = -5 \hat{e}_x + (-5) \hat{e}_y + 7 \hat{e}_z$ en \verb"b_r".
 				\item Restar las variables correspondientes para realizar $\Delta \vec{r}_{a \to b} = \vec{r}_b - \vec{r}_a$ y guardar el resultado en \verb"ab_deltaR".
-				\item Guardar en \verb"c_r" el resultado de $\vec{r}_a +\Delta \vec{r}_{a \to b}$.
+				\item Guardar en \verb"c_r" (para el punto \verb"c", su posición \verb"r") el resultado de $\vec{r}_a +\Delta \vec{r}_{a \to b}$.
 				\item Para verificar que todo se hizo bien basta con leer \verb"c_r" y comprobar que $\vec{r}_c = \vec{r}_b$.
 			\end{enumerate}
 		\end{minipage}
@@ -85,13 +85,15 @@ Los problemas marcados con (*) entrañan dificultades adicionales. No dude en co
 
 
 	\item
-		\begin{minipage}[t][3.5cm]{0.7\textwidth}
+		\begin{minipage}[t][3.5cm]{0.68\textwidth}
 			(*) \textbf{Posición en función de una variable}\\
 			Una partícula de masa \(m\) está engarzada en un aro de radio $R$, por lo que su radio medido desde el centro del aro es constante.
 			Basta entonces conocer el ángulo $\varphi$ para describir su posición.
 			\begin{enumerate}
-				\item Escríbala en coordenadas cartesianas.
-				\item Calcule la velocidad.
+				\item Escríbala en coordenadas cartesianas en función de \(R\) y \(\varphi\). Recuerde que la primera es constante, no es más que un símbolo para la biblioteca \verb'SymPy', en tanto que la segunda es una variable que depende del tiempo, o dinámica, en el léxico de la biblioteca.
+				Deberá recurrir a funciones trigonométricas.
+				Busque como estas se implementan en la biblioteca.
+				\item Haga que \verb'SymPy' calcule la velocidad en este sistema de referencia.
 			\end{enumerate}
 		\end{minipage}
 		\begin{minipage}[c][1.5cm][t]{0.15\textwidth}
