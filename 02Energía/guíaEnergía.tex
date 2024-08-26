@@ -85,19 +85,23 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 
 
 \item
-	\begin{minipage}[t][5cm]{0.7\textwidth}
+	\begin{minipage}[t][3cm]{0.7\textwidth}
 		\textbf{Péndulo con punto de suspensión libre} [Landau \S5 ej. 2]\\
 		La partícula de masa \(m_2\) pende de una barra rígida de longitud \(\ell\) de masa despreciable.
 		En su otro extremo hay un dispositivo de masa \(m_1\) enhebrado en una barra rígida horizontal y que se mueve libremente a lo largo de su eje \(\hat{x}\).
 		El dispositivo permite que la barra que pende de él forme con la vertical cualquier ángulo \(\varphi\). 
-		\begin{enumerate}
-			\item Escriba la energía cinética, \(T\) y potencial, \(V\), en función de las coordenadas generalizadas sugeridas por las figura.
-			\item Verifique que al fijar la masa \(m_1\) recupera las expresiones de \(T\) y \(V\) de un péndulo ideal.
-		\end{enumerate}
 	\end{minipage}
-	\begin{minipage}[c][1cm][t]{0.3\textwidth}
+	\begin{minipage}[c][2cm][t]{0.3\textwidth}
 		\includegraphics[width=0.75\textwidth]{landauS52_fig2.png}
 	\end{minipage}
+	Para cada uno de los siguientes puntos escriba en un cuaderno Jupyter titulado con su apellido una o varias celdas de código separadas entre sí por otras conteniendo un texto indicando de que punto se trata.
+	\begin{enumerate}
+		\item Tras determinar las coordenadas generalizadas, escriba la posicíon de las partículas en función de ellas.
+		\item Calcule las velocidades de las partículas.
+		\item Con éstas velocidades calcule la energía cinética, \(T\) y potencial gravitatoria, \(V\), de cada partícula.  
+		\item Calule ahora \(T\) y \(V\) usando las funciones que toman por parámetros las masas y posiciones de las partículas. Verifique que obtiene el mismo resultado en menos pasos.
+		\item Realice substituciones en la expresiones de \(T\) y \(V\) del punto anterior para inmovilizar la partícula de masa \(m_1\). Verifique que recupera las expresiones que corresponden a las de un péndulo rígido ideal.
+	\end{enumerate}
 
 
 
@@ -135,11 +139,12 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 
 
 \item
-	\begin{minipage}[t][4.5cm]{0.65\textwidth}
+	\begin{minipage}[t][4.6cm]{0.65\textwidth}
 		(*) \textbf{Pesas acopladas rotando en torno a eje} [Landau \S5 ej. 4]\\
 
-		La partícula con \(m_2\) se desplaza sobre un eje vertical, y todo el sistema gira con una velocidad angular constante \(\Omega\) en torno a ese eje.
-		Dicha partícula está unida por barras de longitud \(a\) y masa despecible a otras dos de masa \(m_1\) que a su vez pendend de sendas barras idénticas del punto fijo \(A\) que describen un ángulo de apertura respecto al eje \(\theta\) que es variable.
+		La pieza con \(m_2\) se desplaza sobre un eje vertical, y todo el sistema gira con una velocidad angular constante \(\Omega\) en torno a ese eje.
+		Está unida por barras de longitud \(a\) y masa despecible a otras pesas de masa \(m_1\).
+		A su vez éstas penden de sendas barras idénticas del punto fijo, \(A\), que describen un ángulo variable de apertura respecto al eje \(\theta\).
 
 		Calcule la energía cinética para cada una de las tres masas y exprese en la forma más compacta posible la del sistema en su conjunto.
 		Haga lo propio con la energía potencial.
@@ -147,18 +152,16 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 	\begin{minipage}[c][1cm][t]{0.35\textwidth}
 		\includegraphics[width=0.75\textwidth]{landauS52_fig4.png}
 	\end{minipage}
-
-	La idea de este ejercicio es que tienen un eje vertical imaginario, en rosa en las siguientes figuras.\\
 	\includegraphics[width=0.45\textwidth]{rotantesAcopladas1.png}
 	\includegraphics[width=0.45\textwidth]{rotantesAcopladas2.png}
 	
-	La pelota de arriba es un lugar donde tenemos agarrado al sistema.
-	Y todo gira en torno al eje rosa con velocidad angular CONSTANTE $\Omega$.
-	Por lo tanto las dos masas de los laterales, que tienen masa $m_1$ rotan entrando y saliendo del plano de la pantalla (imagen de abajo).
+	En estas ilustraciones indicamos el punto \(A\), de donde tenemos \emph{agarrado} al sistema, con la \emph{pelota de arriba}.
+	Todo gira en torno al eje rosa con velocidad angular CONSTANTE $\Omega$.
+	Por lo tanto las dos partículas de los laterales, las de masa $m_1$, rotan entrando y saliendo del plano de la pantalla (imagen de abajo).
 	Esto es equivalente a pensar que el plano celeste de la imagen rota completo sobre el eje rosa.
 	
-	La masa $m_2$ es un dispositivo pasante (un buje) que puede ir para arriba y abajo sin rozamiento sobre el eje vertical (rosa).
-	Si la masa de abajo sube, todos los ángulos cambian lo mismo, porque las longitudes de las barras naranjas son todas iguales.\\
+	La pieza de masa $m_2$ es un dispositivo pasante (un buje) que puede ir para arriba y abajo sin rozamiento sobre el eje vertical (rosa).
+	Si la pieza de abajo sube, todos los ángulos cambian lo mismo, porque las longitudes de las barras naranjas son todas iguales.\\
 	\includegraphics[width=0.45\textwidth]{rotantesAcopladas3.png}
 	\includegraphics[width=0.45\textwidth]{rotantesAcopladas4.png}
 	
