@@ -1,6 +1,7 @@
 \documentclass[11pt, spanish, a4paper, twoside]{article}
 
 \input{../figurasLaTeX/introUNLaM}
+% \usepackage{svg}
 
 \begin{document}
 \begin{center}
@@ -24,7 +25,25 @@
 		\end{tasks}
 	\end{minipage}
 	\begin{minipage}[c][0.5cm][t]{0.4\textwidth}
-		\includegraphics[width=\textwidth]{hibb21_4}
+		\includegraphics[width=\textwidth]{hibb_21-4}
+		% \includegraphics[width=\textwidth]{hibb21_4}
+	\end{minipage}
+
+
+	\item 
+	\begin{minipage}[t][4.6cm]{0.55\textwidth}
+		\textbf{Volante de inercia}
+		El volante de inercia centrado en \(G\) tiene una masa de \SI{10}{\kilo\gram} es solidario al eje de masa despreciable que gira con velocidad angular constante \(\omega_s= \SI{6}{\per\second} \) (radianes por segundo) sostenido por los cojinetes \(A\) y \(B\).
+		El primero es de empuje, por lo que provee reacción también en la dirección longitudinal al eje en tanto que el segundo solo lo hace en las direcciones transversales.
+		Un eje transversal al del volante sostiene la montura del cojinete \(A\) y también gira con velocidad angular constante \(\omega_p\).
+		\begin{tasks}
+			\task Determine las reacciones que proveen los cojinetes.
+		\end{tasks}
+	\end{minipage}
+	\begin{minipage}[c][0.5cm][t]{0.4\textwidth}
+		\includegraphics[width=\textwidth]{hibb_21-6}
+		% \includesvg[width=\textwidth]{hibb_21-6.svg}
+		% \includegraphics[width=\textwidth]{hibb21_6}
 	\end{minipage}
 
 
@@ -44,6 +63,18 @@
 
 
 	\item 
+	\begin{minipage}[t][4.5cm]{0.75\textwidth}
+		\textbf{Barra en rotación}
+		La barra delgada AB tiene una masa \(m\) y está conectada al soporte por medio de un pasador en A.
+		El soporte está rígidamente montado en la flecha.
+		Determine la velocidad angular constante requerida \(\omega\) de la flecha, para que la barra forme un ángulo \(\theta\) con la vertical.
+	\end{minipage}
+	\begin{minipage}[c][3cm][t]{0.2\textwidth}
+		\includegraphics[width=\textwidth]{hibb_21-45}
+	\end{minipage}
+
+
+	\item 
 	\begin{minipage}[t][3.5cm]{0.6\textwidth}
 	\textbf{Cilindro desbalanceado}
 		Un cilindro de altura \(D\) y masa \(M\) está apoyado en dos cojinetes \(P\) y \(Q\), y lleva colocadas asimétricamente dos pesas de masa igual \(m/2\) a una distancia \(a\) de su centro, formando con su eje un ángulo \(\varphi\).
@@ -58,36 +89,49 @@
 	\end{minipage}
 	
 	
+
 	\item 
-	\begin{minipage}[t][4.6cm]{0.6\textwidth}
-		\textbf{Volante de inercia}
-		El volante de inercia centrado en \(G\) tiene una masa de \SI{10}{\kilo\gram} es solidario al eje de masa despreciable que gira con velocidad angular constante \(\omega_s\)sostenido por los cojinetes \(A\) y \(B\).
-		El primero es de empuje, por lo que provee reacción también en la dirección longitudinal al eje en tanto que el segundo solo lo hace en las direcciones transversales.
-		Un eje transversal al del volante sostiene la montura del cojinete \(A\) y también gira con velocidad angular constante \(\omega_p\).
-		\begin{tasks}
-			\task Determine las reacciones que proveen los cojinetes.
-		\end{tasks}
+	\begin{minipage}[t][4.5cm]{0.55\textwidth}
+		\textbf{``Flecha'' sobre cojinetes}
+		La flecha se construyó con una barra cuya masa por unidad de longitud es de \SI{2}{\kilo\gram\per\metre}.
+		Determine las componentes \(x, y, z\) de la reacción en los cojinetes A y B si en el instante que se muestra la flecha gira libremente a una velocidad angular de \(\omega = \SI{30}{\per\second}\) (radianes por segundo).
+		¿Cuál es la aceleración angular de la flecha en este instante?
+		El cojinete A es capaz de soportar una componente de fuerza en la dirección y mientras que el cojinete B no.
+		Ignore la masa del eje.
 	\end{minipage}
-	\begin{minipage}[c][0.5cm][t]{0.35\textwidth}
-		\includegraphics[width=\textwidth]{hibb21_6}
+	\begin{minipage}[c][0cm][t]{0.4\textwidth}
+		\includegraphics[width=\textwidth]{hibb_21-48}
 	\end{minipage}
 
 
-
-\item 
-\begin{minipage}[t][3.5cm]{0.65\textwidth}
+	\item 
+	\begin{minipage}[t][6.5cm]{0.65\textwidth}
 		\textbf{Aceleración angular constante}
-El cilindro de 15 libras rota alrededor del eje AB con \(\vec{\omega} = -\SI{4}{\per\second} \hat{x}\) (radianes por segundo).
-El cojinete \(A\) no soporta fuerza en el sentido de \(x\) de lo que se ocupa el \(B\).
-El eje soporte \(C\) que estaba inicialmente en reposo está sometido a una aceleración \(\vec{\alpha}_C = \dot{\vec{\omega}} = \SI{12}{\per\second\squared} \hat{Z}\) (radianes por segundo cuadrado), siendo que \(\hat{Z}\) incluye a \(\overline{AC}\) y es paralelo a \(\hat{z}\).
-\begin{tasks}
-	\task Convierta los datos en unidades imperiales (pies, libras) en unidades del Sistema Internacional.
-	\task Determine las reacciones que deben proveer los cojinetes.
-\end{tasks}
-\end{minipage}
-\begin{minipage}[c][2cm][t]{0.3\textwidth}
-	\includegraphics[width=\textwidth]{hibb_14_21_58}
-\end{minipage}
+		El cilindro de 15 libras rota alrededor del eje AB con \(\vec{\omega} = -\SI{4}{\per\second} \hat{x}\) (radianes por segundo).
+	El cojinete \(A\) no soporta fuerza en el sentido de \(x\) de lo que se ocupa el \(B\).
+	El eje soporte \(C\) que estaba inicialmente en reposo está sometido a una aceleración \(\vec{\alpha}_C = \dot{\vec{\omega}} = \SI{12}{\per\second\squared} \hat{Z}\) (radianes por segundo cuadrado), siendo que \(\hat{Z}\) incluye a \(\overline{AC}\) y es paralelo a \(\hat{z}\).
+	\begin{tasks}
+		\task Convierta los datos en unidades imperiales (pies, libras) en unidades del Sistema Internacional.
+		\task Determine las reacciones que deben proveer los cojinetes.
+	\end{tasks}
+	\end{minipage}
+	\begin{minipage}[c][2cm][t]{0.3\textwidth}
+		\includegraphics[width=\textwidth]{hibb_14_21_58}
+	\end{minipage}
+
+
+	\item 
+	\begin{minipage}[t][3.5cm]{0.65\textwidth}
+		\textbf{Trituradora de roca}
+		Una trituradora de roca se compone de un disco delgado grande el cual está conectado por medio de un pasador a un eje horizontal.
+		Si éste gira a una velocidad constante de \SI{8}{\per\second} (radianes por segundo), determine la fuerza normal que el disco ejerce en las piedras.
+		Suponga que el disco rueda sin deslizarse y que su masa es de \SI{25}{\kilo\gram}.
+		Ignore la masa del eje.
+	\end{minipage}
+	\begin{minipage}[c][2cm][t]{0.3\textwidth}
+		\includegraphics[width=\textwidth]{hibb_21-56}
+	\end{minipage}
+
 
 
 \end{enumerate}
