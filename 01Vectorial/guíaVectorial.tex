@@ -86,7 +86,7 @@ Los problemas marcados con (*) entrañan dificultades adicionales. No dude en co
 
 
 	\item
-		\begin{minipage}[t][3.5cm]{0.68\textwidth}
+		\begin{minipage}[t][6cm]{0.68\textwidth}
 			(*) \textbf{Posición en función de una variable}\\
 			Una partícula de masa \(m\) está engarzada en un aro de radio $R$, por lo que su radio medido desde el centro del aro es constante.
 			Basta entonces conocer el ángulo $\varphi$ para describir su posición.
@@ -94,7 +94,11 @@ Los problemas marcados con (*) entrañan dificultades adicionales. No dude en co
 				\item Escríbala en coordenadas cartesianas en función de \(R\) y \(\varphi\). Recuerde que la primera es constante, no es más que un símbolo para la biblioteca \verb'SymPy', en tanto que la segunda es una variable que depende del tiempo, o dinámica, en el léxico de la biblioteca.
 				Deberá recurrir a funciones trigonométricas.
 				Busque como estas se implementan en la biblioteca.
-				\item Haga que \verb'SymPy' calcule la velocidad en este sistema de referencia.
+				\item Haga que \verb'SymPy' calcule la velocidad en este sistema de referencia.\\
+			Resultado:\\
+				\(
+					-  R \sin{\left(\varphi \right)} \dot{\varphi}\mathbf{\hat{e}_x} + R \cos{\left(\varphi \right)} \dot{\varphi}\mathbf{\hat{e}_y}
+				\)
 			\end{enumerate}
 		\end{minipage}
 		\begin{minipage}[c][1.5cm][t]{0.15\textwidth}

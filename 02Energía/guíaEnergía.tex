@@ -106,13 +106,18 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 
 
 \item
-	\begin{minipage}[t][4cm]{0.7\textwidth}
+	\begin{minipage}[t][6cm]{0.7\textwidth}
 		\textbf{Péndulo doble} [Landau \S5 ej. 1]\\
 		Una barra rígida de longitud \(\ell_1\) tiene una masa despreciable respecto a la de la partícula de masa \(m_1\) fija a su extremo.
 		A su vez de esta última pende otra barra rígida, de longitud \(\ell_2\) que en su extremo tiene otra partícula de masa \(m_2\), también mucho mayor que aquella de la barra.
 		\begin{enumerate}
-			\item Escriba la energía cinética, \(T\) y potencial, \(V\), en función de las coordenadas generalizadas sugeridas por las figura.
-			\item Verifique que recupera \(T\) y \(V\) de un péndulo simple si establece \(m_1=0\), \(\varphi_1 = \varphi_2 = \varphi\) y \(\ell_1 = \ell_2 = \frac{\ell}{2}\).
+			\item Obetenga las energías cinética, \(T\), y potencial, \(V\), en función de las coordenadas generalizadas sugeridas por las figura.\\
+			resultado:\\
+			\(
+				T_{traslación} = \frac{M \dot{X}^{2}}{2} + \frac{m \left(- 2 \cos{\left(\theta \right)} \dot{X} \dot{x} + \dot{X}^{2} + \dot{x}^{2}\right)}{2}\\
+				V_{gravitatoria} = - g m x \sin{\left(\theta \right)}
+			\)
+			\item Establezca \(m_1 = 0\), \(\varphi_1 = \varphi_2 = \varphi\) y \(\ell_1 = \ell_2 = \frac{\ell}{2}\) a traves de la función de substitución de SymPy. Verifique que se obtiene el \(T\) y \(V\) de un péndulo simple.
 		\end{enumerate}
 		% Ayuda: \( \cos(\alpha \pm \beta) = \cos{ \alpha} \cos{ \beta \mp \sin \alpha} \sin{ \beta } \)
 	\end{minipage}
@@ -130,7 +135,14 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 		El punto de suspensión engarzado en un aro de radio \(a\) dispuesto verticalmente rota respecta a su centro con una frecuencia \(\omega\) constante.
 		Se asume que todas las posiciones se encuentran en un único plano bidimensional y que la masa de la barra rígida tiene masa despreciable frente a \(m\).
 
-		Calcule la energía cinética, \(T\) y potencial, \(V\) de la partícula con masa \(m\).\end{minipage}
+		Calcule la energía cinética, \(T\) y potencial, \(V\) de la partícula con masa \(m\).
+
+		Resultado:\\
+		\(
+			T_{traslación} = \frac{m \left(a^{2} \omega^{2} - 2 a b \omega \sin{\left(\omega t - \theta \right)} \dot{\theta} + b^{2} \dot{\theta}^{2}\right)}{2}\\
+			V_{gravitatoria} = g m \left(a \sin{\left(\omega t \right)} - b \cos{\left(\theta \right)}\right)
+		\)
+	\end{minipage}
 	\begin{minipage}[c][3cm][t]{0.5\textwidth}
 		\includegraphics[width=0.75\textwidth]{marion_fig7_3.png}
 		% \includegraphics[width=0.75\textwidth]{landauS52_fig3.png}
@@ -139,7 +151,7 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 
 
 \item
-	\begin{minipage}[t][4.6cm]{0.65\textwidth}
+	\begin{minipage}[t][7cm]{0.65\textwidth}
 		(*) \textbf{Pesas acopladas rotando en torno a eje} [Landau \S5 ej. 4]\\
 
 		La pieza con \(m_2\) se desplaza sobre un eje vertical, y todo el sistema gira con una velocidad angular constante \(\Omega\) en torno a ese eje.
@@ -148,6 +160,12 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 
 		Calcule la energía cinética para cada una de las tres masas y exprese en la forma más compacta posible la del sistema en su conjunto.
 		Haga lo propio con la energía potencial.
+
+		Resultado:\\
+		\(
+			T_{traslación} = a^{2} \left( m_{1} \left( \Omega^{2} \sin^{2}{\left(\theta \right)} + \dot{\theta}^{2}\right) + 2 m_{2} \sin^{2}{\left(\theta \right)} \dot{\theta}^{2} \right) \\
+			V_{gravitatoria} = - 2 a g \left(m_{1} + m_{2}\right) \cos{\left(\theta \right)}
+		\)
 	\end{minipage}
 	\begin{minipage}[c][1cm][t]{0.35\textwidth}
 		\includegraphics[width=0.75\textwidth]{landauS52_fig4.png}
