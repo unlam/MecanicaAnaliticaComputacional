@@ -114,10 +114,10 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 			\item Obetenga las energías cinética, \(T\), y potencial, \(V\), en función de las coordenadas generalizadas sugeridas por las figura.\\
 			resultado:\\
 			\(
-				T_{traslación} = \frac{M \dot{X}^{2}}{2} + \frac{m \left(- 2 \cos{\left(\theta \right)} \dot{X} \dot{x} + \dot{X}^{2} + \dot{x}^{2}\right)}{2}\\
-				V_{gravitatoria} = - g m x \sin{\left(\theta \right)}
+				T_{traslaci\acute{o}n} = \frac{\ell_{1}^{2} m_{1} \dot{\varphi}_{1}^{2}}{2} + \frac{m_{2} \left(\ell_{1}^{2} \dot{\varphi}_{1}^{2} + 2 \ell_{1} \ell_{2} \cos{\left(\varphi_{1} - \varphi_{2} \right)} \dot{\varphi}_{1} \dot{\varphi}_{2} + \ell_{2}^{2} \dot{\varphi}_{2}^{2}\right)}{2}\\
+				V_{gravitatoria} = - g \left(\ell_{1} m_{1} \cos{\left(\varphi_{1} \right)} + \ell_{1} m_{2} \cos{\left(\varphi_{1} \right)} + \ell_{2} m_{2} \cos{\left(\varphi_{2} \right)}\right)
 			\)
-			\item Establezca \(m_1 = 0\), \(\varphi_1 = \varphi_2 = \varphi\) y \(\ell_1 = \ell_2 = \frac{\ell}{2}\) a traves de la función de substitución de SymPy. Verifique que se obtiene el \(T\) y \(V\) de un péndulo simple.
+			\item Establezca \(m_1 = 0\), \(\varphi_1 = \varphi_2 = \varphi\) y \(\ell_1 = \ell_2 = \frac{\ell}{2}\) a traves de la función de substitución de SymPy. Verifique que se obtiene el \(T\) y \(V\) de un único péndulo rígido ideal.
 		\end{enumerate}
 		% Ayuda: \( \cos(\alpha \pm \beta) = \cos{ \alpha} \cos{ \beta \mp \sin \alpha} \sin{ \beta } \)
 	\end{minipage}
@@ -139,7 +139,7 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 
 		Resultado:\\
 		\(
-			T_{traslación} = \frac{m \left(a^{2} \omega^{2} - 2 a b \omega \sin{\left(\omega t - \theta \right)} \dot{\theta} + b^{2} \dot{\theta}^{2}\right)}{2}\\
+			T_{traslaci\acute{o}n} = \frac{m \left(a^{2} \omega^{2} - 2 a b \omega \sin{\left(\omega t - \theta \right)} \dot{\theta} + b^{2} \dot{\theta}^{2}\right)}{2}\\
 			V_{gravitatoria} = g m \left(a \sin{\left(\omega t \right)} - b \cos{\left(\theta \right)}\right)
 		\)
 	\end{minipage}
@@ -163,25 +163,31 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 
 		Resultado:\\
 		\(
-			T_{traslación} = a^{2} \left( m_{1} \left( \Omega^{2} \sin^{2}{\left(\theta \right)} + \dot{\theta}^{2}\right) + 2 m_{2} \sin^{2}{\left(\theta \right)} \dot{\theta}^{2} \right) \\
+			T_{traslaci\acute{o}n} = a^{2} \left( m_{1} \left( \Omega^{2} \sin^{2}{\left(\theta \right)} + \dot{\theta}^{2}\right) + 2 m_{2} \sin^{2}{\left(\theta \right)} \dot{\theta}^{2} \right) \\
 			V_{gravitatoria} = - 2 a g \left(m_{1} + m_{2}\right) \cos{\left(\theta \right)}
 		\)
 	\end{minipage}
 	\begin{minipage}[c][1cm][t]{0.35\textwidth}
 		\includegraphics[width=0.75\textwidth]{landauS52_fig4.png}
 	\end{minipage}
-	\includegraphics[width=0.45\textwidth]{rotantesAcopladas1.png}
-	\includegraphics[width=0.45\textwidth]{rotantesAcopladas2.png}
-	
+
+	\begin{center}
+		\includegraphics[width=0.35\textwidth]{rotantesAcopladas1.png}
+		\includegraphics[width=0.35\textwidth]{rotantesAcopladas2.png}
+	\end{center}
+
 	En estas ilustraciones indicamos el punto \(A\), de donde tenemos \emph{agarrado} al sistema, con la \emph{pelota de arriba}.
 	Todo gira en torno al eje rosa con velocidad angular CONSTANTE $\Omega$.
 	Por lo tanto las dos partículas de los laterales, las de masa $m_1$, rotan entrando y saliendo del plano de la pantalla (imagen de abajo).
 	Esto es equivalente a pensar que el plano celeste de la imagen rota completo sobre el eje rosa.
 	
 	La pieza de masa $m_2$ es un dispositivo pasante (un buje) que puede ir para arriba y abajo sin rozamiento sobre el eje vertical (rosa).
-	Si la pieza de abajo sube, todos los ángulos cambian lo mismo, porque las longitudes de las barras naranjas son todas iguales.\\
-	\includegraphics[width=0.45\textwidth]{rotantesAcopladas3.png}
-	\includegraphics[width=0.45\textwidth]{rotantesAcopladas4.png}
+	Si la pieza de abajo sube, todos los ángulos cambian lo mismo, porque las longitudes de las barras naranjas son todas iguales.
+	
+	\begin{center}
+		\includegraphics[width=0.35\textwidth]{rotantesAcopladas3.png}
+		\includegraphics[width=0.35\textwidth]{rotantesAcopladas4.png}
+	\end{center}
 	
 
 \end{enumerate}
