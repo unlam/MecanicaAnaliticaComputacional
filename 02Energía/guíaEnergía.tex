@@ -85,7 +85,7 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 
 
 \item
-	\begin{minipage}[t][3cm]{0.7\textwidth}
+	\begin{minipage}[t][2.5cm]{0.7\textwidth}
 		\textbf{Péndulo con punto de suspensión libre} [Landau \S5 ej. 2]\\
 		La partícula de masa \(m_2\) pende de una barra rígida de longitud \(\ell\) de masa despreciable.
 		En su otro extremo hay un dispositivo de masa \(m_1\) enhebrado en una barra rígida horizontal y que se mueve libremente a lo largo de su eje \(\hat{x}\).
@@ -94,7 +94,6 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 	\begin{minipage}[c][2cm][t]{0.3\textwidth}
 		\includegraphics[width=0.75\textwidth]{landauS52_fig2.png}
 	\end{minipage}
-	Para cada uno de los siguientes puntos escriba en un cuaderno Jupyter titulado con su apellido una o varias celdas de código separadas entre sí por otras conteniendo un texto indicando de que punto se trata.
 	\begin{enumerate}
 		\item Tras determinar las coordenadas generalizadas, escriba la posicíon de las partículas en función de ellas.
 		\item Calcule las velocidades de las partículas.
@@ -106,25 +105,28 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 
 
 \item
-	\begin{minipage}[t][6cm]{0.7\textwidth}
+	\begin{minipage}[t][3.7cm]{0.7\textwidth}
 		\textbf{Péndulo doble} [Landau \S5 ej. 1]\\
 		Una barra rígida de longitud \(\ell_1\) tiene una masa despreciable respecto a la de la partícula de masa \(m_1\) fija a su extremo.
 		A su vez de esta última pende otra barra rígida, de longitud \(\ell_2\) que en su extremo tiene otra partícula de masa \(m_2\), también mucho mayor que aquella de la barra.
-		\begin{enumerate}
-			\item Obetenga las energías cinética, \(T\), y potencial, \(V\), en función de las coordenadas generalizadas sugeridas por las figura.
-			
-			Resultado:\\
-			\(
-				T_{traslaci\acute{o}n} = \frac{\ell_{1}^{2} m_{1} \dot{\varphi}_{1}^{2}}{2} + \frac{m_{2} \left(\ell_{1}^{2} \dot{\varphi}_{1}^{2} + 2 \ell_{1} \ell_{2} \cos{\left(\varphi_{1} - \varphi_{2} \right)} \dot{\varphi}_{1} \dot{\varphi}_{2} + \ell_{2}^{2} \dot{\varphi}_{2}^{2}\right)}{2}\\
-				V_{gravitatoria} = - g \left(\ell_{1} m_{1} \cos{\left(\varphi_{1} \right)} + \ell_{1} m_{2} \cos{\left(\varphi_{1} \right)} + \ell_{2} m_{2} \cos{\left(\varphi_{2} \right)}\right)
-			\)
-			\item Establezca \(m_1 = 0\), \(\varphi_1 = \varphi_2 = \varphi\) y \(\ell_1 = \ell_2 = \frac{\ell}{2}\) a traves de la función de substitución de SymPy. Verifique que se obtiene el \(T\) y \(V\) de un único péndulo rígido ideal.
-		\end{enumerate}
-		% Ayuda: \( \cos(\alpha \pm \beta) = \cos{ \alpha} \cos{ \beta \mp \sin \alpha} \sin{ \beta } \)
+	
+		Para cada uno de los siguientes puntos escriba en un cuaderno Jupyter titulado con su apellido una o varias celdas de código separadas entre sí por otras conteniendo un texto indicando de que punto se trata.
 	\end{minipage}
-	\begin{minipage}[c][0.5cm][t]{0.3\textwidth}
+	\begin{minipage}[c][2cm][t]{0.3\textwidth}
 		\includegraphics[width=0.75\textwidth]{landauS52_fig1.png}
 	\end{minipage}
+
+	\begin{enumerate}
+		\item Obetenga las energías cinética, \(T\), y potencial, \(V\), en función de las coordenadas de la figura.
+		
+		Resultado:\\
+		\(
+			T_{traslaci\acute{o}n} = \frac{\ell_{1}^{2} m_{1} \dot{\varphi}_{1}^{2}}{2} + \frac{m_{2} \left(\ell_{1}^{2} \dot{\varphi}_{1}^{2} + 2 \ell_{1} \ell_{2} \cos{\left(\varphi_{1} - \varphi_{2} \right)} \dot{\varphi}_{1} \dot{\varphi}_{2} + \ell_{2}^{2} \dot{\varphi}_{2}^{2}\right)}{2}\\
+			V_{gravitatoria} = - g \left(\ell_{1} m_{1} \cos{\left(\varphi_{1} \right)} + \ell_{1} m_{2} \cos{\left(\varphi_{1} \right)} + \ell_{2} m_{2} \cos{\left(\varphi_{2} \right)}\right)
+		\)
+		\item Establezca \(m_1 = 0\), \(\varphi_1 = \varphi_2 = \varphi\) y \(\ell_1 = \ell_2 = \frac{\ell}{2}\) a traves de la función de substitución de SymPy. Verifique que se obtiene el \(T\) y \(V\) de un único péndulo rígido ideal.
+	\end{enumerate}
+	% Ayuda: \( \cos(\alpha \pm \beta) = \cos{ \alpha} \cos{ \beta \mp \sin \alpha} \sin{ \beta } \)
 
 
 
@@ -144,7 +146,7 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 			V_{gravitatoria} = g m \left(a \sin{\left(\omega t \right)} - b \cos{\left(\theta \right)}\right)
 		\)
 	\end{minipage}
-	\begin{minipage}[c][3cm][t]{0.5\textwidth}
+	\begin{minipage}[c][1.5cm][t]{0.5\textwidth}
 		\includegraphics[width=0.75\textwidth]{marion_fig7_3.png}
 		% \includegraphics[width=0.75\textwidth]{landauS52_fig3.png}
 	\end{minipage}
