@@ -46,18 +46,9 @@ Parámetros físicos y condiciones iniciales:\\
 	b) \textbf{Péndulo con punto de suspensión libre} [Landau \S5 ej. 2]\\ 
 	c) \textbf{Péndulo doble} [Landau \S5 ej. 1] 
 \begin{tasks}(3)
-	\task \begin{tikzpicture}[scale= 1.0]
-  	\draw [arrows=-latex] (-1,2) -> (-1,1) node [above=15, right=2] {\(\vec{g}\)}; % g vertical
-		\draw [ultra thick] (-1.5,3) -- (2,3);
-		\fill [pattern = north east lines] (-1.5,3) rectangle (2,3.2); % techo
-		\draw [dashed] (0,3) -- (0,-.25);	% vertical
-		\draw [thick] (0,3) -- +(-60:3) node[midway,above,right=2] {\(\ell\)};	% inclinada +:relativa, -60 grados, longitud 3
-		\shade [ball color=black!80] ($(0,3)+(-60:3)$) circle(0.25) node [] {\color{white} $m$};
-    \draw [arrows=-latex] (0,.4) -> (1.25,.4) node [midway, above] {\( \psi \)}; % desplazamiento horizontal
-		\draw [arrows=-latex] (0,0) arc [start angle=-90, end angle=-65, radius=3] node [below=12, left=8] {\( \varphi \)};
-	\end{tikzpicture}
-	\task \includegraphics[height=0.2\textwidth]{landauS52_fig2}
-	\task \includegraphics[height=0.2\textwidth]{landauS52_fig1}
+	\task \input{figs/pendulum.tikz}
+	\task \includegraphics[height=0.24\textwidth]{landauS52_fig2}
+	\task \includegraphics[height=0.24\textwidth]{landauS52_fig1}
 \end{tasks}
 Rango de tiempo \(t = \SIrange{0}{10}{\second}\).
 Parámetros físicos y condiciones iniciales: 
