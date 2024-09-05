@@ -7,19 +7,19 @@
 
 | S  | Fecha   | Título          | Temario                                                                                   |
 |:--:|:--------|:---------------:|:------------------------------------------------------------------------------------------|
-| 01 | 08-12 P | Vectorial       | Metodología del curso. Análisis matemático vectorial simbólico computacional.             |  
-| 02 | 08-19   | Energía         | Grados de libertad. Coordenadas generalizadas. Energía cinética y potencial gravitatoria. |
-| 03 | 08-26 P | EulerLagrange   | Ecuaciones de Euler-Lagrange. Energía potencial elástica.                                 |
-| 04 | 09-02   | Ligaduras       | Ligaduras como función de coordenadas.                                                    |
-| 05 | 09-09   | Simulación      | Resolución numérica de las ecuaciones de Euler-Lagrange.                                  |
-| 06 | 09-16   | FuerzasLigadura | Fuerzas de ligadura por multiplicadores de Lagrange.                                      |
-| 07 | 09-23 P | NoConservativas | Fuerzas no conservativas en el marco de Euler-Lagrange.                                   |
-| 08 | 09-30   | TensorInercia   | Tensor de inercia. **Integrador 1**.                                                      |
-| 09 | 10-07   | “               | (cont.)                                                                                   |
-| 10 | 10-14   | RotaciónEuler   | Ecuaciones de Euler para el cuerpo rígido.                                                |
-| 11 | 10-21 P | “               | **Integrador 2: enunciado**.                                                              |
-| 12 | 10-28   | Vibraciones1GdL | Oscilaciones forzadas de un grado de libertad y en sistemas discretos.                    |
-| 13 | 11-04   | VibracionesNGdL | Modos normales de oscilación en sistemas discretos.                                       |
-| 14 | 11-11   | "               | (cont.)                                                                                   |
-| 15 | 11-18 P | _Evaluación_    | **Integrador 2: presentación**                                                            |
-| 16 | 11-25 p | "               | **Recuperatorio**                                                                         |
+| 01 | 08-15 p | Vectorial       | Metodología del curso. Análisis matemático vectorial simbólico computacional.             |  
+| 02 | 08-22   | Energía         | Grados de libertad. Coordenadas generalizadas. Energía cinética y potencial gravitatoria. |
+| 03 | 08-29 p | EulerLagrange   | Ecuaciones de Euler-Lagrange. Energía potencial elástica.                                 |
+| 04 | 09-05   | Ligaduras       | Ligaduras como función de coordenadas.                                                    |
+| 05 | 09-12   | Simulación      | Resolución numérica de las ecuaciones de Euler-Lagrange.                                  |
+| 06 | 09-19   | FuerzasLigadura | Fuerzas de ligadura por multiplicadores de Lagrange.                                      |
+| 07 | 09-26 p | NoConservativas | Fuerzas no conservativas en el marco de Euler-Lagrange.                                   |
+| 08 | 10-03   | TensorInercia   | Tensor de inercia. **Integrador 1**.                                                      |
+| 09 | 10-10   | “               | (cont.)                                                                                   |
+| 10 | 10-17   | RotaciónEuler   | Ecuaciones de Euler para el cuerpo rígido.                                                |
+| 11 | 10-24 p | “               | **Integrador 2: enunciado**.                                                              |
+| 12 | 10-31   | Vibraciones1GdL | Oscilaciones forzadas de un grado de libertad y en sistemas discretos.                    |
+| 13 | 11-07   | VibracionesNGdL | Modos normales de oscilación en sistemas discretos.                                       |
+| 14 | 11-14   | "               | (cont.)                                                                                   |
+| 15 | 11-21 p | _Evaluación_    | **Integrador 2: presentación**                                                            |
+| 16 | 11-28 p | "               | **Recuperatorio**                                                                         |
