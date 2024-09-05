@@ -62,26 +62,26 @@ Resultado 1c:\\
 
 
 \item
-	\begin{minipage}[t][3.5cm]{0.7\textwidth}
+	\begin{minipage}[t][4.5cm]{0.7\textwidth}
 		\textbf{Soporte de péndulo sobre un plano inclinado}\\
 		Un soporte de masa \(m_1\) desliza por un plano inclinado inmóvil con un ángulo \(\theta\) sin que éste le presente fricción.
 		Un péndulo de longitud \(\ell\) y masa \(m\) cuelga del soporte describiendo un ángulo \(\varphi\) con la vertical.
 		Es soporte se extiende a un costado del plano permitiendo al péndulo colgar libremente sin interferencia de éste último.
 		\begin{enumerate}
-			\item Encuentre las ecuaciones para la dinámica.
+			\item Encuentre las ecuaciones para la dinámica.\\
 			% \item (*) Asumiendo pequeñas oscilaciones en torno a la vertical encuentre la frecuencia de oscilación del péndulo.
+			Resultado:
+			\(
+				\ell m \left(\ell \ddot{\varphi} + g \sin{\left(\varphi \right)} + \cos{\left(\theta + \varphi \right)} \ddot{d}\right) = 0 \\
+				\ell m \sin{\left(\theta + \varphi \right)} \dot{\varphi}^{2} - \ell m \cos{\left(\theta + \varphi \right)} \ddot{\varphi} + g m \sin{\left(\theta \right)} + g m_{1} \sin{\left(\theta \right)} - m \ddot{d} - m_{1} \ddot{d} = 0
+			\)
 		\end{enumerate}
 	\end{minipage}
 	\begin{minipage}[c][0cm][t]{0.3\textwidth}
 		\input{figs/mobilePendulum.tikz}
 		% \includegraphics[width=0.75\textwidth]{cmchap6_fig6_18.png}
 	\end{minipage}
-	Resultado:\\
-	\(
-	\ell m \left(\ell \ddot{\varphi} + g \sin{\left(\varphi \right)} + \cos{\left(\theta + \varphi \right)} \ddot{d}\right) = 0 \\
-	\ell m \sin{\left(\theta + \varphi \right)} \dot{\varphi}^{2} - \ell m \cos{\left(\theta + \varphi \right)} \ddot{\varphi} + g m \sin{\left(\theta \right)} + g m_{1} \sin{\left(\theta \right)} - m \ddot{d} - m_{1} \ddot{d} = 0
-	\)
-
+	
 
 
 \item
@@ -98,9 +98,12 @@ Resultado 1c:\\
 	\begin{enumerate}
 		\item  Encuentre una ecuación para la dinámica en función de \(d\), la distancia de la partícula a la intersección.\\
 		Resultado: \(- \omega^{2} m d + k d + m \ddot{d} = 0\)
-		\item (*) Obtenga \(d(t)\) asumiendo las condición iniciales que desee. Esto implica resolver la ecuación diferencial de segundo orden que obtuvo en el punto anterior.
-			Esta debe resultarle familiar pues no es otra que la solución para un péndulo ideal, la de un oscilador armónico simple.
-		\item (*) Existe un ``valor especial'' para \(\omega\). ¿Cuál sería y que implica para \(d(t)\)? Note que puede responder esto sin haber resuelto el punto anterior.
+		% \item (*) Escriba \(d(t)\) asumiendo las condiciones iniciales que desee.
+		%	Esto implica resolver la ecuación diferencial de segundo orden que obtuvo en el punto anterior.
+		%	No utizará SymPy para resolverla, sino su conocimientos de matemática adquiridos en las asignaturas correlativas anteriores a esta.
+		%	La solución debiera resultarle familiar pues no es otra que la solución para un péndulo ideal, la de un oscilador armónico simple.
+		\item (*) Existe un ``valor especial'' para \(\omega\). ¿Cuál sería y que implicaría para \(d(t)\)?
+		% Note que puede responder esto sin haber resuelto el punto anterior.
 	\end{enumerate}
 
 
