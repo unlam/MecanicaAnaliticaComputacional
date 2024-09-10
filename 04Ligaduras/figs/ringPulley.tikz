@@ -20,7 +20,7 @@
 
 	% draw the pulley
 	\def \pulleyRadius {1.5};
-	\def \pulleyAltitude {3.0};
+	\def \pulleyAltitude {2.5};
 	\coordinate (pulleyCentre) at ({\ringRadius + \pulleyRadius}, \pulleyAltitude);
 	\filldraw [inner color = white, outer color = gray!25] (pulleyCentre) circle (\pulleyRadius);	
 	\filldraw (pulleyCentre) circle (1 mm);
@@ -54,17 +54,16 @@
 	
 	% weight dimension lines
 	\draw [dashed] (weightCentre) -- ({\ringRadius + 2 * \pulleyRadius + 2* \extra}, \weightAltitude);
-	\draw [Latex-Latex] ($ (pulleyCentre) + (\pulleyRadius + 1.5 * \extra, {- \pulleyAltitude})$) --  ($ (pulleyCentre) + (\pulleyRadius + 1.5 * \extra, {- \pulleyAltitude + \weightAltitude})$) node [midway, right] {\(h_{pesa}\)};
+	\draw [-Latex] ($ (pulleyCentre) + (\pulleyRadius + 1.5 * \extra, {- \pulleyAltitude})$) --  ($ (pulleyCentre) + (\pulleyRadius + 1.5 * \extra, {- \pulleyAltitude + \weightAltitude})$) node [midway, right] {\(y_{pesa}\)};
 
 	% weight 
-	% \draw [shift = {(weightCentre)}, thick, fill = black] (-\weightWidth, -\weightHeight) rectangle (\weightWidth,\weightHeight) node [midway] {\color{white} $m_{pesa}$};
-	\shade [shift = {(weightCentre)}, ball color=black!80] (-\weightWidth, -\weightHeight) rectangle (\weightWidth,\weightHeight) node [midway] {\color{white} $m_{pesa}$};
+	\shade [ball color=black!80] (weightCentre) circle (\weightHeight) node {\color{white} $m_{pesa}$};
 
 
 	% floor
 	\def \floorAltitude {-2.0};
-	\draw [ultra thick] (-1.7,\floorAltitude) -- (1.7,\floorAltitude);
-	\fill [pattern = north east lines] (-1.7,{\floorAltitude-0.2}) rectangle (1.7,\floorAltitude);
+	\draw [ultra thick] (-\ringRadius,\floorAltitude) -- (\ringRadius,\floorAltitude);
+	\fill [pattern = north east lines] (- \ringRadius,{\floorAltitude-0.2}) rectangle (\ringRadius,\floorAltitude);
 	% base of the ring
 	\draw [line width = 1 mm] (0,\floorAltitude) -- (ringCentre);
 
