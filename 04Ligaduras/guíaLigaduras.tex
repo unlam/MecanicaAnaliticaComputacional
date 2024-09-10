@@ -13,8 +13,8 @@
 %De poder resolver estos problemas en forma autónoma puede asumir que adquirió los conocimientos mínimos sobre los temas abordados en la semana.
 %No dude en consultar a docentes y compañeros si no puede terminarlos.
 Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en consultar.
-\begin{enumerate}
 
+\begin{enumerate}
 
 \item 
 	\begin{minipage}[t][2cm]{0.7\textwidth}
@@ -31,36 +31,6 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 		\item Resuelva el caso en que se considera \(m_p\) irrelevante.
 		\item Resuelva ahora considerando \(m_p\), y que la polea presenta una sección cilíndrica.
 			El momento de inercia de tal cilindro de masa \(m\) ante rotaciones en torno a su eje de simetría longitudinal es \((m/2) R^2\).
-	\end{enumerate}
-
-
-\item 
-	\begin{minipage}[t][6cm]{0.57\textwidth}
-		\textbf{Aro y polea}\\
-		Una pesa de masa \(m_{pesa}\) pende de sección de cuerda que sobresale a la derecha de una polea de radio \(R_{polea}\) y masa \(m_{polea}\).
-		Tal cuerda, que gira solidaria con la polea, tiene un longitud total \(\ell\) y su masa es despreciable.
-		Su otro extremo se ata con un nudo de masa \(m\) a un aro de masa \(m_{aro}\), enrollándose parcialmente en torno a éste.
-		El centro de la polea está a una altura \(h_{polea}\) por sobre el del aro de radio \(R_{aro}\) que como puede rotar libremente presenta un momento de inercia \(m_{aro} R_{aro}^2\).
-		
-		El arco de cuerda enrollada en torno al aro mide un ángulo \(\theta\).
-		Tenga en cuenta para escribir la función de ligadura que por el sentido de enrolamiento, al medirse desde la horizontal, tal ángulo presentará valores negativos.
-	\end{minipage}
-	\begin{minipage}[c][1.5cm][t]{0.2\textwidth}
-		\input{figs/ringPulley.tikz}
-	\end{minipage}
-	%\begin{minipage}[c][0cm][t]{0.2\textwidth}
-		%\hspace{0.5cm}
-		%\includegraphics[width=0.75\textwidth]{cmchap6_fig6_14}
-	%\end{minipage}
-	\begin{enumerate}
-		\item Escriba la posición de las partículas con masa en función de \(y_{pesa}\), \(\ell\) y \(\theta\) en un sistema de referncia con origen en el centro del aro.
-		\item Describa la función de ligadura y utilícela para expresar las posiciones en función de \(\theta\).
-		Verifique su solución revisando que una variación de \(\theta\) ``hacia su cero'' implique que la pesa ``baja''. 
-		\item Obtenga la ecuación de Euler-Lagrange para la dinámica sin olvidar los momentos involucrados.\\
-		Resultado:
-		\(
-		R_{aro}^{2} m \ddot{\theta} + R_{aro}^{2} m_{aro} \ddot{\theta} + R_{aro} g m \cos{\left(\theta \right)} + R_{polea}^{2} m_{pesa} \ddot{\theta} + \frac{R_{polea}^{2} m_{polea} \ddot{\theta}}{2} - R_{polea} g m_{pesa} = 0
-		\)
 	\end{enumerate}
 
 
@@ -93,6 +63,35 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 		\item (*) ¿Cuál es el período de movimiento de pequeñas oscilaciones para el caso \(m_1 = m_2 = m\)?
 	\end{enumerate}
 
+
+	\item 
+	\begin{minipage}[t][6cm]{0.57\textwidth}
+		\textbf{Aro y polea}\\
+		Una pesa de masa \(m_{pesa}\) pende de sección de cuerda que sobresale a la derecha de una polea de radio \(R_{polea}\) y masa \(m_{polea}\).
+		Tal cuerda, que gira solidaria con la polea, tiene un longitud total \(\ell\) y su masa es despreciable.
+		Su otro extremo se ata con un nudo de masa \(m\) a un aro de masa \(m_{aro}\), enrollándose parcialmente en torno a éste.
+		El centro de la polea está a una altura \(h_{polea}\) por sobre el del aro de radio \(R_{aro}\) que como puede rotar libremente presenta un momento de inercia \(m_{aro} R_{aro}^2\).
+		
+		El arco de cuerda enrollada en torno al aro mide un ángulo \(\theta\).
+		Tenga en cuenta para escribir la función de ligadura que por el sentido de enrolamiento, al medirse desde la horizontal, tal ángulo presentará valores negativos.
+	\end{minipage}
+	\begin{minipage}[c][1.5cm][t]{0.2\textwidth}
+		\input{figs/ringPulley.tikz}
+	\end{minipage}
+	%\begin{minipage}[c][0cm][t]{0.2\textwidth}
+		%\hspace{0.5cm}
+		%\includegraphics[width=0.75\textwidth]{cmchap6_fig6_14}
+	%\end{minipage}
+	\begin{enumerate}
+		\item Escriba la posición de las partículas con masa en función de \(y_{pesa}\), \(\ell\) y \(\theta\) en un sistema de referncia con origen en el centro del aro.
+		\item Describa la función de ligadura y utilícela para expresar las posiciones en función de \(\theta\).
+		Verifique su solución revisando que una variación de \(\theta\) ``hacia su cero'' implique que la pesa ``baja''. 
+		\item Obtenga la ecuación de Euler-Lagrange para la dinámica sin olvidar los momentos involucrados.\\
+		Resultado:
+		\(
+		R_{aro}^{2} m \ddot{\theta} + R_{aro}^{2} m_{aro} \ddot{\theta} + R_{aro} g m \cos{\left(\theta \right)} + R_{polea}^{2} m_{pesa} \ddot{\theta} + \frac{R_{polea}^{2} m_{polea} \ddot{\theta}}{2} - R_{polea} g m_{pesa} = 0
+		\)
+	\end{enumerate}
 
 
 	\item
