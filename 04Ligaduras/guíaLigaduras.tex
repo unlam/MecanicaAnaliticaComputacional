@@ -35,14 +35,15 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 
 
 	\item 
-	\begin{minipage}[t][1.5cm]{0.7\textwidth}
+	\begin{minipage}[t][1.7cm]{0.75\textwidth}
 		\textbf{Péndulo de pesas desilzantes y acopladas}\\ 
 		Dos pesas de masa \(m_1\) y \(m_2\) están unidas por una barra rígida inextensible de longitud \(\ell\) y masa despreciable frente a las anteriores.
 		La de \(m_1\) puede deslizar sin rozamiento sobre un eje horizontal y la de \(m_2\) en uno vertical.
 	\end{minipage}
-	\begin{minipage}[c][3cm][t]{0.3\textwidth}
+	\begin{minipage}[c][3cm][t]{0.25\textwidth}
+		\input{figs/slidingWeights.tikz}
 		% \hspace{0.5cm}
-		\includegraphics[width=0.75\textwidth]{fcen1-004}
+		% \includegraphics[width=0.75\textwidth]{fcen1-004}
 	\end{minipage}
 	\begin{enumerate}
 		\item Escriba las posiciones de ambas partículas en función de una única coordenada haciendo uso de la ligadura que impone la barra rígida.
@@ -55,12 +56,13 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 			\item \(y\), la coordenada para la pesa de \(m_2\),
 			\item \(\theta\)
 		\end{enumerate*} % https://tex.stackexchange.com/questions/591120/how-can-you-put-items-on-one-line-and-center-them
-		\item Obtenga las aceleraciones y responda: ¿cuál coordenada generalizada preferiría?\\
+		\item Obtenga las aceleraciones y responda: ¿con cuál coordenada generalizada las expresiones de energía fueron más ``informativas''?\\
 		Resultado:
 			$\ddot{y} = \frac{- \ell^{2} m_{1} y \dot{y}^{2} + g m_{2} \left(\ell^{2} - y^{2}\right)^{2}}{\ell^{4} m_{2} + \ell^{2} m_{1} y^{2} - 2 \ell^{2} m_{2} y^{2} - m_{1} y^{4} + m_{2} y^{4}}$
 			\qquad
 			$\ddot{\theta} = \frac{\left(\ell m_{1} \cos{\left(\theta \right)} \dot{\theta}^{2} - \ell m_{2} \cos{\left(\theta \right)} \dot{\theta}^{2} - g m_{2}\right) \sin{\left(\theta \right)}}{\ell \left(m_{1} \cos^{2}{\left(\theta \right)} + m_{2} \sin^{2}{\left(\theta \right)}\right)}$
-		\item (*) ¿Cuál es el período de movimiento de pequeñas oscilaciones para el caso \(m_1 = m_2 = m\)?
+		\item Realice las sustituciones que corresponden a una aproximación de pequeñas oscilaciones para el caso \(m_1 = m_2 = m\). ¿La expresión de qué sistema obtiene?
+		% \item (*) ¿Cuál es el período de movimiento de pequeñas oscilaciones para el caso \(m_1 = m_2 = m\)?
 	\end{enumerate}
 
 
