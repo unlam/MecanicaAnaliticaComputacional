@@ -4,8 +4,8 @@
 	\def \ringRadius {1.0};
 	\def \extra {0.8};
 	\coordinate (ringCentre) at (0,0);
-	\draw [thin] (ringCentre) circle (\ringRadius);	
-	\draw [thin] (ringCentre) circle ({\ringRadius - 0.1});	
+	\draw [ultra thin] (ringCentre) circle (\ringRadius);	
+	\draw [ultra thin] (ringCentre) circle ({\ringRadius - 0.1});	
 	\filldraw (ringCentre) circle (1 mm);
 	% arc below the Ring
 	\def \angle {60};
@@ -22,7 +22,7 @@
 	\def \pulleyRadius {1.5};
 	\def \pulleyAltitude {2.5};
 	\coordinate (pulleyCentre) at ({\ringRadius + \pulleyRadius}, \pulleyAltitude);
-	\filldraw [inner color = white, outer color = gray!25] (pulleyCentre) circle (\pulleyRadius);	
+	\fill [inner color = white, outer color = gray!25] (pulleyCentre) circle (\pulleyRadius);	
 	\filldraw (pulleyCentre) circle (1 mm);
 	% rope to ring
 	\draw [ultra thick] ($(ringCentre) + (\ringRadius,0)$) -- ($(pulleyCentre) - (\pulleyRadius,0)$);

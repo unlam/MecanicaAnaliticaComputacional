@@ -1,31 +1,43 @@
 \begin{tikzpicture}
-	% define constants for tikz
-	\def \radius {1.0};
-	\def \deltax {1.0};
-	\def \boxwidth {\radius/ 2.5};
-	\def \boxAheight {-1.5};
-	\def \boxBheight {-2.5};
-	\def \pende {\radius + \boxwidth + 0.2};
-	\def \pendeLeft {-\radius - \boxwidth - 0.2};
-
-	% circle at 0,0
-	\draw [thick] (0,0) circle (\radius);
-	\filldraw (0,0) circle (1pt);
+	
+	% pulley at 0,0
+	\def \pulleyRadius {1.0};
+	\coordinate (pulleyCentre) at (0,0);
+	\fill [inner color = white, outer color = gray!25, thin] (pulleyCentre) circle (\pulleyRadius);
+	\filldraw (pulleyCentre) circle (1 mm);
 
 	% dashed lines from 0.1 at each side of the circle
-	\draw [dashed] (0.2,0) -- ({\radius + \deltax},0);
-	\draw [dashed] (-0.2,0) -- ({-\radius - \deltax},0);
+	\def \deltax {1.0};
+	\draw [dashed] (0.2,0) -- ({\pulleyRadius + \deltax},0);
+	\draw [dashed] (-0.2,0) -- ({-\pulleyRadius - \deltax},0);
+	\node at ({\pulleyRadius / 2}, 0) [above] {\(R\)};
 
-	% box centred at (-\radius, \boxAheight)
-	\draw [thick] (-\radius -\boxwidth, \boxAheight -\boxwidth) rectangle ({-\radius + \boxwidth},\boxAheight + \boxwidth) node [midway] {\(m_1\)}; 
-	\draw [thick] ( \radius -\boxwidth, \boxBheight -\boxwidth) rectangle ({ \radius + \boxwidth}, \boxBheight + \boxwidth) node [midway] {\(m_2\)};
-
+	% weight m_1
+	\def \boxwidth {\pulleyRadius/ 2.5};
+	\def \boxAheight {-1.5};
+	\shade [ball color=black!80] (-\pulleyRadius, \boxAheight) circle (\boxwidth) node {\color{white} $m_1$};
+	
+	% lower pulley
+	\def \lowerPulleyHeight {-2.5};
+	\shade [ball color=black!80] (\pulleyRadius, \lowerPulleyHeight) circle (\boxwidth) node {\color{white} $m_2$};
+	
 	% draw the line connecting the two boxes to the circle
-	\draw [very thick] (-\radius, \boxAheight + \boxwidth) -- (-\radius,0);
-	\draw [very thick] ( \radius, \boxBheight + \boxwidth) -- (\radius,0); 
+	\draw [ultra thick] (-\pulleyRadius, \boxAheight + \boxwidth) -- (-\pulleyRadius,0);
+	\draw [ultra thick] ( \pulleyRadius, \lowerPulleyHeight + \boxwidth) -- (\pulleyRadius,0); 
+	\draw [ultra thick] (pulleyCentre) ++(0:\pulleyRadius) arc (0:180:\pulleyRadius);
 
 	% draw dashed lines for y coordinates from horizontal lines to the height of middle of the boxes
+	\def \pendeLeft {-\pulleyRadius - \boxwidth - 0.2};
+	\def \pende {\pulleyRadius + \boxwidth + 0.2};
+	\def \pendePulley {2* \pulleyRadius + 0.2};
 	\draw [-Latex] (\pendeLeft, 0) -- (\pendeLeft, \boxAheight) node [midway, left] {\(y_1\)};
-	\draw [-Latex] ( \pende, 0) -- ( \pende, \boxBheight) node [midway, right] {\(y_2\)};
+	\draw [-Latex] ( \pende, 0) -- ( \pende, \lowerPulleyHeight) node [midway, right] {\(y_p\)};
+
+	% ceiling
+	\def \ceilingAbove {1.5};
+	\draw [line width = 1 mm] ($(pulleyCentre) + (0,\ceilingAbove)$) -- (pulleyCentre);
+	\draw [ultra thick] ($(pulleyCentre) + ({- \pulleyRadius},\ceilingAbove)$)  -- ($(pulleyCentre) + (\pulleyRadius,\ceilingAbove)$);
+	\fill [pattern = north east lines] ($(pulleyCentre) + ({- \pulleyRadius},\ceilingAbove)$)  rectangle ($(pulleyCentre) + (\pulleyRadius, {\ceilingAbove + 0.2 })$);
+
 
 \end{tikzpicture}
