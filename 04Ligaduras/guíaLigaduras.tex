@@ -17,13 +17,21 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 \begin{enumerate}
 
 \item 
-	\begin{minipage}[t][4.5cm]{0.7\textwidth}
+	\begin{minipage}[t][11cm]{0.7\textwidth}
 		\textbf{Máquina de Atwood simple}\\
 		Obtenga a partir de la ecuación de Euler-Lagrange la aceleración que presentan las pesas de masas \(m_1\) y \(m_2\) que cuelgan de una cuerda de longitud \(\ell\) que pasa por sobre una polea de radio \(R_p\) y masa \(m_p\).
 		\begin{enumerate}
-			\item Resuelva el caso en que se considera \(m_p\) irrelevante.
-			\item Resuelva ahora considerando \(m_p\), y que la polea presenta una sección cilíndrica.
-			El momento de inercia de tal cilindro de masa \(m\) ante rotaciones en torno a su eje de simetría longitudinal es \((m/2) R^2\).
+			\item La cuerda es inextensible, por lo que establece una relación entre \(y_1\) e \(y_2\).
+			Escriba esta función de vínculo.
+			\item De asumirse que la cuerda desliza sin rozamiento sobre la polea, esta última no se mueve.
+			Así que basta con usar la única función de vínculo allada en el punto anterior para obtener la ecuación de Euler-Lagrange en función \(y_1\).
+			\item Lo que plantea el punto anterior rara vez sucede.
+			Lo usual es que la cuerda no deslize y gire solidaria con la cuerda.
+			Esto es un vínculo entre el ángulo que describe la polea en torno a su eje de simetría longitudinal y el desplazamiento de la cuerda, ergo de las pesas.
+			Modele este nuevo vínculo como  función de \(theta\) y una de las 
+			las coordenadas \(y_i\).
+			\item La energía cinética de rotación es función del momento de inercia y la velocidad angular, que a través de la función de vínculo del punto anterior, debe relacionarse con la velocidad de las pesas.
+			Modelándo la polea como un cilindro homogéneo, su momento de inercia ante rotaciones en torno a su eje de simetría longitudinal es \((m/2) R^2\).
 		\end{enumerate}
 	\end{minipage}
 	\begin{minipage}[c][0cm][t]{0.2\textwidth}
@@ -34,36 +42,40 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 	\end{minipage}
 
 	\item 
-	\begin{minipage}[t][2.5cm]{0.75\textwidth}
+	\begin{minipage}[t][5cm]{0.75\textwidth}
 		\textbf{Péndulo de pesas desilzantes y acopladas}\\ 
 		Dos pesas de masa \(m_1\) y \(m_2\) están unidas por una barra rígida inextensible de longitud \(\ell\) y masa despreciable frente a las anteriores.
 		La de \(m_1\) puede deslizar sin rozamiento sobre un eje horizontal y la de \(m_2\) en uno vertical.
 		Las coordenadas que definen sus posiciones son \(x\) e \(y\), respectivamente.
+		La barra establece entonces un vínculo entre estas coordenadas.
+	\begin{enumerate}
+		\item Use la función de vínculo para expresar las posiciones solo en función de \(y\).
+		%\item Haga uso de la función de vínculo para expresar las posiciones en función de una sola coordenada generalizada.
+		%Exprésalas primero en función de:
+		%\begin{enumerate*}[
+		%			%itemjoin=\quad,
+		%			%before=\hspace*{\fill},
+		%			%after=\hspace*{\labelwidth}\hspace*{-\labelsep}\hspace*{\fill},
+		%		]
+		%	\item \(y\) y luego hágalo en función de  
+		%	\item \(\theta\)
+		%\end{enumerate*} % https://tex.stackexchange.com/questions/591120/how-can-you-put-items-on-one-line-and-center-them
+		\item Calcule la aceleración de la pesa de \(m_2\). % ¿Con cuál coordenada las expresiones de energía resultan más ``informativas''?\\
+		% \item Obtenga las aceleraciones.% ¿Con cuál coordenada las expresiones de energía resultan más ``informativas''?\\
+	
+		Resultado:
+			$\ddot{y} = \frac{- \ell^{2} m_{1} y \dot{y}^{2} + g m_{2} \left(\ell^{2} - y^{2}\right)^{2}}{\ell^{4} m_{2} + \ell^{2} m_{1} y^{2} - 2 \ell^{2} m_{2} y^{2} - m_{1} y^{4} + m_{2} y^{4}}$
+			\qquad
+			%$\ddot{\theta} = \frac{\left(\ell m_{1} \cos{\left(\theta \right)} \dot{\theta}^{2} - \ell m_{2} \cos{\left(\theta \right)} \dot{\theta}^{2} - g m_{2}\right) \sin{\left(\theta \right)}}{\ell \left(m_{1} \cos^{2}{\left(\theta \right)} + m_{2} \sin^{2}{\left(\theta \right)}\right)}$
+		%\item Realice las sustituciones que corresponden a una aproximación de pequeñas oscilaciones para el caso \(m_1 = m_2 = m\). ¿La expresión de qué sistema obtiene?
+		% \item (*) ¿Cuál es el período de movimiento de pequeñas oscilaciones para el caso \(m_1 = m_2 = m\)?
+	\end{enumerate}
 	\end{minipage}
-	\begin{minipage}[c][1.5cm][t]{0.25\textwidth}
+	\begin{minipage}[c][0cm][t]{0.25\textwidth}
 		\input{figs/slidingWeights.tikz}
 		% \hspace{0.5cm}
 		% \includegraphics[width=0.75\textwidth]{fcen1-004}
 	\end{minipage}
-	\begin{enumerate}
-		\item Escriba las posiciones de ambas pesas en función de una única coordenada haciendo uso de la ligadura que impone la barra rígida.
-		Exprésalas primero en función de:
-		\begin{enumerate*}[
-					%itemjoin=\quad,
-					%before=\hspace*{\fill},
-					%after=\hspace*{\labelwidth}\hspace*{-\labelsep}\hspace*{\fill},
-				]
-			\item \(y\) y luego hágalo en función de  
-			\item \(\theta\)
-		\end{enumerate*} % https://tex.stackexchange.com/questions/591120/how-can-you-put-items-on-one-line-and-center-them
-		\item Obtenga las aceleraciones y responda: ¿con cuál coordenada generalizada las expresiones de energía fueron más ``informativas''?\\
-		Resultado:
-			$\ddot{y} = \frac{- \ell^{2} m_{1} y \dot{y}^{2} + g m_{2} \left(\ell^{2} - y^{2}\right)^{2}}{\ell^{4} m_{2} + \ell^{2} m_{1} y^{2} - 2 \ell^{2} m_{2} y^{2} - m_{1} y^{4} + m_{2} y^{4}}$
-			\qquad
-			$\ddot{\theta} = \frac{\left(\ell m_{1} \cos{\left(\theta \right)} \dot{\theta}^{2} - \ell m_{2} \cos{\left(\theta \right)} \dot{\theta}^{2} - g m_{2}\right) \sin{\left(\theta \right)}}{\ell \left(m_{1} \cos^{2}{\left(\theta \right)} + m_{2} \sin^{2}{\left(\theta \right)}\right)}$
-		\item Realice las sustituciones que corresponden a una aproximación de pequeñas oscilaciones para el caso \(m_1 = m_2 = m\). ¿La expresión de qué sistema obtiene?
-		% \item (*) ¿Cuál es el período de movimiento de pequeñas oscilaciones para el caso \(m_1 = m_2 = m\)?
-	\end{enumerate}
 
 
 	\item 
@@ -97,13 +109,15 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 
 
 	\item
-	\begin{minipage}[t][10cm]{0.65\textwidth}
+	\begin{minipage}[t][10cm]{0.67\textwidth}
 		\textbf{Maquina de Atwood compuesta} [Marion (english) ex. 7.8]\\ 
 		\begin{enumerate}
 			\item Escriba la posición de las tres pesas y de la polea inferior en función de 
 			las cuatro coordenadas generalizadas indicadas en la figura: \(y_i\) con \(i = 1,2,3,p\). 
-			\item Modele las ligaduras que proveen las cuerdas en dos funciones.
-			\item Haciendo uso de estas últimas reemplace en las posiciones para expresarles en función de solo dos \(y_i\).
+			\item Modele las ligaduras que proveen las dos cuerdas en sendas funciones.
+			\item Use las funciones de ligadura para expresar todas las posiciones en función de \(y_1\) e \(y_2\).
+			\item Las cuerdas no deslizan sobre las poleas, por lo que la longitud de cuerda que se desplaza en una polea es igual a la que se desplaza en la otra.
+			Este es otro vínculo que debe modelar la relación entre las \(y_i\) y las \(\theta_i\).  
 			\item Calcule energías potenciales y cinéticas contemplando los momentos de inercia de las poleas.
 			Recuerde la relacíón entre el perímetro (circunferencia) de un círculo y su radio para escribir la velocidad angular en función del \(\dot{y}_i\) correspondiente.
 			\item Obtenga las dos ecuaciones de Euler-Lagrange.\\
