@@ -33,6 +33,11 @@
 	\draw [-Latex] (\pendeLeft, 0) -- (\pendeLeft, \boxAheight) node [midway, left] {\(y_1\)};
 	\draw [-Latex] ( \pende, 0) -- ( \pende, \lowerPulleyHeight) node [midway, right] {\(y_p\)};
 
+	% pulley angle
+	\def \extra {0.5};
+	\draw [-Latex] (pulleyCentre) ++(110:{\pulleyRadius + \extra / 2}) arc (110 : 160 : {\pulleyRadius + \extra / 2 }) node [midway, above] {\(\theta\)};
+
+
 	% ceiling
 	\def \ceilingAbove {1.5};
 	\draw [line width = 1 mm] ($(pulleyCentre) + (0,\ceilingAbove)$) -- (pulleyCentre);
