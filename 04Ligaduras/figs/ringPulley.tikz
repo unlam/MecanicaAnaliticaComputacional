@@ -24,11 +24,12 @@
 	\coordinate (pulleyCentre) at ({\ringRadius + \pulleyRadius}, \pulleyAltitude);
 	\fill [inner color = white, outer color = gray!25] (pulleyCentre) circle (\pulleyRadius);	
 	\filldraw (pulleyCentre) circle (1 mm);
+	
 	% rope to ring
-	\draw [ultra thick] ($(ringCentre) + (\ringRadius,0)$) -- ($(pulleyCentre) - (\pulleyRadius,0)$);
+	\draw [ultra thick] ($(ringCentre) + (\ringRadius,0)$) -- ($(pulleyCentre) - (\pulleyRadius,0)$) node [above left] {\(\ell\)};
+	
 	% arc above the pulley
 	\draw [ultra thick] (pulleyCentre) ++(0:\pulleyRadius) arc (0:180:\pulleyRadius);
-	% \draw [dashed] {(pulleyCentre) + (0.2,0)} -- ($ (pulleyCentre) + ({\pulleyRadius + \extra},0)$) ;
 	\node [above] at ($ (pulleyCentre) + (\pulleyRadius/2,0)$) {\(R_{polea}\)};
 	
 	% height pulley dimension lines
