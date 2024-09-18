@@ -12,8 +12,8 @@
 	\draw [ultra thick] (ringCentre) ++(0:\ringRadius) arc (0:-\angle:\ringRadius);
 	% angle dimensions
 	\draw [dashed, rotate around={-\angle:(ringCentre)}] {(ringCentre) + (0.2,0)} -- ({\ringRadius + \extra },0);
-	\draw [-Latex] (ringCentre) ++(0:{\ringRadius + \extra / 2}) arc (0:-\angle:{\ringRadius + \extra / 2 }) node [midway, right] {\(- \theta\)};
-	\node [above] at (\ringRadius/2,0) {\(R_{aro}\)};
+	\draw [Latex-Latex] (ringCentre) ++(0:{\ringRadius + \extra / 2}) arc (0:-\angle:{\ringRadius + \extra / 2 }) node [midway, right] {\(\theta\)};
+	\node [above left] at (\ringRadius/2,0) {\(R_{aro}\)};
 	
 	% knot
 	\shade [ball color=black!80] ($(ringCentre) +({- \angle}:\ringRadius)$) circle(0.25) node [] {\color{white} $m$};
@@ -54,7 +54,7 @@
 	
 	% weight dimension lines
 	\draw [dashed] (weightCentre) -- ({\ringRadius + 2 * \pulleyRadius + 2* \extra}, \weightAltitude);
-	\draw [-Latex] ($ (pulleyCentre) + (\pulleyRadius + 1.5 * \extra, {- \pulleyAltitude})$) --  ($ (pulleyCentre) + (\pulleyRadius + 1.5 * \extra, {- \pulleyAltitude + \weightAltitude})$) node [midway, right] {\(y_{pesa}\)};
+	\draw [Latex-Latex] ($ (pulleyCentre) + (\pulleyRadius + 1.5 * \extra, {- \pulleyAltitude})$) --  ($ (pulleyCentre) + (\pulleyRadius + 1.5 * \extra, {- \pulleyAltitude + \weightAltitude})$) node [midway, right] {\(y_{pesa}\)};
 
 	% weight 
 	\shade [ball color=black!80] (weightCentre) circle (\weightHeight) node {\color{white} $m_{pesa}$};
