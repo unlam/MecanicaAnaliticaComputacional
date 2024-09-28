@@ -41,8 +41,12 @@
 	
     % Draw the hanging mass and the string (l- r)
     \coordinate (massPoint) at ($(O)-(0,2.8)$);
-    \draw[ultra thick] (O) -- (massPoint) node[midway, right] {$\ell$};
-    % \filldraw[black] (massPoint) circle (3pt) node[right] {$M$};
+
+    % I need to extract the x-coordinate of the point O
+    \path (O);
+    \pgfgetlastxy{\Ox}{\Oy}
+    \draw[ultra thick, dashed] (O) -- (\Ox, 0);
+    \draw[ultra thick] (\Ox,0) -- (massPoint) node[midway, right] {$\ell$};
 		\shade [ball color=black!80] (massPoint) circle(0.25) node [] {\color{white} $M$};
 
 \end{tikzpicture}
