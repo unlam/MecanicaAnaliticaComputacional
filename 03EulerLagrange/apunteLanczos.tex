@@ -412,12 +412,15 @@ En cuanto al término de las fuerzas inerciales, si asumimos condiciones no rela
 	\int^{t_2}_{t_1} \dv{t} \pqty{m_i \va{v}_i} \cdot \delta \va{r}_i \dd{t}.
 	\tag{Lanczos51.3A}
 \end{equation} 
-Si hacemos uso de la integración por partes\footnote{La integración por partes no es otra cosa que una reescritura de la derivación de un producto:
+Si hacemos uso de la integración por partes\footnote{\label{integraciónPartes}La integración por partes no es otra cosa que una reescritura de la derivación de un producto, 
 \begin{align}
 	% \int u' v & = u v - \int u v' \Rightarrow
 	% \int u' v = \int \dv{t} (u v) - \int u v'\\
 	\int (u \dv{v}{t}+ \dv{u}{t} v) & = \int \dv{(u v)}{t} \Rightarrow
-	\int \dv{u}{t} v = \int \dv{(u v)}{t} - \int u \dv{v}{t}.
+	\int \dv{u}{t} v = \int \dv{(u v)}{t} - \int u \dv{v}{t}
+	=
+	u v - \int u \dv{v}{t}
+	.
 \end{align}
 En este caso \(u= m_i \va{v}_i\) y \(v= \delta \va{r}_i\).
 } para reescribirlo como
@@ -541,7 +544,7 @@ Con esto puede escribirse la variación de \(S\) como
     \tag{Lanczos 210.2}
 \end{equation}
 Puesto que son producto de una variación intencional arbitraria, \(\tilde{q}(t)\) y \(\dot{\tilde{q}}_i(t)\) no son independientes, pero la dependencia entre ambas no puede formularse de forma algebraica.
-Lo que si se puede es eliminar \(\dot{\tilde{q}}_i (t)\) como variable independiente aplicando el método de integración por partes al segundo término de \eqref{Lanczos210.2}
+Lo que si se puede es eliminar \(\dot{\tilde{q}}_i (t)\) como variable independiente aplicando el método de integración por partes\footnote{En la expresión de integración por partes, cuya derivación figura en la nota al pie \footref{integraciónPartes}, \(u = \dot{\tilde{q}}_i \) y \(v = \pdv{\mathcal{L}}{\dot{q}_i} \).} al segundo término de \eqref{Lanczos210.2}
 \begin{equation}\label{Lanczos210.4}
     \int_{t_1}^{t_2 } \pdv{\mathcal{L}}{\dot{q}_i} \dot{\tilde{q}}_i \dd{t} =
     \pdv{\mathcal{L}}{\dot{q}_i} \tilde{q}_i \eval_{t_1}^{t_2} - \int_{t_1}^{t_2 } \pqty{ \dv{t} \pdv{\mathcal{L}}{\dot{q}_i} } \tilde{q}_i \dd{t}.
@@ -658,7 +661,7 @@ Básicamente cada vez que encontramos \(\dot{q}_n\) en el Lagrangiano lo reempla
 \subsection{Conservación de la energía}\label{conservacionEnergia} % Landau \S6
 Analizaremos que cantidad se conserva al diferenciar el Lagrangiano en el tiempo.
 Consideremos el caso particular de un sistema que se denomina \emph{esclerónomo}, en que el tiempo no figura explícitamente ni en la energía cinética ni en la función trabajo.
-Ergo en tales sistemas el Lagrangiano no tiene dependencia explicita con el tiempo, es decir \(\mathcal{L}= \mathcal{L}(q_i, \dot{q}_i)\) y su derivada respecto al tiempo será
+Ergo en tales sistemas el Lagrangiano no tiene dependencia explícita con el tiempo, es decir \(\mathcal{L}= \mathcal{L}(q_i, \dot{q}_i)\) y su derivada respecto al tiempo será
 \begin{equation}\label{Landau6.1a}
 	\dv{\mathcal{L}}{t}= \sum_{i=1}^n \pqty{ \pdv{\mathcal{L}}{q_i} \dv{q_i}{t}+ \pdv{\mathcal{L}}{\dot{q}_i} \dv{\dot{q}_i}{t} }
 	= \sum_{i=1}^n \pqty{ \pdv{\mathcal{L}}{q_i} \dot{q}_i+ \pdv{\mathcal{L}}{\dot{q}_i} \ddot{q}_i }.
@@ -821,7 +824,7 @@ El principio de Hamilton solo se sostiene para sistemas con fuerzas monogénicas
 \subsection{Sistemas reónomos y esclerónomos, conservación de la energía}
 \textbf{Referencia: Lanczos I\S8}\\
 
-Todo sistema relevante a la dinámica tiene cantidades con dependencia en el tiempo, pero si tal dependencia es \emph{explicita}, sea en \(T\) o en \(U\), no podamos cumplir con las condiciones analizadas en la sección \ref{conservacionEnergia} para asegurar la conservación de la energía.
+Todo sistema relevante a la dinámica tiene cantidades con dependencia en el tiempo, pero si tal dependencia es \emph{explícita}, sea en \(T\) o en \(U\), no podamos cumplir con las condiciones analizadas en la sección \ref{conservacionEnergia} para asegurar la conservación de la energía.
 
 El físico Ludwig Eduard Boltzmann acuño el término de \emph{reónomo} para las condiciones dinámicas en que el tiempo figura explícitamente.
 En tal caso al recuperar las coordenadas cartesianas, la ecuación \eqref{Lanczos12.8} presenta un \(t\) ineludible en al menos algunas de las \(f_{3N}\) condiciones
