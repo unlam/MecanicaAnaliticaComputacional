@@ -1,4 +1,5 @@
 # Mecánica Analítica Computacional
+
 [<image src="https://raw.githubusercontent.com/unlam/MecanicaAnaliticaComputacional/refs/heads/main/figurasLaTeX/ambos.svg" alt="Logo UNLAM" width="200"/>](https://ingenieria.unlam.edu.ar/)
 
 [<image src="https://upload.wikimedia.org/wikipedia/commons/1/12/Cc-by-nc-sa_icon.svg" width="80"/>](https://creativecommons.org/licenses/by-nc-sa/4.0/) 2024 Víctor A. Bettachini
