@@ -1,21 +1,21 @@
-title: Computational Analytical Mechanics
+title: Mecánica Analítica Computacional
+# title: Computational Analytical Mechanics
 author:
   name: Victor Bettachini
-  email: "ask@for.it"
-logopath: assets/img/bothLogo.png
+  # email: "ask@for.it"
+logopath: https://raw.githubusercontent.com/unlam/MecanicaAnaliticaComputacional/refs/heads/main/figurasLaTeX/ambos.svg
+docs/assets/img/bothLogo.svg
 logowidth: 100
-logoalt: Logo UNLAM
-logolink: https://fra.utn.edu.ar/
-# author: Edgardo Palazzo
-# email: epalazzo@fra.utn.edu.ar
+logoalt: DIIT UNLaM
+logolink: https://ingenieria.unlam.edu.ar/
+# author: Víctor Bettachini
+# email: vbettachini@unlam.edu.ar
 description: >-
   DIIT UNLAM
-# baseurl: /MecanicaAnaliticaComputacional
-baseurl: /ComputationalAnalyticalMechanics
-# url: https://bettachini.github.io/
-url: https://frautn.github.io/
-# github_username: bettachini
-github_username: frautn
+baseurl: /MecanicaAnaliticaComputacional
+# baseurl: /ComputationalAnalyticalMechanics
+url: https://unlam.github.io/
+github_username: unlam
 
 # Build settings
 theme: minima

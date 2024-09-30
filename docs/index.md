@@ -1,18 +1,7 @@
-![https://ingenieria.unlam.edu.ar/](/docs/assets/img/bothLogo.svg )
-<!--
-[<image src="{{site.url}}/docs/assets/img/bothLogo.svg" alt="Logo UNLAM"  width="200"/>](https://ingenieria.unlam.edu.ar/)
--->
+# Mecánica Analítica Computacional
+[<image src="https://raw.githubusercontent.com/unlam/MecanicaAnaliticaComputacional/refs/heads/main/figurasLaTeX/ambos.svg" alt="Logo UNLAM" width="200"/>](https://ingenieria.unlam.edu.ar/)
 
-# Computational Analytical Mechanics
-
-
-![https://creativecommons.org/licenses/by-nc-sa/4.0/](/docs/assets/img/by-nc-sa.svg) 2024 Víctor A. Bettachini
-
-<!--
-<img src="/docs/assets/img/by-nc-sa.src"/>
-
-[<image src="https://upload.wikimedia.org/wikipedia/commons/1/12/Cc-by-nc-sa_icon.svg"  width="80"/>](https://creativecommons.org/licenses/by-nc-sa/4.0/) 2024 Víctor A. Bettachini
--->
+[<image src="https://upload.wikimedia.org/wikipedia/commons/1/12/Cc-by-nc-sa_icon.svg" width="80"/>](https://creativecommons.org/licenses/by-nc-sa/4.0/) 2024 Víctor A. Bettachini
 
 This is the repository for the course [Computational Analytical Mechanics](https://ingenieria.unlam.edu.ar/preview.php?seccion=3&idArticulo=510), for the [mechanical engineering degree](https://ingenieria.unlam.edu.ar/index.php?seccion=3&idArticulo=371) at the [Department of Engineering and Research in Technology](https://ingenieria.unlam.edu.ar/), Universidad Nacional de La Matanza.
 
@@ -74,11 +63,14 @@ Some of them are covered through more than one week, so a further descriptor, _F
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics)
 -->
 
-### 01 Vector kinematics
+### 01 Cinemática vectorial
 
-- First class
-  - [Introduction to this course](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/thisCourse.ipynb) ![(https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/thisCourse.ipynb](/docs/assets/img/colab-badge-es.svg)
-  
+- Presentación
+  - [Esta asignatura](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/01Vectorial/estaAsignatura.ipynb)
+  [<image src="https://raw.githubusercontent.com/unlam/MecanicaAnaliticaComputacional/refs/heads/main/docs/assets/img/Colab_badge_es.svg" alt="abrir en Colab" width="100"/>](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/01Vectorial/estaAsignatura.ipynb)
+  [<image src="https://raw.githubusercontent.com/unlam/MecanicaAnaliticaComputacional/refs/heads/main/docs/assets/img/CoCalc_badge.svg" alt="abrir en CoCalc" width="100"/>](https://cocalc.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/01Vectorial/estaAsignatura.ipynb)
+  [<image src="https://raw.githubusercontent.com/unlam/MecanicaAnaliticaComputacional/refs/heads/main/docs/assets/img/StudioLab_badge.svg" alt="abrir en SageMaker StudioLab" width="100"/>](https://studiolab.sagemaker.aws/import/github/unlam/MecanicaAnaliticaComputacional/blob/main/01Vectorial/estaAsignatura.ipynb)
+  [<image src="https://raw.githubusercontent.com/unlam/MecanicaAnaliticaComputacional/refs/heads/main/docs/assets/img/Kaggle_badge.svg" alt="abrir en SageMaker StudioLab" width="100"/>](https://www.kaggle.com/kernels/welcome?scr=https://www.github.com/unlam/MecanicaAnaliticaComputacional/blob/main/01Vectorial/estaAsignatura.ipynb)
 - Theory
   - [Vector kinematics](https://colab.research.google.com/github/unlam/ComputationalAnalyticalMechanics/blob/main/01Vector/vectorKinematics.ipynb) [ipynb]
 - Exercises
