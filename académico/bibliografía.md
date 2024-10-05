@@ -1,12 +1,10 @@
 # Bibliografía | Mecánica analítica computacional
-
-![UNLaM | DIIT](../77figurasLaTeX/ambos.png "UNLaM | DIIT")  
+![UNLaM | DIIT](../figurasLaTeX/ambos.png "UNLaM | DIIT")  
 <!---
  ![by-nc-sa.png](../figurasLaTeX/by-nc-sa.png "CC-BY-NC-SA") 2022 [Víctor A. Bettachini](mailto:vbettachini@unlam.edu.ar)  
-![UNLaM | DIIT](figuras/ambos.png "UNLaM | DIIT")  
+![UNLaM | DIIT](../figurasLaTeX/ambos.png "UNLaM | DIIT")  
 © 2021 [Víctor A. Bettachini](mailto:vbettachini@unlam.edu.ar)  
 -->
-
 ___
 
 Los siguientes son **enlaces de descarga** de archivos en formato `pdf` o `djvu`.  
@@ -47,5 +45,5 @@ Ninguno de estos archivos son propiedad o están alojados en servidores de la Un
 
 - [Cornelius Lanczos, _The Variational Principles of Mechanics_ (University of Toronto press, Toronto, Canadá, 1952).](https://mega.nz/file/3FInUCYT#AuIn60lyVdc7Mhg2TJmHiVQKeSccd9e9VCED1wjc61A)
 
-- [Douglas Cline, _Variational Principles in Classical Mechanics_ (University of Rocherster River Campus Libraries, Rochester, Estados Unidos de América, 2021)](http://classicalmechanics.lib.rochester.edu/)
+- [Douglas Cline, _Variational Principles in Classical Mechanics_ (University of Rocherster River Campus Libraries, Rochester, Estados Unidos de América, 3rd ed., 2021)](http://hdl.handle.net/1802/36481)
 
