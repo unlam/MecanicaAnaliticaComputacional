@@ -16,9 +16,19 @@
 
 \usepackage[arrowdel]{physics}
 \newcommand{\pvec}[1]{\vec{#1}\mkern2mu\vphantom{#1}}
-% \usepackage{units}
-\usepackage[separate-uncertainty= true, multi-part-units= single, range-units= single, range-phrase= {~a~}, locale= FR]{siunitx}
 \usepackage{isotope} % $\isotope[A][Z]{X}\to\isotope[A-4][Z-2]{Y}+\isotope[4][2]{\alpha}
+
+% \usepackage{units}
+\usepackage[
+  separate-uncertainty= true,
+  multi-part-units= single,
+  range-units= single,
+  range-phrase= {~a~},
+  locale= FR,
+  exponent-product= \cdot,
+  ]{siunitx}
+\DeclareSIUnit\atm{atm}
+\DeclareSIUnit\kgf{kgf}
 
 \usepackage{tasks}
 \usepackage[inline]{enumitem}
