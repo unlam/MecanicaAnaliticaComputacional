@@ -14,8 +14,8 @@
 | 05 | 05-01  | **feriado**     | **feriado**                                                                               |
 | 06 | 05-08  | Simulación      | Resolución numérica de las ecuaciones de Euler-Lagrange.                                  |
 | 07 | 05-15  | FuerzasLigadura | Fuerzas de ligadura por multiplicadores de Lagrange.                                      |
-| 08 | 05-22* | NoConservativas | Fuerzas no conservativas en el marco de Euler-Lagrange.                                   |
-| 09 | 05-29  | TensorInercia   | Tensor de inercia de arreglos de masas puntales. **Integrador 1**.                        |
+| 08 | 05-22* | NoConservativas | Fuerzas no conservativas en el marco de Euler-Lagrange. **Integrador 1 enunciado**.       |
+| 09 | 05-29  | TensorInercia   | Tensor de inercia de arreglos de masas puntales.                                          |
 | 10 | 06-05  | MasaDistribuida | Cuerpos rígidos.                                                                          |
 | 11 | 06-12  | RotaciónEuler   | Ecuaciones de Euler para el cuerpo rígido.                                                |
 | 12 | 06-19* | “               | **Integrador 2: enunciado**.                                                              |
