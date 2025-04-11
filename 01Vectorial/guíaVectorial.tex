@@ -1,4 +1,5 @@
-\documentclass[11pt, spanish, a4paper, twoside]{article}
+\documentclass[11pt, a4paper, twoside]{article}
+% LTeX: language=es-AR
 
 \input{../figurasLaTeX/introUNLaM}
 
@@ -10,28 +11,31 @@
 \end{center}
 Debe poder resolver estos problemas en forma autónoma puede asumir que adquirió los conocimientos mínimos sobre los temas abordados.
 
-\noindent
-Los problemas marcados con (*) entrañan dificultades adicionales. No dude en consultar a docentes y compañeros si no puede terminarlos.\\
 
 \noindent
-Para cada uno de los siguientes puntos escriba en un cuaderno Jupyter titulado con su apellido una o varias celdas de código separadas entre sí por otras conteniendo un texto indicando de que punto se trata.
-
+Genere un cuaderno Jupyter por ejercicio.
+Para cada punto del mismo deberá usar al menos una celda de código.
+Es buena práctica interponer otras celdas, pero de texto, en las que se indique de qué punto se trata.
+ 
 \begin{enumerate}
 % 	\section*{Vector posición}
 	
 	\item
-		\begin{minipage}[t][7cm]{0.55\textwidth}
+		\begin{minipage}[t][10.5cm]{0.55\textwidth}
 			\textbf{Posición suma}\\
 			Realice los siguientes pasos definiendo las variables necesarias en \verb'SymPy' para que pueda verificar los resultados.
 			\begin{enumerate}
-				\item Guardar en una variable llamada \verb"a_r" un vector que indique la posición $\vec{r}_a = 3 \hat{e}_x + 0 \hat{e}_y + 5 \hat{e}_z$. 
-				\item Guardar $\vec{r}_b = -5 \hat{e}_x + (-5) \hat{e}_y + 7 \hat{e}_z$ en \verb"b_r".
+				\item Guardar en una variable llamada \verb"a_r" un vector que indique la posición $\vec{r}_a = 3 \hat{e}_x + 0 \hat{e}_y + 5 \hat{e}_z$.
+				En otra celda escriba \verb"a_r", y ejecute la celda para verificar que el vector fue guardado correctamente. 
+				\item Guardar $\vec{r}_b = -5 \hat{e}_x + (-5) \hat{e}_y + 7 \hat{e}_z$ en \verb"b_r". Como en el paso anterior, verifique que el vector fue guardado correctamente.
 				\item Restar las variables correspondientes para realizar $\Delta \vec{r}_{a \to b} = \vec{r}_b - \vec{r}_a$ y guardar el resultado en \verb"ab_deltaR".
+				Verifique lo guardado.
 				\item Guardar en \verb"c_r" (para el punto \verb"c", su posición \verb"r") el resultado de $\vec{r}_a +\Delta \vec{r}_{a \to b}$.
-				\item Para verificar que todo se hizo bien basta con leer \verb"c_r" y comprobar que $\vec{r}_c = \vec{r}_b$.
+				Verifique.
+				\item Para verificar que todo se hizo bien basta con leer \verb"c_r" y comprobar que $\vec{r}_c = \vec{r}_b$, para eso verifique el contenido de \verb"c_r".
 			\end{enumerate}
 		\end{minipage}
-		\begin{minipage}[c][1cm][t]{0.4\textwidth}
+		\begin{minipage}[c][-4cm][t]{0.4\textwidth}
 			% https://tex.stackexchange.com/questions/117140/easiest-way-to-draw-a-3d-coordinate-system-with-axis-labels-and-ticks-in-tikz
 			\begin{tikzpicture}[x=0.5cm,y=0.5cm,z=0.3cm, scale=0.85]
 				% The axes
@@ -91,17 +95,20 @@ Para cada uno de los siguientes puntos escriba en un cuaderno Jupyter titulado c
 			Una partícula de masa \(m\) está engarzada en un aro de radio $R$, por lo que su radio medido desde el centro del aro es constante.
 			Basta entonces conocer el ángulo $\varphi$ para describir su posición.
 			\begin{enumerate}
-				\item Escríbala en coordenadas cartesianas en función de \(R\) y \(\varphi\). Recuerde que la primera es constante, no es más que un símbolo para la biblioteca \verb'SymPy', en tanto que la segunda es una variable que depende del tiempo, o dinámica, en el léxico de la biblioteca.
-				Deberá recurrir a funciones trigonométricas.
+				\item \textbf{Vector posición}\\
+				Escríbalo en coordenadas cartesianas en función de \(R\) y \(\varphi\).
+				Recuerde que la primera es constante, no es más que un símbolo para la biblioteca \verb'SymPy', en tanto que la segunda es una variable que depende del tiempo, o dinámica, en el léxico de la biblioteca.
+				Evidentemente, deberá recurrir a funciones trigonométricas.
 				Busque como estas se implementan en la biblioteca.
-				\item Haga que \verb'SymPy' calcule la velocidad en este sistema de referencia.\\
+				\item \textbf{Velocidad}\\
+				Haga que \verb'SymPy' calcule la velocidad en este sistema de referencia.\\
 			Resultado:\\
 				\(
 					-  R \sin{\left(\varphi \right)} \dot{\varphi}\mathbf{\hat{e}_x} + R \cos{\left(\varphi \right)} \dot{\varphi}\mathbf{\hat{e}_y}
 				\)
 			\end{enumerate}
 		\end{minipage}
-		\begin{minipage}[c][1.5cm][t]{0.15\textwidth}
+		\begin{minipage}[c][-1.5cm][t]{0.15\textwidth}
 			\begin{tikzpicture}[x=0.5cm,y=0.5cm,z=0.3cm, scale=1]
 				% The axes
 				\draw [-LaTeX] (0,0) -- (5,0) node[above] {$x$};

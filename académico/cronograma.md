@@ -7,10 +7,10 @@
 
 | S  | Fecha  | Título          | Temario                                                                                   |
 |:--:|:-------|:---------------:|:------------------------------------------------------------------------------------------|
-| 01 | 04-03* | Vectorial       | Metodología del curso. Análisis matemático vectorial simbólico computacional.             |  
+| 01 | 04-03* | Vectorial       | Metodología del curso. Análisis matemático simbólico computacional.                       |  
 | 02 | 04-10  |                 |                                                                                           |
 | 03 | 04-17  |                 |                                                                                           |
-| 04 | 04-24* | Energía         | Grados de libertad. Coordenadas generalizadas. Energía cinética y potencial gravitatoria. |
+| 04 | 04-24* | Energía         | Coordenadas generalizadas. Energía cinética y potencial gravitatoria.                     |
 | 05 | 05-01  |                 |                                                                                           |
 | 06 | 05-08  | Ligaduras       | Ligaduras como función de coordenadas.                                                    |
 | 07 | 05-15  | EulerLagrange   | Ecuaciones de Euler-Lagrange. Energía potencial elástica.                                 |
