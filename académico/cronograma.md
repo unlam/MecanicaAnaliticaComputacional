@@ -12,8 +12,8 @@
 | 03 | 04-17  |                 |                                                                                           |
 | 04 | 04-24* | Energía         | Coordenadas generalizadas. Energía cinética y potencial gravitatoria.                     |
 | 05 | 05-01  |                 |                                                                                           |
-| 06 | 05-08  | Ligaduras       | Ligaduras como función de coordenadas.                                                    |
-| 07 | 05-15  | EulerLagrange   | Ecuaciones de Euler-Lagrange. Energía potencial elástica.                                 |
+| 06 | 05-08  | EulerLagrange   | Ecuaciones de Euler-Lagrange. Energía potencial elástica.                                 |
+| 07 | 05-15  | Ligaduras       | Ligaduras como función de coordenadas.                                                    |
 | 08 | 05-22* | Simulación      | Resolución numérica de las ecuaciones de Euler-Lagrange.                                  |
 | 09 | 05-29  | FuerzasLigadura | Fuerzas de ligadura por multiplicadores de Lagrange.                                      |
 | 10 | 06-05  | NoConservativas | Fuerzas no conservativas en el marco de Euler-Lagrange.                                   |
