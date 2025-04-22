@@ -96,11 +96,11 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 		\includegraphics[width=0.75\textwidth]{landauS52_fig2.png}
 	\end{minipage}
 	\begin{enumerate}
-		\item Tras determinar las coordenadas generalizadas, escriba la posicíon de las partículas en función de ellas.
+		\item Tras determinar las coordenadas generalizadas, escriba la posición de las partículas en función de ellas.
 		\item Calcule las velocidades de las partículas.
-		\item Con éstas velocidades calcule la energía cinética, \(T\) y potencial gravitatoria, \(V\), de cada partícula.  
-		\item Calule ahora \(T\) y \(V\) usando las funciones que toman por parámetros las masas y posiciones de las partículas. Verifique que obtiene el mismo resultado en menos pasos.
-		\item Realice substituciones en la expresiones de \(T\) y \(V\) del punto anterior para inmovilizar la partícula de masa \(m_1\). Verifique que recupera las expresiones que corresponden a las de un péndulo rígido ideal.
+		\item Con estas velocidades, calcule la energía cinética, \(T\), y potencial gravitatoria, \(V\), de cada partícula.  
+		\item Calcule ahora \(T\) y \(V\) usando las funciones que toman por parámetros las masas y posiciones de las partículas. Verifique que obtiene el mismo resultado en menos pasos.
+		\item Realice substituciones en las expresiones de \(T\) y \(V\) del punto anterior para inmovilizar la partícula de masa \(m_1\). Verifique que recupera las expresiones que corresponden a las de un péndulo rígido ideal.
 	\end{enumerate}
 
 
@@ -111,21 +111,21 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 		Una barra rígida de longitud \(\ell_1\) tiene una masa despreciable respecto a la de la partícula de masa \(m_1\) fija a su extremo.
 		A su vez de esta última pende otra barra rígida, de longitud \(\ell_2\) que en su extremo tiene otra partícula de masa \(m_2\), también mucho mayor que aquella de la barra.
 	
-		Para cada uno de los siguientes puntos escriba en un cuaderno Jupyter titulado con su apellido una o varias celdas de código separadas entre sí por otras conteniendo un texto indicando de que punto se trata.
+		Para cada uno de los siguientes puntos escriba en un cuaderno Jupyter titulado con su apellido una o varias celdas de código separadas entre sí por otras conteniendo un texto indicando de qué punto se trata.
 	\end{minipage}
 	\begin{minipage}[c][2cm][t]{0.3\textwidth}
 		\includegraphics[width=0.75\textwidth]{landauS52_fig1.png}
 	\end{minipage}
 
 	\begin{enumerate}
-		\item Obetenga las energías cinética, \(T\), y potencial, \(V\), en función de las coordenadas de la figura.
+		\item Obtenga la energía cinética, \(T\), y potencial, \(V\), en función de las coordenadas de la figura.
 		
 		Resultado:\\
 		\(
-			T_{traslaci\acute{o}n} = \frac{\ell_{1}^{2} m_{1} \dot{\varphi}_{1}^{2}}{2} + \frac{m_{2} \left(\ell_{1}^{2} \dot{\varphi}_{1}^{2} + 2 \ell_{1} \ell_{2} \cos{\left(\varphi_{1} - \varphi_{2} \right)} \dot{\varphi}_{1} \dot{\varphi}_{2} + \ell_{2}^{2} \dot{\varphi}_{2}^{2}\right)}{2}\\
+			T_{traslaci\acute{o}n} = \dfrac{\ell_{1}^{2} m_{1} \dot{\varphi}_{1}^{2}}{2} + \dfrac{m_{2} \left(\ell_{1}^{2} \dot{\varphi}_{1}^{2} + 2 \ell_{1} \ell_{2} \cos{\left(\varphi_{1} - \varphi_{2} \right)} \dot{\varphi}_{1} \dot{\varphi}_{2} + \ell_{2}^{2} \dot{\varphi}_{2}^{2}\right)}{2}\\
 			V_{gravitatoria} = - g \left(\ell_{1} m_{1} \cos{\left(\varphi_{1} \right)} + \ell_{1} m_{2} \cos{\left(\varphi_{1} \right)} + \ell_{2} m_{2} \cos{\left(\varphi_{2} \right)}\right)
 		\)
-		\item Establezca \(m_1 = 0\), \(\varphi_1 = \varphi_2 = \varphi\) y \(\ell_1 = \ell_2 = \frac{\ell}{2}\) a traves de la función de substitución de SymPy. Verifique que se obtiene el \(T\) y \(V\) de un único péndulo rígido ideal.
+		\item Establezca \(m_1 = 0\), \(\varphi_1 = \varphi_2 = \varphi\) y \(\ell_1 = \ell_2 = \frac{\ell}{2}\) a través de la función de substitución de SymPy. Verifique que se obtiene el \(T\) y \(V\) de un único péndulo rígido ideal.
 	\end{enumerate}
 	% Ayuda: \( \cos(\alpha \pm \beta) = \cos{ \alpha} \cos{ \beta \mp \sin \alpha} \sin{ \beta } \)
 
@@ -143,7 +143,7 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 
 		Resultado:\\
 		\(
-			T_{traslaci\acute{o}n} = \frac{m \left(a^{2} \omega^{2} - 2 a b \omega \sin{\left(\omega t - \theta \right)} \dot{\theta} + b^{2} \dot{\theta}^{2}\right)}{2}\\
+			T_{traslaci\acute{o}n} = \dfrac{m \left(a^{2} \omega^{2} - 2 a b \omega \sin{\left(\omega t - \theta \right)} \dot{\theta} + b^{2} \dot{\theta}^{2}\right)}{2}\\
 			V_{gravitatoria} = g m \left(a \sin{\left(\omega t \right)} - b \cos{\left(\theta \right)}\right)
 		\)
 	\end{minipage}
