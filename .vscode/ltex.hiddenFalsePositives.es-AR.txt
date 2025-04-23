@@ -1,0 +1,1 @@
+{"rule":"SE_CREO2","sentence":"^\\QFunción trabajo | Fuerzas mono y poligénicas.\\E$"}

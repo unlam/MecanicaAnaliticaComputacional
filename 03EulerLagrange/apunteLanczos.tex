@@ -89,7 +89,7 @@
 Para Isaac Newton\footnote{Físico y matemático inglés (Woolsthorpe, Lincolnshire, 1642 - Kensington, Middlesex 1726).} la ley fundamental de la mecánica es aquella que establece \(\va{F}_i= m_i \va{a}_i\) para una partícula \(i\).
 Así tal partícula se mueve libre en el espacio, conservando su momento lineal, hasta tanto actúe una fuerza sobre ella.
 Para una sola partícula este esquema resulta muy simple y adecuado.
-mas cuando se trata de analizar un sistema conformado por muchas de ellas, hay que aislar cada una y obtener las fuerzas que ejerce cada una sobre las otras.
+Pero cuando se trata de analizar un sistema conformado por muchas de ellas, hay que aislar cada una y obtener las fuerzas que ejerce cada una sobre las otras.
 Estas fuerzas las llamaremos \emph{fuerzas de interacción}.
 
 El desconocimiento de la naturaleza de muchas de estas fuerzas de interacción hacen necesario el uso de postulados adicionales.
@@ -123,7 +123,7 @@ En resumen:
 
 
 
-\section{El enfoque analítico de la mecánica }
+\section{El enfoque analítico de la mecánica}
 \textbf{Referencia: Lanczos 0\S1}\\
 
 Para Newton, es decir en la mecánica vectorial, las fuerzas actúan produciendo un cambio en el momento de una partícula
@@ -137,7 +137,7 @@ Este último fue posteriormente reemplazado con el concepto de \emph{función tr
 Así Leibniz es el iniciador una nueva rama del estudio de la mecánica llamada \emph{mecánica analítica} que basa su estudio del equilibrio y el movimiento en dos cantidades no vectoriales, sino escalares, la \emph{energía cinética} y la \emph{función trabajo}, esta última a veces reemplazable por una \emph{energía potencial}.
 
 Puede resultar difícil el aceptar que dos magnitudes escalares alcancen para determinar un movimiento siendo este un fenómeno tan relacionable con una determinada dirección.
-El teorema de la energía que establece que la suma de las energías cinéticas y potenciales no varia durante un movimiento da solo \emph{una} ecuación, cuando es evidente que describir el movimiento de solo una partícula requiere de \emph{tres} (las dimensiones espaciales), incrementado tal número si el sistema está compuesto de mas partículas.
+El teorema de la energía que establece que la suma de las energías cinéticas y potenciales no varía durante un movimiento da solo \emph{una} ecuación, cuando es evidente que describir el movimiento de solo una partícula requiere de \emph{tres} (las dimensiones espaciales), incrementado tal número si el sistema está compuesto de más partículas.
 Pero de hecho estas dos cantidades escalares alcanzan para describir la dinámica del más complejo sistema si se las usan en conjunto con un \emph{principio}.
 
 Antes de presentar tal principio, discutiremos tres conceptos fundamentales dentro del enfoque analítico: el trabajo de una fuerza, las coordenadas generalizadas, y la función trabajo. 
@@ -210,19 +210,19 @@ Con estas debemos ser capaces de escribir relaciones \(f_{3P}\) que nos permitan
 \end{equation}
 
 En la práctica el número de \(q_i\) que se utilizan suele ser menor a \(3P\) cuando se consideran las condiciones que limitan la dinámica.
-Por ejemplo si un sistema de dos partículas, \(P=2\), está limitado a moverse en un plano tenemos dos \emph{grados de libertad} menos, por lo que nos basta con un número de coordenadas generalizadas \(n= 3\times 2- 2\).
+Por ejemplo si un sistema de dos partículas, \(P = 2\), está limitado a moverse en un plano tenemos dos \emph{grados de libertad} menos, por lo que nos basta con un número de coordenadas generalizadas \(n= 3 \times 2 - 2\).
 Así el número de grados de libertad de un sistema es 
 \begin{equation}
-	n= 3 P- K,
+	n = 3 P - K,
 \end{equation}
 siendo \(K\) el número de condiciones cinemáticas, \emph{constreñimientos }o \emph{ligaduras}, impuestas al sistema.
 
 
 
 \subsection{Función trabajo | Fuerzas mono y poligénicas}\label{funcionTrabajo}
-Así como podemos escribir el trabajo infinitesimal para un sistema cartesiano, ecuación \eqref{Lanczos17.2}, podemos hacer lo propio para expresarlo en el sistema de coordenadas generalizadas
+Así como en la ecuación \eqref{Lanczos17.2} se expresó el trabajo infinitesimal en función de las coordenadas de un sistema cartesiano, puede hacerse lo mismo con coordenadas generalizadas
 \begin{equation}\label{Lanczos17.3}
-	\overline{\dd w}= F_1 \dd q_1+ F_2 \dd q_2+ \ldots + F_n \dd q_n=  \displaystyle\sum_{i=1}^{n} F_{i} \dd q_i,
+	\overline{\dd w} = F_1 \dd q_1 + F_2 \dd q_2 + \ldots + F_n \dd q_n =  \displaystyle\sum_{i=1}^{n} F_{i} \dd q_i,
 	\tag{Lanczos 17.3}
 \end{equation}
 donde las \(F_i\) son las componentes de las llamadas \emph{fuerzas generalizadas}.
@@ -240,9 +240,9 @@ De esta forma
 	\Rightarrow F_i = \pdv{U}{q_i},
 	\tag{Lanczos 17.8}
 \end{equation}
-siendo que usualmente se utiliza el negativo de la función trabajo \(V= - U\) para interpretarla como una \emph{energía potencial}, de forma que 
+siendo que usualmente se utiliza el negativo de la función trabajo \(V = - U\) para interpretarla como una \emph{energía potencial}, de forma que 
 \begin{align}\label{Lanczos17.10}
-	F_i= - \pdv{V}{q_i},
+	F_i = - \pdv{V}{q_i},
 	\tag{Lanczos 17.10}
 \end{align}
 siendo \(V= V(q_1, q_2, \ldots, q_n)\).
@@ -256,9 +256,9 @@ Las fuerzas de esta clase presentan dos características destacables:
 La definición de la función trabajo como solo dependiente de las coordenadas generalizadas es demasiado restrictiva, pues bien conocemos casos de fuerzas derivables de funciones trabajo en que el tiempo \(t\) figura explícitamente \(U= U(q_1, q_2, \ldots, q_n,t)\).
 En tales casos se pierde la conservación de la energía, pero las ecuaciones \eqref{Lanczos17.8} siguen siendo válidas.
 Un ejemplo de este caso es el de una partícula con carga eléctrica en un \emph{cyclotron} que luego de cada ciclo regresa al mismo punto de partida pero con una energía cinética mayor.
-Claramente las fuerzas de Lorentz\footnote{\(\va{F}= q (\va{E}+ \va{v}\times \va{B})\)} involucradas se pueden obtener de funciones trabajo\footnote{\(\va{B}= \curl{\va{A}}\) y \(\va{E}= -\grad \varphi - \pdv{\va{A}}{t}\), donde \(\va{A}\) es el denominado potencial vector y \(\varphi\) el eléctrico.}, pero en el caso particular del \emph{cyclotron} el campo eléctrico varia en el tiempo, y por tanto, no resulta en una fuerza conservativa.
+Claramente, las fuerzas de Lorentz\footnote{\(\va{F}= q (\va{E}+ \va{v}\times \va{B})\)} involucradas se pueden obtener de funciones trabajo\footnote{\(\va{B}= \curl{\va{A}}\) y \(\va{E}= -\grad \varphi - \pdv{\va{A}}{t}\), donde \(\va{A}\) es el denominado potencial vector y \(\varphi\) el eléctrico.}, pero en el caso particular del \emph{cyclotron} el campo eléctrico varía en el tiempo, y, por tanto, no resulta en una fuerza conservativa.
 
-El caso opuesto, de que conserve la energía pero no pueda definirse una \(U\) es posible.
+El caso opuesto, de que conserve la energía, y aun así no pueda definirse una \(U\), es posible.
 Este es el caso de las fuerzas de rozamiento estático que intervienen en el fenómeno de rodadura, que al no haber desplazamiento involucrado no hacen trabajo alguno.
 El caso de este tipo de fuerzas para las cuales no puede idearse una función escalar de las cuales derivarlas se denominan \emph{poligénicas}, por sus múltiples posibles orígenes.
 Este término está en contraposición al que corresponde a aquellas fuerzas que podemos derivar de una cantidad escalar, la función trabajo \(U\), que denominamos \emph{monogénicas} para tener un término que las englobe independientemente de si son o no conservativas.
@@ -337,7 +337,7 @@ Cuando se encuentra el mínimo (o máximo) de una función, como \(V\), la tasa 
 	\pdv{V}{q_i} = 0\; (i= 1, 2, \ldots, n).
     \tag{Lanczos 22.7}
 \end{equation}
-Y si bien un punto \emph{silla} de \(V\) también cumpliría tal condición, todos los puntos que la cumplen son excepcionales, y por tanto, se reserva un nombre para ellos; se dice que la función presenta un valor \emph{estacionario} allí.
+Y si bien un punto \emph{silla} de \(V\) también cumpliría tal condición, cada uno de los puntos que la cumplen se los considera excepcionales; se dice que la función presenta un valor \emph{estacionario} allí.
 % Para que \(V\) sea un valor estacionario esta sumataria debe ser nula, \(\delta V=0\).
 % Puesto que el dezplazamiento es de naturaleza \emph{virtual}, este puede realizarse \emph{en cualquier dirección arbitraria}, y por tanto cada término de la sumatoria debe ser nulo, es decir
 En definitiva convenimos que para que \(V\) presente un valor estacionario en un punto debe cumplirse que \(\delta V=0\) allí.
@@ -353,7 +353,7 @@ Así como en la mecánica Newtoniana el que la fuerza resultante sea nula, \(\va
 De esta forma cualquier criterio que tengamos para un sistema en equilibrio ahora podemos aplicarlo a un sistema en movimiento.
 Jean le Rond d'Alembert\footnote{Matemático y físico francés (París 1717 - París 1783).} lo enunció como:
 \begin{quote}
-``Cualquier sistema de fuerzas está en equilibrio si se agregan a la fuerzas \emph{ejercidas} aquellas de inercia''.
+``Cualquier sistema de fuerzas está en equilibrio si se agregan a las fuerzas \emph{ejercidas} la de inercia''.
 \end{quote}
 
 Si sumamos a las fuerzas resultantes ejercidas \(\va{F}_i\) sobre una partícula la fuerza de inercia obtenemos la llamada \emph{fuerza efectiva}
@@ -551,7 +551,8 @@ Lo que si se puede es eliminar \(\dot{\tilde{q}}_i (t)\) como variable independi
     \pdv{\mathcal{L}}{\dot{q}_i} \tilde{q}_i \eval_{t_1}^{t_2} - \int_{t_1}^{t_2 } \pqty{ \dv{t} \pdv{\mathcal{L}}{\dot{q}_i} } \tilde{q}_i \dd{t}.
     \tag{Lanczos 210.4}
 \end{equation}
-El primer término de la ecuación \eqref{Lanczos210.4} se anula pues evalúa en límites temporales definidos donde precisamente no hay variación posible (\(\tilde{q}(t_1)= \tilde{q}(t_2)= 0\)), por tanto la ecuación \eqref{Lanczos210.2} se reduce a 
+El primer término de la ecuación \eqref{Lanczos210.4} se anula, puesto que se evalúa en límites temporales definidos donde precisamente no hay variación posible (\(\tilde{q}(t_1)= \tilde{q}(t_2)= 0\)).
+Por tal razón la ecuación \eqref{Lanczos210.2} se reduce a 
 \begin{equation}\label{Lanczos210.5}
 	\begin{aligned}
     \delta S &= 
@@ -561,12 +562,12 @@ El primer término de la ecuación \eqref{Lanczos210.4} se anula pues evalúa en
 	\end{aligned}
 	\tag{Lanczos 210.5}
 \end{equation}
-Si \(S\) debe ser estacionaria, es decir \(\delta S=0\), es claro que la integral debe ser nula ante \(\delta q_i\) arbitrarios.
+Si \(S\) debe ser estacionaria, es decir \(\delta S = 0\), es claro que la integral debe ser nula ante \(\delta q_i\) arbitrarios.
 Esto se cumple si y solo si la cantidad entre paréntesis se anula\footnote{
-Si buscamos que \(S\) sea estacionaria, es decir \(\delta S=0\), tenemos que asegurar que la integral a la derecha de la ecuación \eqref{Lanczos210.5} sea nula para valores arbitrarios de \(\tilde{q}_i (t)\), y esto se cumplirá solo si la cantidad entre paréntesis \(E(t)= \pdv{\mathcal{L}}{q_i} - \dv{t} \pdv{\mathcal{L}}{\dot{q}_i}\), se anula entre \(t_1\) y \(t_2\).
+Si buscamos que \(S\) sea estacionaria, es decir \(\delta S = 0\), tenemos que asegurar que la integral a la derecha de la ecuación \eqref{Lanczos210.5} sea nula para valores arbitrarios de \(\tilde{q}_i (t)\), y esto se cumplirá solo si la cantidad entre paréntesis \(E(t)= \pdv{\mathcal{L}}{q_i} - \dv{t} \pdv{\mathcal{L}}{\dot{q}_i}\), se anula entre \(t_1\) y \(t_2\).
 % Si buscamos que \(S\) sea estacionaria, es decir \(\delta S=0\), tenemos que asegurar que la integral sea nula para valores arbitrarios de \(\tilde{q}_i (t)\), y esto se cumplirá solo si la cantidad entre paréntesis \(E(t)= \pdv{L}{q_i} - \dv{t} \pdv{L}{\dot{q}_i}\), se anula entre \(t_1\) y \(t_2\).
 
-La demostración matemática aprovecha el hecho de que podemos elegir un caso particular de de todas las arbitrarias \(\tilde{q}_i (t)\) para que esta sea nula tal vez a excepción de un corto intervalo \(\xi\) en torno a un determinado \(t\) de todo el intervalo (\(t_1 < t < t_2\)).
+La demostración matemática aprovecha el hecho de que podemos elegir un caso particular de todas las arbitrarias, \(\tilde{q}_i (t)\), para que esta sea nula con la posible excepción de un corto intervalo \(\xi\) en torno a un determinado \(t\) del intervalo (\(t_1 < t < t_2\)).
 Esto haría que solo en este intervalo \(q_i(t)\) pueda variar.
 En un intervalo corto de \(t\) cualquier función continua es casi constante, y por tanto \(E(t)\) podría sacarse de la integral para aproximar la igualdad de la ecuación \eqref{Lanczos210.5} como
 \begin{equation}\label{Lanczos210.8}
@@ -574,16 +575,16 @@ En un intervalo corto de \(t\) cualquier función continua es casi constante, y 
     \tag{Lanczos 210.8}
 \end{equation}
 El error respecto de la igualdad tiende a desaparecer a medida que \(\rho\) tiene a cero.
-Así que de respetarse la igualdad no quedaría mas remedio que hacer que \(E(\xi)=0\) para cumplir con el supuesto de que \(\delta S=0\).
+Así que de respetarse la igualdad no quedaría más remedio que establecer que \(E(\xi) = 0\), para cumplir con el supuesto de que \(\delta S=0\).
 Como \(t=\xi\) puede ser cualquiera en el intervalo \(t_1<t<t_2\), concluimos que dentro de este intervalo siempre debiera cumplirse que \(E(t)=0\).
 %\begin{equation}
 %    \pdv{L}{q_i} - \dv{t} \pdv{L}{\dot{q}_i}= 0.
 %    \label{Lanczos210.9}
 %\end{equation}
 
-En definitiva, basta con variar los \(q_i(t)\) hasta lograr dar con aquellos para que \(E(t)=0\) en todo el intervalo para asegurar \(\delta S=0\), es decir, esa es condición \emph{necesaria} para asegurar que \(S\) sea estacionario.
-Además, esta condición es \emph{suficiente} pues, como es evidente de revisar la ecuación \eqref{Lanczos210.5}, no importa que valor asuma \(\tilde{q}_i (t)\) dentro del intervalo temporal, si allí \(E(t)=0 \) la integración dará un valor nulo.
-Al probar que \(E(t)=0\) es condición es necesaria y suficiente para que \(\delta S=0\) significa que si la primera es cierta \emph{si y solo si} la segunda también lo es; 
+En definitiva, basta con variar los \(q_i(t)\) hasta lograr dar con aquellos para que \(E(t) = 0\) en todo el intervalo para asegurar \(\delta S = 0\), es decir, esa es condición \emph{necesaria} para asegurar que \(S\) sea estacionario.
+Además, esta condición es \emph{suficiente} pues, como es evidente de revisar la ecuación \eqref{Lanczos210.5}, no importa que valor asuma \(\tilde{q}_i (t)\) dentro del intervalo temporal, si allí \(E(t) =0 \) la integración dará un valor nulo.
+Al probar que \(E(t) = 0\) es condición es necesaria y suficiente para que \(\delta S = 0\) significa que si la primera es cierta \emph{si y solo si} la segunda también lo es; 
 % Al probar que respetar la ecuación (\ref{Lanczos210.9}) es condición es necesaria y suficiente para que \(\delta S=0\) significa que si la primera es cierta \emph{si y solo si} la segunda también lo es, 
 en resumen, una asegura la otra.
 }
@@ -611,7 +612,7 @@ En particular si tal función es la derivada respecto de \(t\) de otra cantidad,
 %Este proceder es extensible al conjunto de coordenadas generalizadas \(q_i\).
 \textbf{Referencia: Lanczos V\S4}\\
 
-Puede que en el Lagrangiano no figure explícitamente alguna de las coordenadas generalizadas \(q_n\), aunque si lo haga la correspondiente velocidad \(\dot{q}_n\), así \(\mathcal{L} = \mathcal{L}(q_1,\ldots,q_{n-1};\dot{q}_1,\ldots,\dot{q}_n;t)\).
+Puede que en el Lagrangiano no figure explícitamente alguna de las coordenadas generalizadas \(q_n\), aunque si lo haga la correspondiente velocidad \(\dot{q}_n\), así \(\mathcal{L} = \mathcal{L}(q_1,\ldots,q_{n - 1};\dot{q}_1,\ldots,\dot{q}_n;t)\).
 En ese caso la ecuación de Euler-Lagrange (\ref{noiEulerLagrange}) se reduce, pues, 
 % En ese caso la ecuación de Euler-Lagrange (\ref{Lanczos210.9}) se reduce pues 
 \begin{equation}\label{unsereLanczos54.2}
@@ -620,7 +621,7 @@ En ese caso la ecuación de Euler-Lagrange (\ref{noiEulerLagrange}) se reduce, p
     \tag{Lanczos 54.2}
 \end{equation}
 
-Por ejemplo una partícula libre en el espacio tendrá una \(T= \frac{m}{2} \dot{x}^2\) con \(V=0\), por lo que la coordenada \(x\) no figurará en el Lagrangiano, y \(\pdv{\mathcal{L}}{x}= m x\), cantidad escalar que corresponde a la magnitud del momento lineal \(\vec{p}_x\).
+Por ejemplo una partícula libre en el espacio tendrá una \(T= \frac{m}{2} \dot{x}^2\) con \(V = 0\), por lo que la coordenada \(x\) no figurará en el Lagrangiano, y \(\pdv{\mathcal{L}}{x}= m x\), cantidad escalar que corresponde a la magnitud del momento lineal \(\vec{p}_x\).
 De forma similar la cantidad conservada de la ecuación \eqref{unsereLanczos54.2} recibe el nombre de \emph{momento generalizado},
 \begin{equation}\label{Lanczos53.4}
 	p_n= \pdv{\mathcal{L}}{\dot{q}_n},
@@ -775,12 +776,12 @@ Dado un condicionante a la dinámica del sistema, si la relación entre sus coor
 	\tag{Lanczos 16.1}
 \end{equation}
 que denominamos \emph{holónomas}.
-De diferenciar tal relación tenemos 
+De diferenciar tal relación se obtiene que
 \begin{equation}\label{Lanczos16.2}
-	\pdv{f}{q_1} \dd q_i+\ldots+ \pdv{f}{q_n} \dd q_n =0,
+	\pdv{f}{q_1} \dd q_i + \ldots+ \pdv{f}{q_n} \dd q_n = 0,
 	\tag{Lanczos 16.2}
-\end{equation} 
-pero si la condición se expresa de la forma
+\end{equation}.
+Pero si la condición se expresa de la forma
 \begin{equation}\label{Lanczos16.3}
 	A_1(q_1,\ldots,q_n) \dd q_i+\ldots+ A_n(q_1,\ldots,q_n) \dd q_n =0,
 	\tag{Lanczos 16.3}
@@ -801,7 +802,7 @@ Volvamos al concepto fundamental del valor estacionario para el Lagrangiano \(\d
 	\delta \mathcal{L} = \pdv{\mathcal{L}}{q_i} \delta q_i+ \ldots+ \pdv{\mathcal{L}}{q_n} \delta q_n= 0;
 	\tag{Lanczos 25.4}
 \end{equation}
-y le adicionamos la expresión de la  ecuación \eqref{Lanczos16.3} que expresa la relación a la que es inócuo multiplicar por un factor \(\lambda\) pues a fin de cuentas su suma es nula
+y le adicionamos la expresión de la ecuación \eqref{Lanczos16.3}, que expresa la relación a la que es inocuo multiplicar por un factor \(\lambda\) puesto que a fin de cuentas su suma es nula
 \begin{equation}\label{Lanczos25.5}
 	\pdv{\mathcal{L}}{q_i} \delta q_i+ \ldots+ \pdv{\mathcal{L}}{q_n} \delta q_n + \lambda \qty[ A_1(q_1,\ldots,q_n) \dd q_i+\ldots+ A_n(q_1,\ldots,q_n) \dd q_n ] = 0
 	\tag{Lanczos 25.5}
@@ -827,7 +828,7 @@ El principio de Hamilton solo se sostiene para sistemas con fuerzas monogénicas
 
 Todo sistema relevante a la dinámica tiene cantidades con dependencia en el tiempo, pero si tal dependencia es \emph{explícita}, sea en \(T\) o en \(U\), no podamos cumplir con las condiciones analizadas en la sección \ref{conservacionEnergia} para asegurar la conservación de la energía.
 
-El físico Ludwig Eduard Boltzmann acuño el término de \emph{reónomo} para las condiciones dinámicas en que el tiempo figura explícitamente.
+Ludwig Eduard Boltzmann\footnote{Físico austríaco (Viena, 1844 - Tybein, 1906).} acuño el término de \emph{reónomo} para las condiciones dinámicas en que el tiempo figura explícitamente.
 En tal caso al recuperar las coordenadas cartesianas, la ecuación \eqref{Lanczos12.8} presenta un \(t\) ineludible en al menos algunas de las \(f_{3N}\) condiciones
 \begin{equation}\label{Lanczos18.3}
 	\begin{aligned}
