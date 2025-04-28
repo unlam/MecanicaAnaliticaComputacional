@@ -67,7 +67,8 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 		\item Calcule la aceleración de la pesa de \(m_2\). % ¿Con cuál coordenada las expresiones de energía resultan más ``informativas''?\\
 		% \item Obtenga las aceleraciones.% ¿Con cuál coordenada las expresiones de energía resultan más ``informativas''?\\
 		Resultado:
-			$\ddot{y} = \frac{- \ell^{2} m_{1} y \dot{y}^{2} + g m_{2} \left(\ell^{2} - y^{2}\right)^{2}}{\ell^{4} m_{2} + \ell^{2} m_{1} y^{2} - 2 \ell^{2} m_{2} y^{2} - m_{1} y^{4} + m_{2} y^{4}}$
+			$\ddot{y} = 
+			\dfrac{- \ell^{2} m_{1} y \dot{y}^{2} + g m_{2} \left(\ell^{2} - y^{2}\right)^{2}}{\ell^{4} m_{2} + \ell^{2} m_{1} y^{2} - 2 \ell^{2} m_{2} y^{2} - m_{1} y^{4} + m_{2} y^{4}}$
 			\qquad
 			%$\ddot{\theta} = \frac{\left(\ell m_{1} \cos{\left(\theta \right)} \dot{\theta}^{2} - \ell m_{2} \cos{\left(\theta \right)} \dot{\theta}^{2} - g m_{2}\right) \sin{\left(\theta \right)}}{\ell \left(m_{1} \cos^{2}{\left(\theta \right)} + m_{2} \sin^{2}{\left(\theta \right)}\right)}$
 		%\item Realice las sustituciones que corresponden a una aproximación de pequeñas oscilaciones para el caso \(m_1 = m_2 = m\). ¿La expresión de qué sistema obtiene?
@@ -99,7 +100,7 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 		\item Obtenga la ecuación de Euler-Lagrange para la dinámica sin olvidar los momentos involucrados.\\
 		Resultado:
 		\(
-		R_{aro}^{2} m \ddot{\theta} + R_{aro}^{2} m_{aro} \ddot{\theta} + R_{aro} g m \cos{\left(\theta \right)} + R_{polea}^{2} m_{pesa} \ddot{\theta} + \frac{R_{polea}^{2} m_{polea} \ddot{\theta}}{2} - R_{polea} g m_{pesa} = 0
+		R_{aro}^{2} m \ddot{\theta} + R_{aro}^{2} m_{aro} \ddot{\theta} + R_{aro} g m \cos{\left(\theta \right)} + R_{polea}^{2} m_{pesa} \ddot{\theta} + \dfrac{R_{polea}^{2} m_{polea} \ddot{\theta}}{2} - R_{polea} g m_{pesa} = 0
 		\)
 	\end{enumerate}
 
@@ -131,22 +132,32 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 			\item Obtenga las dos ecuaciones de Euler-Lagrange.
 			Resultados:\\
 			% reduce size of equations
-			\scalebox{0.9}{
-			$- g m_{1} + g m_{2} + g m_{3} + g m_{p} + m_{1} \ddot{y}_{1} + m_{2} \ddot{y}_{1} - m_{2} \ddot{y}_{2} + m_{3} \ddot{y}_{1} + m_{3} \ddot{y}_{2} + \frac{3 m_{p} \ddot{y}_{1}}{2} = 0$}\\
-			\scalebox{0.9}{
-			$- g m_{2} + g m_{3} - m_{2} \ddot{y}_{1} + m_{2} \ddot{y}_{2} + m_{3} \ddot{y}_{1} + m_{3} \ddot{y}_{2} + \frac{m_{p} \ddot{y}_{2}}{2} = 0$
-			}
+			%\scalebox{0.9}{
+			$
+			- g m_{1} + g m_{2} + g m_{3} + g m_{p} + m_{1} \ddot{y}_{1} + m_{2} \ddot{y}_{1} - m_{2} \ddot{y}_{2} + m_{3} \ddot{y}_{1} + m_{3} \ddot{y}_{2} + \dfrac{3 m_{p} \ddot{y}_{1}}{2} = 0
+			$
+			%}\\
+			\\[5pt]
+			%\scalebox{0.9}{
+			$
+			- g m_{2} + g m_{3} - m_{2} \ddot{y}_{1} + m_{2} \ddot{y}_{2} + m_{3} \ddot{y}_{1} + m_{3} \ddot{y}_{2} + \dfrac{m_{p} \ddot{y}_{2}}{2} = 0
+			$
+			%}
 			\item De este sistema de ecuaciones, despeje las aceleraciones generalizadas.
-			Resultados:\\
+			Resultados:\\[5 pt]
 			\(
-				\ddot{y}_{1} = \frac{2 g \left(2 m_{1} m_{2} + 2 m_{1} m_{3} + m_{1} m_{p} - 8 m_{2} m_{3} - 3 m_{2} m_{p} - 3 m_{3} m_{p} - m_{p}^{2}\right)}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 8 m_{2} m_{p} + 8 m_{3} m_{p} + 3 m_{p}^{2}}\\
-				\ddot{y}_{2} = \frac{2 g \left(4 m_{1} + m_{p}\right) \left(m_{2} - m_{3}\right)}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 8 m_{2} m_{p} + 8 m_{3} m_{p} + 3 m_{p}^{2}}
+				\ddot{y}_{1} = 
+				\dfrac{2 g \left(2 m_{1} m_{2} + 2 m_{1} m_{3} + m_{1} m_{p} - 8 m_{2} m_{3} - 3 m_{2} m_{p} - 3 m_{3} m_{p} - m_{p}^{2}\right)}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 8 m_{2} m_{p} + 8 m_{3} m_{p} + 3 m_{p}^{2}}\\[5 pt]
+				\ddot{y}_{2} = 
+				\dfrac{2 g \left(4 m_{1} + m_{p}\right) \left(m_{2} - m_{3}\right)}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 8 m_{2} m_{p} + 8 m_{3} m_{p} + 3 m_{p}^{2}}
 			\)
-			\item Exprese las aceleraciones de las tres pesas. Resultados:\\
+			\item Exprese las aceleraciones de las tres pesas. Resultados:\\[5 pt]
 			\(
-				\ddot{\vec{r}}_{1} = \ddot{y}_1 (- \hat{e}_y)\\
-				\ddot{\vec{r}}_{2} = -  \frac{2 g \left(2 m_{1} m_{2} - 6 m_{1} m_{3} - m_{1} m_{p} + 8 m_{2} m_{3} + 4 m_{2} m_{p} + 2 m_{3} m_{p} + m_{p}^{2}\right)}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 8 m_{2} m_{p} + 8 m_{3} m_{p} + 3 m_{p}^{2}}\mathbf{\hat{e}_y} \\
-				\ddot{\vec{r}}_{3} = -  \frac{2 g \left(- 6 m_{1} m_{2} + 2 m_{1} m_{3} - m_{1} m_{p} + 8 m_{2} m_{3} + 2 m_{2} m_{p} + 4 m_{3} m_{p} + m_{p}^{2}\right)}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 8 m_{2} m_{p} + 8 m_{3} m_{p} + 3 m_{p}^{2}}\mathbf{\hat{e}_y}
+				\ddot{\vec{r}}_{1} = \ddot{y}_1 (- \hat{e}_y)\\[5 pt]
+				\ddot{\vec{r}}_{2} = 
+				- \dfrac{2 g \left(2 m_{1} m_{2} - 6 m_{1} m_{3} - m_{1} m_{p} + 8 m_{2} m_{3} + 4 m_{2} m_{p} + 2 m_{3} m_{p} + m_{p}^{2}\right)}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 8 m_{2} m_{p} + 8 m_{3} m_{p} + 3 m_{p}^{2}} \hat{e}_y \\[5 pt]
+				\ddot{\vec{r}}_{3} = 
+				- \dfrac{2 g \left(- 6 m_{1} m_{2} + 2 m_{1} m_{3} - m_{1} m_{p} + 8 m_{2} m_{3} + 2 m_{2} m_{p} + 4 m_{3} m_{p} + m_{p}^{2}\right)}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 8 m_{2} m_{p} + 8 m_{3} m_{p} + 3 m_{p}^{2}} \hat{e}_y
 				\) 
 		\end{enumerate}
 

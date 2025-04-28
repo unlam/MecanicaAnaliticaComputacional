@@ -24,7 +24,7 @@
 
 
 	\item 
-	\begin{minipage}[t][3.5cm]{0.47\textwidth}
+	\begin{minipage}[t][4cm]{0.47\textwidth}
 	\textbf{Cilindro que rueda por un plano inclinado} [Marion (e) ex. 7.5]\\
 	% English \textbf{Marion ejemplo 6.5 y ejemplo 7.9} Disco rodando en un plano inclinado.
 		\begin{enumerate}
@@ -43,21 +43,25 @@
 	\textbf{Doble máquina de Atwood} [Marion (e) ej. 7.8 y 7-37]\\
 	Utilice el método de multiplicadores de Lagrange para encontrar las ecuaciones de movimiento y las tensiones de las cuerdas.
 	\begin{enumerate}
-		\item Verifique que obtiene las mismas aceleraciones generalizadas que obtuvo sin usar multiplicadores de Lagrange.
-		Resultado:\\
+		\item Verifique que obtiene las mismas aceleraciones generalizadas que se habían obtenido sin usar multiplicadores de Lagrange.
+		Resultado:\\[5 pt]
 		\(
-			\ddot{y}_{1} = \dfrac{2 g \left(2 m_{1} m_{2} + 2 m_{1} m_{3} + m_{1} m_{p} - 8 m_{2} m_{3} - 3 m_{2} m_{p} - 3 m_{3} m_{p} - m_{p}^{2}\right)}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 8 m_{2} m_{p} + 8 m_{3} m_{p} + 3 m_{p}^{2}}\\
-			\ddot{y}_{2} = \dfrac{2 g \left(4 m_{1} + m_{p}\right) \left(m_{2} - m_{3}\right)}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 8 m_{2} m_{p} + 8 m_{3} m_{p} + 3 m_{p}^{2}}
+			\ddot{y}_{1} = 
+			\dfrac{2 g \left(2 m_{1} m_{2} + 2 m_{1} m_{3} + m_{1} m_{p} - 8 m_{2} m_{3} - 3 m_{2} m_{p} - 3 m_{3} m_{p} - m_{p}^{2}\right)}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 8 m_{2} m_{p} + 8 m_{3} m_{p} + 3 m_{p}^{2}}\\[5 pt]
+			\ddot{y}_{2} = 
+			\dfrac{2 g \left(4 m_{1} + m_{p}\right) \left(m_{2} - m_{3}\right)}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 8 m_{2} m_{p} + 8 m_{3} m_{p} + 3 m_{p}^{2}}
 		\)
 		\item Obtenga las tensiones de ambas cuerdas.
-			Resultado:\\
+			Resultado:\\[5 pt]
 			\(
-				Q_{1} = \dfrac{g \left(32 m_{1} m_{2} m_{3} + 12 m_{1} m_{2} m_{p} + 12 m_{1} m_{3} m_{p} + 4 m_{1} m_{p}^{2} + 8 m_{2} m_{3} m_{p} + 3 m_{2} m_{p}^{2} + 3 m_{3} m_{p}^{2} + m_{p}^{3}\right)}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 8 m_{2} m_{p} + 8 m_{3} m_{p} + 3 m_{p}^{2}}\\
-				Q_{2} = \dfrac{g m_{3} \left(16 m_{1} m_{2} + 4 m_{1} m_{p} + 4 m_{2} m_{p} + m_{p}^{2}\right)}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 8 m_{2} m_{p} + 8 m_{3} m_{p} + 3 m_{p}^{2}}
+				Q_{1} = 
+				\dfrac{g \left(32 m_{1} m_{2} m_{3} + 12 m_{1} m_{2} m_{p} + 12 m_{1} m_{3} m_{p} + 4 m_{1} m_{p}^{2} + 8 m_{2} m_{3} m_{p} + 3 m_{2} m_{p}^{2} + 3 m_{3} m_{p}^{2} + m_{p}^{3}\right)}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 8 m_{2} m_{p} + 8 m_{3} m_{p} + 3 m_{p}^{2}}\\[5 pt]
+				Q_{2} = 
+				\dfrac{g m_{3} \left(16 m_{1} m_{2} + 4 m_{1} m_{p} + 4 m_{2} m_{p} + m_{p}^{2}\right)}{4 m_{1} m_{2} + 4 m_{1} m_{3} + 2 m_{1} m_{p} + 16 m_{2} m_{3} + 8 m_{2} m_{p} + 8 m_{3} m_{p} + 3 m_{p}^{2}}
 			\)
 		\end{enumerate}
 	\end{minipage}
-	\begin{minipage}[c][3cm][t]{0.3\textwidth}
+	\begin{minipage}[c][2.5cm][t]{0.3\textwidth}
 		\input{figs/compoundAtwood.tikz}
 		% \includegraphics[width=\textwidth]{marion_fig7_6}
 	\end{minipage}
@@ -65,14 +69,15 @@
 	\newpage
 
 	\item
-	\begin{minipage}[t][7cm]{0.65\textwidth}
+	\begin{minipage}[t][7.5cm]{0.65\textwidth}
 		\textbf{Pesos enlazados por una cuerda} [Taylor 7.50]\\
 		Una partícula de masa \(m\), situada sobre una mesa horizontal sin fricción, está unida mediante una cuerda ideal de longitud \(\ell\) a otra partícula de masa \(M\).
 		La cuerda pasa por un orificio practicado en la mesa, el cual no presenta rozamiento.
 		La segunda pesa pende vertical con una distancia a la mesa \(y = \ell - \rho\), función de la distancia de la primera al hueco, \(\rho\).
 		\begin{enumerate}
-			\item Asumiendo que \(\theta\) no es necesariamente constante obtenga las ecuaciones de Lagrange para \(\rho\) e  \(y\). Resultado:\\ \(- M g + M \ddot{y} + \lambda_{1} = 0 \qquad \lambda_{1} - m \rho \dot{\theta}^{2} + m \ddot{\rho} = 0\)
-			\item Resuelva el sistema para \(\rho, y\) y el multiplicador de Lagrange \(\lambda_1\) encontrando las fuerzas de tensión sobre ambas masas.\\
+			\item Asumiendo que \(\theta\) no es necesariamente constante obtenga las ecuaciones de Lagrange para \(\rho\) e  \(y\). Resultado:\\[5 pt]
+			\(- M g + M \ddot{y} + \lambda_{1} = 0 \qquad \lambda_{1} - m \rho \dot{\theta}^{2} + m \ddot{\rho} = 0\)
+			\item Resuelva el sistema para \(\rho, y\) y el multiplicador de Lagrange \(\lambda_1\) encontrando las fuerzas de tensión sobre ambas masas.\\[5 pt]
 			Resultado: \(Q_{\rho} = \dfrac{M m \left(g + \rho \dot{\theta}^{2}\right)}{M + m}\)
 		\end{enumerate}
 	\end{minipage}
@@ -84,12 +89,12 @@
 
 	\item
 	\begin{minipage}[t][4.5cm]{0.62\textwidth}
-		\textbf{Partícula deslizando sobre una semi-esfera} [Marion (e) ex. 7.10]\\
-		La partícula de masa \(m\), considerada puntual, desliza sobre una semi-esfera de radio \(R\) sin fricción.
+		\textbf{Partícula deslizando sobre una semiesfera} [Marion (e) ex. 7.10]\\
+		La partícula de masa \(m\), considerada puntual, desliza sobre una semiesfera de radio \(R\) sin fricción.
 		\begin{enumerate}
 			\item Encuentre la fuerza de la ligadura.\\
 			Resultado: \(F^\mathrm{ligadura}_{\rho} = m \left(- R \dot{\theta}^{2} + g \cos{\left(\theta \right)}\right)\)
-			\item Calcule el ángulo en que la partícula se despega de la semi-esfera.\\
+			\item Calcule el ángulo en que la partícula se despega de la semiesfera.\\
 			Resultado: \(\theta^\mathrm{despegue} \approx 48.19^\circ\) 
 		\end{enumerate}
 	\end{minipage}
@@ -98,7 +103,7 @@
 		% \includegraphics[width=\textwidth]{marion7_10}
 	\end{minipage}
 	
-	Para llegar al ángulo de despegue debe resolver la ecuación diferencial a la que arribará tras resolver la problemática de las fuerzas de ligadura, que será $\ddot{\theta} = \frac{g \sin(\theta)}{R}$.
+	Para llegar al ángulo de despegue debe resolver la ecuación diferencial a la que arribará tras resolver la problemática de las fuerzas de ligadura, que será $\ddot{\theta} = \dfrac{g \sin(\theta)}{R}$.
 	Esta expresión es integrable para el recorrido que hace la partícula.
 	Para facilitar esto se intercala por regla de la cadena derivaciones en función de \(\theta\) en la definición de la aceleración.
 	$$
