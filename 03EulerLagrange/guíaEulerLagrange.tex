@@ -41,12 +41,12 @@ Resultado 1c:\\
 		\begin{enumerate}
 			\item Obtenga la ecuación de Euler-Lagrange para \(c\) y aquella para \(d\).\\ 
 			Resultado:
-	\(
-		M \ddot{c} - m_1 \cos{\left(\theta \right)} \ddot{d} + m_1 \ddot{c} = 0
-		\qquad
-		m_1 \left(g \sin{\left(\theta \right)} + \cos{\left(\theta \right)} \ddot{c} - \ddot{d }\right) = 0
-	\)
-				% \item (*) Intente resolver con la 2.a ley de Newton, \(\vec{F} = m \vec{a}\).
+			\(
+				M \ddot{c} - m_1 \cos{\left(\theta \right)} \ddot{d} + m_1 \ddot{c} = 0
+				\quad
+				m_1 \left(g \sin{\left(\theta \right)} + \cos{\left(\theta \right)} \ddot{c} - \ddot{d }\right) = 0
+			\)
+			% \item (*) Intente resolver con la 2.a ley de Newton, \(\vec{F} = m \vec{a}\).
 		\end{enumerate}
 	\end{minipage}
 	\begin{minipage}[c][0cm][t]{0.3\textwidth}
@@ -57,21 +57,21 @@ Resultado 1c:\\
 	En la clase siguiente aprenderá a resolver el sistema usando SymPy.
 	
 
-
-
 \item
-	\begin{minipage}[t][4.7cm]{0.7\textwidth}
+	\begin{minipage}[t][5.5cm]{0.7\textwidth}
 		\textbf{Soporte de péndulo sobre un plano inclinado}\\
 		Un soporte de masa \(m_1\) desliza por un plano inclinado inmóvil con un ángulo \(\theta\) sin que este le presente fricción.
 		Un péndulo de longitud \(\ell\) y masa \(m\) cuelga del soporte describiendo un ángulo \(\varphi\) con la vertical.
 		Es soporte se extiende a un costado del plano permitiendo al péndulo colgar libremente sin interferencia de este último.
+		Preste particular atención con la dirección que la figura asigna como positiva para \(\varphi\).
 		\begin{enumerate}
-			\item Encuentre las ecuaciones para la dinámica.\\
+			\item Encuentre las ecuaciones para la dinámica. 
 			% \item (*) Asumiendo pequeñas oscilaciones en torno a la vertical encuentre la frecuencia de oscilación del péndulo.
-			Resultado:
+			Resultado:\\
 			\(
-				\ell m \left(\ell \ddot{\varphi} + g \sin{\left(\varphi \right)} + \cos{\left(\theta + \varphi \right)} \ddot{d}\right) = 0 \\[5 pt]
-				\ell m \sin{\left(\theta + \varphi \right)} \dot{\varphi}^{2} - \ell m \cos{\left(\theta + \varphi \right)} \ddot{\varphi} + g m \sin{\left(\theta \right)} + g m_{1} \sin{\left(\theta \right)} - m \ddot{d} - m_{1} \ddot{d} = 0
+				\ell m \left(- \ell \ddot{\varphi} - g \sin{\left(\varphi \right)} + \cos{\left(\theta - \varphi \right)} \ddot{d}\right) = 0
+				\\[5 pt]
+				\ell m \sin{\left(\theta - \varphi \right)} \dot{\varphi}^{2} + \ell m \cos{\left(\theta - \varphi \right)} \ddot{\varphi} + g m \sin{\left(\theta \right)} + g m_{1} \sin{\left(\theta \right)} - m \ddot{d} - m_{1} \ddot{d} = 0
 			\)
 		\end{enumerate}
 	\end{minipage}
