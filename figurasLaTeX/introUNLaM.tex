@@ -31,8 +31,11 @@
 \DeclareSIUnit\kgf{kgf}
 
 \usepackage{tasks}
-\usepackage[inline]{enumitem}
 % \usepackage{enumerate}
+\usepackage[inline]{enumitem}
+% Define a custom inline list
+\newlist{inlinelist}{enumerate*}{1} % enumerate* is key for inline behavior
+\setlist[inlinelist]{label=(\alph*), itemjoin={{, }}, before={}, after={}}
 
 \usepackage{hyperref}
 
