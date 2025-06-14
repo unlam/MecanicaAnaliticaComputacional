@@ -19,7 +19,7 @@
 | 10 | 06-05  | NoConservativas | Fuerzas no conservativas en el marco de Euler-Lagrange.                                   |
 | 11 | 06-12  | TensorInercia   | Tensor de inercia de arreglos de masas puntales.                                          |
 | 12 | 06-19* | MasaDistribuida | Cuerpos rígidos.                                                                          |
-| 13 | 06-26  | RotaciónEuler   | Ecuaciones de Euler para el cuerpo rígido.                                                |
-| 14 | 07-03  | “               | **Integrador: enunciado**.                                                                |
+| 13 | 06-26  | RotaciónEuler   | Ecuaciones de Euler para el cuerpo rígido. **Integrador: enunciado**.                     |
+| 14 | 07-03  | “               | "                                                                                         |
 | 15 | 07-10* | _Evaluación_    | **Integrador: presentación**                                                              |
 | 16 | 07-17* | "               | **Recuperatorio**                                                                         |
