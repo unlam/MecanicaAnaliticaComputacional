@@ -31,7 +31,7 @@
 	\def \pende {\pulleyRadius + \boxwidth + 0.2};
 	\def \pendePulley {2* \pulleyRadius + 0.2};
 	\draw [-Latex] (\pendeLeft, 0) -- (\pendeLeft, \boxAheight) node [midway, left] {\(x_1\)};
-	\draw [-Latex] ( \pende, 0) -- ( \pende, \lowerPulleyHeight) node [midway, right] {\(x_p\)};
+	\draw [-Latex] ( \pende, 0) -- ( \pende, \lowerPulleyHeight) node [midway, right] {\(x_2\)};
 
 	% pulley angle
 	\def \extra {0.5};
