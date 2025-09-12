@@ -42,13 +42,13 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 
 		
 	\item 
-	\begin{minipage}[t][2.3cm]{0.75\textwidth}
+	\begin{minipage}[t][2.4cm]{0.75\textwidth}
 		\textbf{Péndulo de pesas deslizantes y acopladas}\\ 
 		Dos pesas de masa \(m_1\) y \(m_2\) están unidas por una barra rígida inextensible de longitud \(\ell\) y masa despreciable frente a las anteriores.
 		La de \(m_1\) puede deslizar sin rozamiento sobre un eje horizontal y la de \(m_2\) en uno vertical.
-		La barra establece un vínculo entre las respectivas coordenadas que definen sus posiciones, \(x\) e \(y\).
+		La barra establece un vínculo entre las respectivas coordenadas que definen sus posiciones, \(x\) e \(y\), desde la unión \(O\).
 	\end{minipage}
-	\begin{minipage}[c][1cm][t]{0.25\textwidth}
+	\begin{minipage}[c][1.5cm][t]{0.25\textwidth}
 		\input{figs/slidingWeights.tikz}
 		% \hspace{0.5cm}
 		% \includegraphics[width=0.75\textwidth]{fcen1-004}
@@ -70,10 +70,13 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 		Resultado:
 			$\ddot{y} = 
 			\dfrac{- \ell^{2} m_{1} y \dot{y}^{2} + g m_{2} \left(\ell^{2} - y^{2}\right)^{2}}{\ell^{4} m_{2} + \ell^{2} m_{1} y^{2} - 2 \ell^{2} m_{2} y^{2} - m_{1} y^{4} + m_{2} y^{4}}$
-			\qquad
+			% \qquad
 			%$\ddot{\theta} = \frac{\left(\ell m_{1} \cos{\left(\theta \right)} \dot{\theta}^{2} - \ell m_{2} \cos{\left(\theta \right)} \dot{\theta}^{2} - g m_{2}\right) \sin{\left(\theta \right)}}{\ell \left(m_{1} \cos^{2}{\left(\theta \right)} + m_{2} \sin^{2}{\left(\theta \right)}\right)}$
 		%\item Realice las sustituciones que corresponden a una aproximación de pequeñas oscilaciones para el caso \(m_1 = m_2 = m\). ¿La expresión de qué sistema obtiene?
 		% \item (*) ¿Cuál es el período de movimiento de pequeñas oscilaciones para el caso \(m_1 = m_2 = m\)?
+		\item Ahora realice lo mismo pero usando \(\theta\) como coordenada generalizada. Resultado:\\
+		$\ddot{\theta} = \dfrac{\left(\ell m_{1} \cos{\left(\theta \right)} \dot{\theta}^{2} - \ell m_{2} \cos{\left(\theta \right)} \dot{\theta}^{2} - g m_{2}\right) \sin{\left(\theta \right)}}{\ell \left(m_{1} \cos^{2}{\left(\theta \right)} + m_{2} \sin^{2}{\left(\theta \right)}\right)}$
+		\item ¿Con cuál de estas coordenadas las expresiones de energía resultan más ``informativas''?\\
 	\end{enumerate}
 	
 
@@ -98,11 +101,10 @@ Los problemas marcados con (*) tienen alguna dificultad adicional, no dude en co
 		\item Escriba la posición de las partículas con masa en función de las coordenadas generalizas variables que  un sistema de referencia con origen en el centro del aro.
 		\item Describa la función de ligadura y utilícela para expresar las posiciones en función de \(\theta\).
 		Verifique su solución revisando que una variación de \(\theta\) ``hacia su cero'' implique que la pesa ``baja''. 
-		\item Obtenga la ecuación de Euler-Lagrange para la dinámica sin olvidar los momentos involucrados.\\
-		Resultado:
+		\item Obtenga la ecuación de Euler-Lagrange para la dinámica sin olvidar los momentos involucrados. Resultado:
 		\(
-			% notación intuitiva
-			- R_{aro}^{2} m \ddot{\theta} - R_{aro}^{2} m_{aro} \ddot{\theta} - R_{aro}^{2} m_{pesa} \ddot{\theta} - \frac{R_{aro}^{2} m_{polea} \ddot{\theta}}{2} + R_{aro} g m \cos{\left(\theta \right)} - R_{aro} g m_{pesa} = 0
+			- R_{aro}^{2} m \ddot{\theta} - R_{aro}^{2} m_{aro} \ddot{\theta} - R_{aro}^{2} m_{pesa} \ddot{\theta} - \dfrac{R_{aro}^{2} m_{polea} \ddot{\theta}}{2} + R_{aro} g m \cos{\left(\theta \right)} - R_{aro} g m_{pesa} = 0
+			%\dfrac{R_{aro} }{2} \left(- 2 R_{aro} m \ddot{\theta} - 2 R_{aro} m_{aro} \ddot{\theta} - 2 R_{aro} m_{pesa} \ddot{\theta} - R_{aro} m_{polea} \ddot{\theta} + 2 g m \cos{\left(\theta \right)} - 2 g m_{pesa}\right) = 0
 			% R_{aro}^{2} m \ddot{\theta} + R_{aro}^{2} m_{aro} \ddot{\theta} + \dfrac{R_{aro}^{2} m_{polea} \ddot{\theta}}{2} - R_{aro} g m \cos{\left(\theta \right)} + R_{polea}^{2} m_{pesa} \ddot{\theta} + R_{polea} g m_{pesa} = 0
 			% notación geométrica
 			%	R_{aro}^{2} m \ddot{\theta} + R_{aro}^{2} m_{aro} \ddot{\theta} + \dfrac{R_{aro}^{2} m_{polea} \ddot{\theta}}{2} + R_{aro} g m \cos{\left(\theta \right)} + R_{polea}^{2} m_{pesa} \ddot{\theta} - R_{polea} g m_{pesa} = 0
