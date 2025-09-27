@@ -30,8 +30,8 @@
 		\draw[dashed] (O) --  ($(O) + (2 * \radius,0)$);
 		\draw[dashed, rotate around={\rotationAngle:(O)}] (O) --  ($(O) + (2 * \radius,0)$);
 
-	  % Draw theta angle arc
-		\draw[thick, -Latex] ($(O) + (1.75* \radius,0)$) arc[start angle=0, end angle= \rotationAngle, radius= 1.75* \radius] node[midway, right] {$\theta$};
+	  % Draw phi angle arc
+		\draw[thick, -Latex] ($(O) + (1.75* \radius,0)$) arc[start angle=0, end angle= \rotationAngle, radius= 1.75* \radius] node[midway, below left] {$\varphi$};
 
 		% rope	
 		\draw[ultra thick, rotate around={\rotationAngle:(O)}] (O) -- ($(O)+ (\radius, 0)$) node[midway, above left] {$\rho$};
@@ -46,7 +46,7 @@
     \path (O);
     \pgfgetlastxy{\Ox}{\Oy}
     \draw[ultra thick, dashed] (O) -- (\Ox, 0);
-    \draw[ultra thick] (\Ox,0) -- (massPoint) node[midway, right] {$\ell$};
+    \draw[ultra thick] (\Ox,0) -- (massPoint) node[midway, right] {d};
 		\shade [ball color=black!80] (massPoint) circle(0.25) node [] {\color{white} $M$};
 
 \end{tikzpicture}
