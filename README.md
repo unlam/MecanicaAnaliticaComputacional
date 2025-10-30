@@ -300,20 +300,20 @@ Los siguientes libros son recomendados como material complementario sobre los te
 ## Referencia
 
 ### Académica
-- [Temática](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/acad%C3%A9mico/tem%C3%A1tica.ipynb)
-[![Temática](/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/acad%C3%A9mico/tem%C3%A1tica.ipynb)  
-- [Metodología](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/acad%C3%A9mico/metodolog%C3%ADa.ipynb)
-[![Metodología](/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google/github/unlam/MecanicaAnaliticaComputacional/blob/main/acad%C3%A9mico/metodolog%C3%ADa.ipynb)
-- [Programa analítico](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/acad%C3%A9mico/programa.pdf)
-[![Programa analítico](https://img.shields.io/badge/-PDF-red?logo=adobeacrobatreader&logoColor=white)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/acad%C3%A9mico/programa.pdf)
-- [Textos de referencia](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/acad%C3%A9mico/bibliograf%C3%ADa.md)
-- [Cronograma](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/acad%C3%A9mico/cronograma.md)
+- [Temática de la asignatura](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/tem%C3%A1tica.ipynb)
+[![Temática de la asignatura](/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/tem%C3%A1tica.ipynb)  
+- [Metodología de cursada](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/metodolog%C3%ADa.ipynb)
+[![Metodología de cursada](/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/metodolog%C3%ADa.ipynb)
+- [Programa analítico](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/programa.pdf)
+[![Programa analítico](https://img.shields.io/badge/-PDF-red?logo=adobeacrobatreader&logoColor=white)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/referencia/acad%C3%A9mica/programa.pdf)
+- [Textos de referencia](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/bibliograf%C3%ADa.md)
+- [Cronograma](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/cronograma.md)
 
 
 ### Informática
-- [Lo básico para aprovechar Python](https://www.github.com/unlam/MecanicaAnaliticaComputacional/blob/main/acad%C3%A9mico/introducci%C3%B3nPython.ipynb)
-[![Lo básico para aprovechar Python](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/acad%C3%A9mico/introducci%C3%B3nPython.ipynb)
-- [Anotaciones en cuadernos Jupyter: Markdown y LaTeX](https://www.github.com/unlam/MecanicaAnaliticaComputacional/blob/main/acad%C3%A9mico/markdownLaTeX.ipynb)
+- [Lo básico para aprovechar Python](https://www.github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/introducci%C3%B3nPython.ipynb)
+[![Lo básico para aprovechar Python](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/introducci%C3%B3nPython.ipynb)
+- [Anotaciones en cuadernos Jupyter: Markdown y LaTeX](https://www.github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mico/markdownLaTeX.ipynb)
 [![Anotaciones en cuadernos Jupyter: Markdown y LaTeX](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/acad%C3%A9mico/markdownLaTeX.ipynb)
 - [Incluir imágenes en cuadernos Jupyter](https://www.github.com/unlam/MecanicaAnaliticaComputacional/blob/main/acad%C3%A9mico/incluirIm%C3%A1genes.ipynb)
 [![Incluir imágenes en cuadernos Jupyter](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/acad%C3%A9mico/incluirIm%C3%A1genes.ipynb)
