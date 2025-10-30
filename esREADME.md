@@ -4,7 +4,7 @@
 
 Todo el material de enseñanza utilizado en la asignatura [Mecánica Analítica Computacional](https://ingenieria.unlam.edu.ar/preview.php?seccion=3&idArticulo=510) de la carrera de grado en [Ingeniería Mecánica](https://ingenieria.unlam.edu.ar/index.php?seccion=3&idArticulo=371) de la Universidad Nacional de La Matanza está publicado aquí.
 
-[![DIIT-UNLaM](figuresLaTeX/ingenieria_logo_schwarz.png)](https://ingenieria.unlam.edu.ar/)
+[![DIIT-UNLaM](figurasLaTeX/ingenieria_logo_schwarz.png)](https://ingenieria.unlam.edu.ar/)
 [![CC BY-NC-SA](https://upload.wikimedia.org/wikipedia/commons/1/12/Cc-by-nc-sa_icon.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es)
 2025 Víctor A. Bettachini
 
