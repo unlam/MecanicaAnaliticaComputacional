@@ -63,6 +63,7 @@ Si tienes alguna pregunta sobre este curso, no dudes en [abrir una cuestión (is
 ¡Agradecemos los comentarios y sugerencias de la comunidad!
 
 
+
 ## Cronograma
 Los temas del curso están divididos por áreas que pueden abarcar varias semanas.
 En _Carpeta semanal_ se indica cuando se continúa con la misma temática.
@@ -88,10 +89,9 @@ En _Carpeta semanal_ se indica cuando se continúa con la misma temática.
 
 
 
-
-## Enlaces al material
-
-### 01 Cinemática vectorial
+### 01 Análisis vectorial
+- [Cinemática vectorial](01Vectorial/cinemáticaVectorial.ipynb)
+[![Cinemática vectorial](/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/01Vectorial/cinemáticaVectorial.ipynb) |
 
 | Contenido                 | Enlace |
 |---------------------------------|------|
@@ -211,3 +211,60 @@ En _Carpeta semanal_ se indica cuando se continúa con la misma temática.
 | Contenido                 | Enlace |
 |---------------------------------|------|
 | Instrucciones | [![clase_15](/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/15Integrador/integradorRígido.ipynb) |
+
+
+## Bibliografía
+
+### Principal 
+Los fundamentos teóricos empleados en este curso se explican en forma completa en: 
+- Lev Davidovich Landau y E. M. Lifshitz, _Mecánica - Curso de física teórica_ (Reverté, Barcelona, Estado Español, 2.a edición, 1994)
+
+Los siguientes libros son recomendados como material complementario sobre los temas indicados.
+
+### Mecánica vectorial 
+
+- Ferdinand Pierre Beer, E. Russell Johnston, y Elliot R Eisenberg, _Mecánica vectorial para ingenieros -_
+    - _Dinámica_ (McGraw-Hill, México DF, México, 9.a. edición, 2010)
+    - _Estática_ (McGraw-Hill, México DF, México, 9.a edición 2010)
+- W. Moebs et al., [_Física universitaria - Volúmen 1_](https://openstax.org/details/books/f%C3%ADsica-universitaria-volumen-1)
+ (OpenStax, Houston, Estados Unidos de América, 2021)
+- S. Alrasheed, [_Principles of Mechanics_](https://doi.org/10.1007/978-3-030-15195-9) (Springer Cham, Cham, Confederación Suiza, 1.a edición, 2019)
+
+
+### Mecánica analítica y vectorial
+
+- S. M. Targ, _Curso breve de mecánica teórica_ (Mir, Moscú, Unión de Repúblicas Socialistas Soviéticas, 2.a edición, 1976)
+
+
+### Mecánica analítica
+
+- Cornelius Lanczos, _The Variational Principles of Mechanics_ (University of Toronto press, 1952).
+- Douglas Cline, [_Variational Principles in Classical Mechanics_](http://classicalmechanics.lib.rochester.edu/) (University of Rochester River Campus Libraries, Rochester, Estados Unidos de América, 3rd ed., 2021)
+- John Robert Taylor, _Mecánica Clásica_ (Reverté, Barcelona, Estado Español, 1.a. edición, 2018)
+- Jerry B. Marion, _Dinámica clásica de las partículas y sistemas_ (Reverté, Barcelona, Estado Español, 2.a. edición, 1975)
+
+
+## Información auxiliar
+
+### Sobre el curso
+- [Temática](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/acad%C3%A9mico/tem%C3%A1tica.ipynb)
+[![Temática](/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/acad%C3%A9mico/tem%C3%A1tica.ipynb)  
+- [Metodología](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/acad%C3%A9mico/metodolog%C3%ADa.ipynb)
+[![Metodología](/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google/github/unlam/MecanicaAnaliticaComputacional/blob/main/acad%C3%A9mico/metodolog%C3%ADa.ipynb)
+- [Cronograma](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/acad%C3%A9mico/cronograma.md)
+- [Programa analítico](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/acad%C3%A9mico/programa.pdf)
+- [Textos de referencia](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/acad%C3%A9mico/bibliograf%C3%ADa.md)
+
+
+### Python y Jupyter
+- [Lo básico para aprovechar Python](https://www.github.com/unlam/MecanicaAnaliticaComputacional/blob/main/acad%C3%A9mico/introducci%C3%B3nPython.ipynb)
+[![Lo básico para aprovechar Python](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/acad%C3%A9mico/introducci%C3%B3nPython.ipynb)
+- [Anotaciones en cuadernos Jupyter: Markdown y LaTeX](https://www.github.com/unlam/MecanicaAnaliticaComputacional/blob/main/acad%C3%A9mico/markdownLaTeX.ipynb)
+[![Anotaciones en cuadernos Jupyter: Markdown y LaTeX](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/acad%C3%A9mico/markdownLaTeX.ipynb)
+- [Incluir imágenes en cuadernos Jupyter](https://www.github.com/unlam/MecanicaAnaliticaComputacional/blob/main/acad%C3%A9mico/incluirIm%C3%A1genes.ipynb)
+[![Incluir imágenes en cuadernos Jupyter](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/acad%C3%A9mico/incluirIm%C3%A1genes.ipynb)
+- [Biblioteca matplolib para generar gráficos](https://www.github.com/unlam/MecanicaAnaliticaComputacional/blob/main/acad%C3%A9mico/matplotlib.ipynb)
+[![Biblioteca matplolib para generar gráficos](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/acad%C3%A9mico/matplotlib.ipynb)
+- [Otros aspectos del Python](https://www.github.com/unlam/MecanicaAnaliticaComputacional/blob/main/informática/másPython.ipynb)
+[![Otros aspectos del Python](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/informática/másPython.ipynb)
+
