@@ -305,7 +305,7 @@ Los siguientes libros son recomendados como material complementario sobre los te
 - [Metodología](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/acad%C3%A9mico/metodolog%C3%ADa.ipynb)
 [![Metodología](/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google/github/unlam/MecanicaAnaliticaComputacional/blob/main/acad%C3%A9mico/metodolog%C3%ADa.ipynb)
 - [Programa analítico](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/acad%C3%A9mico/programa.pdf)
-[![Programa analítico](/figurasLaTeX/Icon_pdf-20.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/acad%C3%A9mico/programa.pdf)
+[![Programa analítico](https://img.shields.io/badge/-PDF-red?logo=adobeacrobatreader&logoColor=white)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/acad%C3%A9mico/programa.pdf)
 - [Textos de referencia](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/acad%C3%A9mico/bibliograf%C3%ADa.md)
 - [Cronograma](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/acad%C3%A9mico/cronograma.md)
 
