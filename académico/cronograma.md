@@ -11,11 +11,11 @@
 | 02 | 08-28  | Energía         | Coordenadas generalizadas. Energías cinética y potencial gravitatoria. |
 | 03 | 09-04  | EulerLagrange   | Ecuaciones de Euler-Lagrange. |
 | 04 | 09-11* | Ligaduras       | Ligaduras como función de coordenadas. |
-| 05 | 09-18  | Simulación      | Resolución numérica de las ecuaciones de Euler-Lagrange.                                  |
-| 06 | 09-25  | FuerzasLigadura | Fuerzas de ligadura por multiplicadores de Lagrange.                                      |
-| 07 | 10-02  | NoConservativas | Fuerzas no conservativas en el marco de Euler-Lagrange.                                   |
-| 08 | 10-09* | TensorInercia   | Tensor de inercia de arreglos de masas puntales.                                          |
-| 09 | 10-16  | MasaDistribuida | Cuerpos rígidos.                                                                          |
+| 05 | 09-18  | Simulación      | Resolución numérica de las ecuaciones de Euler-Lagrange. |
+| 06 | 09-25  | FuerzasLigadura | Fuerzas de ligadura por multiplicadores de Lagrange. |
+| 07 | 10-02  | NoConservativas | Fuerzas no conservativas en el formalismo de Euler-Lagrange. |
+| 08 | 10-09* | TensorInercia   | Tensor de inercia de arreglos de masas puntales. |
+| 09 | 10-16  | MasaDistribuida | Tensor de inercia de cuerpos rígidos. |
 | 10 | 10-23  | RotaciónEuler   | Ecuaciones de Euler para el cuerpo rígido.                                                |
 | 11 | 10-30  | "               | **Integrador: enunciado**.                                                                |
 | 12 | 11-06  | Vibraciones1GdL | Oscilaciones forzadas de un grado de libertad y en sistemas discretos.                    |
