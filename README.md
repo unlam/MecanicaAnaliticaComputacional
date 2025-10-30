@@ -237,14 +237,14 @@ Se calculará dicho tensor de figuras geométricas simples, para luego avanzar a
 
 
 ### 12 Vibraciones con 1 grado de libertad
-- [Oscilaciones amortiguadas](11Vibraciones1GdL/vibraciones1GdL.ipynb)
-[![Oscilaciones amortiguadas](/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/11Vibraciones1GdL/vibraciones1GdL.ipynb)
+- [Oscilaciones amortiguadas](13Vibraciones1GdL/vibraciones1GdL.ipynb)
+[![Oscilaciones amortiguadas](/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/12Vibraciones1GdL/vibraciones1GdL.ipynb)
 - [Forzado armónico](11Vibraciones1GdL/armónico1GdL.ipynb)
-[![Forzado armónico](/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/11Vibraciones1GdL/armónico1GdL.ipynb)
+[![Forzado armónico](/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/12Vibraciones1GdL/armónico1GdL.ipynb)
 - [Forzado arbitrario](11Vibraciones1GdL/arbitrario1GdL.ipynb)
-[![Forzado arbitrario](/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/11Vibraciones1GdL/arbitrario1GdL.ipynb)
-- [Guía de ejercicios - Vibraciones con 1 grado de libertad](11Vibraciones1GdL/guíaVibraciones1GdL.pdf)
-[![Guía de ejercicios - Vibraciones con 1 grado de libertad](/figurasLaTeX/Icon_pdf-20.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/11Vibraciones1GdL/gu%C3%ADaVibraciones1GdL.pdf)
+[![Forzado arbitrario](/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/12Vibraciones1GdL/arbitrario1GdL.ipynb)
+- [Guía de ejercicios - Vibraciones con 1 grado de libertad](12Vibraciones1GdL/guíaVibraciones1GdL.pdf)
+[![Guía de ejercicios - Vibraciones con 1 grado de libertad](/figurasLaTeX/Icon_pdf-20.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/12Vibraciones1GdL/gu%C3%ADaVibraciones1GdL.pdf)
   - pset12e01
   - pset12e02
   - pset12e03
@@ -252,11 +252,10 @@ Se calculará dicho tensor de figuras geométricas simples, para luego avanzar a
 
 
 ### 13 Vibraciones con múltiples grados de libertad
-- [Oscilaciones con múltiples grados de libertad](12VibracionesNGdL/vibracionesNGdL.ipynb)
-[![Oscilaciones con múltiples grados de libertad](/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/12VibracionesNGdL/vibracionesNGdL.ipynb)
-- [Guía de ejercicios - Vibraciones con múltiples grados de libertad](12Vibraciones
-NGdL/guíaVibracionesNGdL.pdf)
-[![Guía de ejercicios - Vibraciones con múltiples grados de libertad](/figurasLaTeX/Icon_pdf-20.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/12VibracionesNGdL/gu%C3%ADaVibracionesNGdL.pdf)
+- [Oscilaciones con múltiples grados de libertad](13VibracionesNGdL/vibracionesNGdL.ipynb)
+[![Oscilaciones con múltiples grados de libertad](/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/13VibracionesNGdL/vibracionesNGdL.ipynb)
+- [Guía de ejercicios - Vibraciones con múltiples grados de libertad](13VibracionesNGdL/guíaVibracionesNGdL.pdf)
+[![Guía de ejercicios - Vibraciones con múltiples grados de libertad](/figurasLaTeX/Icon_pdf-20.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/13VibracionesNGdL/gu%C3%ADaVibracionesNGdL.pdf)
   - pset13e01
   - pset13e02
 
