@@ -93,7 +93,7 @@ En _Carpeta semanal_ se indica cuando se continúa con la misma temática.
 - [Cinemática vectorial](01Vectorial/cinemáticaVectorial.ipynb)
 [![Cinemática vectorial](/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/01Vectorial/cinemáticaVectorial.ipynb)
 - [Primer guía de ejercicios (pset01) - Cinemática vectorial](01Vectorial/guíaVectorial.pdf)
-[![Primer guía de ejercicios (pset01) - Cinemática vectorial](/figurasLaTeX/Icon_pdf-20.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/01Vectorial/gu%C3%ADaVectorial.pdf)
+[![Primer guía de ejercicios (pset01) - Cinemática vectorial](https://img.shields.io/badge/-PDF-red?logo=adobeacrobatreader&logoColor=white)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/01Vectorial/gu%C3%ADaVectorial.pdf)
   - Entregar ejercicio pset01e01 una hora tras publicarse. 
   - pset01e02 al inicio del próximo encuentro semanal.
   - Aquellos del pset02, al finalizar tal encuentro (iniciarlos durante la semana).
@@ -103,12 +103,13 @@ En _Carpeta semanal_ se indica cuando se continúa con la misma temática.
 
 ### 02 Energía
 - [Resumen sobre principios variacionales](02Energía/apunteLanczos.pdf)
-[![Resumen sobre principios variacionales](/figurasLaTeX/Icon_pdf-20.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/02Energía/apunteLanczos.pdf)
+[![Resumen sobre principios variacionales](https://img.shields.io/badge/-PDF-red?logo=adobeacrobatreader&logoColor=white/figurasLaTeX/Icon_pdf-20.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/02Energía/apunteLanczos.pdf)
 - [Energía cinética de traslación](02Energía/energíaCinéticaTraslación.ipynb)
 [![Energía cinética de traslación](/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/02Energía/energíaCinéticaTraslación.ipynb)
 - [Energía potencial gravitatoria](02Energía/energíaPotencialGravitatoria.ipynb)
 [![Energía potencial gravitatoria](/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/02Energía/energíaPotencialGravitatoria.ipynb)
 - [Guía de ejercicios - Energía](02Energía/guíaEnergía.pdf)
+[![Guía de ejercicios - Energía](https://img.shields.io/badge/-PDF-red?logo=adobeacrobatreader&logoColor=white)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/02Energía/gu%C3%ADaEnergía.pdf)
   - pset02e02
   - pset02e03
   - pset02e04
@@ -120,7 +121,7 @@ En _Carpeta semanal_ se indica cuando se continúa con la misma temática.
 - [Plantilla para Euler-Lagrange](03EulerLagrange/plantilla_eulerLagrange.ipynb)
 [![Plantilla para Euler-Lagrange](/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/03EulerLagrange/plantilla_eulerLagrange.ipynb)
 - [Guía de ejercicios - Euler-Lagrange](03EulerLagrange/guíaEulerLagrange.pdf)
-[![Guía de ejercicios - Euler-Lagrange](/figurasLaTeX/Icon_pdf-20.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/03EulerLagrange/gu%C3%ADaEulerLagrange.pdf)
+[![Guía de ejercicios - Euler-Lagrange](https://img.shields.io/badge/-PDF-red?logo=adobeacrobatreader&logoColor=white)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/03EulerLagrange/gu%C3%ADaEulerLagrange.pdf)
   - pset03e01c
   - pset03e02
   - pset03e03
@@ -139,7 +140,7 @@ En _Carpeta semanal_ se indica cuando se continúa con la misma temática.
 - [Resolución de sistemas lineales](04Ligaduras/resoluciónSistemasLineales.ipynb)
 [![Resolución de sistemas lineales](/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/04Ligaduras/resoluciónSistemasLineales.ipynb)
 - [Guía de ejercicios - Ligaduras](04Ligaduras/guíaLigaduras.pdf)
-[![Guía de ejercicios - Ligaduras](/figurasLaTeX/Icon_pdf-20.svg)](http://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/04Ligaduras/gu%C3%ADaLigaduras.pdf)
+[![Guía de ejercicios - Ligaduras](https://img.shields.io/badge/-PDF-red?logo=adobeacrobatreader&logoColor=white)](http://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/04Ligaduras/gu%C3%ADaLigaduras.pdf)
   - pset04e02
   - pset04e03
   - pset04e04
@@ -152,7 +153,7 @@ Para visualizar la dinámica de los sistemas hasta aquí modelados, se resuelven
 - [Péndulo con soporte libre en la dirección horizontal: simulación numérica](05Simulación/pénduloLibre_Simulación_Resuelto.ipynb)
 [![Péndulo con soporte libre en la dirección horizontal: simulación numérica](/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/05Simulación/pénduloLibre_Simulación_Resuelto.ipynb)
 - [Guía de ejercicios - Simulación](05Simulación/guíaSimulación.pdf)
-[![Guía de ejercicios - Simulación](/figurasLaTeX/Icon_pdf-20.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/05Simulación/gu%C3%ADaSimulación.pdf)
+[![Guía de ejercicios - Simulación](https://img.shields.io/badge/-PDF-red?logo=adobeacrobatreader&logoColor=white)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/05Simulación/gu%C3%ADaSimulación.pdf)
   - pset05e02a
   - pset05e02c
   - pset05e03
@@ -174,7 +175,7 @@ Comencemos a calcular estos torques y fuerzas.
 - [Sistemas no holónomos](06FuerzasLigadura/sistemasNoHolónomos.ipynb)
 [![Sistemas no holónomos](/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/06FuerzasLigadura/sistemasNoHolónomos.ipynb)
 - [Guía de ejercicios - Fuerzas de ligadura](06FuerzasLigadura/guíaFuerzasLigadura.pdf)
-[![Guía de ejercicios - Fuerzas de ligadura](/figurasLaTeX/Icon_pdf-20.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/06FuerzasLigadura/gu%C3%ADaFuerzasLigadura.pdf)
+[![Guía de ejercicios - Fuerzas de ligadura](https://img.shields.io/badge/-PDF-red?logo=adobeacrobatreader&logoColor=white)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/06FuerzasLigadura/gu%C3%ADaFuerzasLigadura.pdf)
   - pset06e03
   - pset06e04
   - pset06e05
@@ -184,7 +185,7 @@ Comencemos a calcular estos torques y fuerzas.
 - [Fuerzas no conservativas y Euler-Lagrange](07NoConservativas/noConservativas.ipynb)
 [![Fuerzas no conservativas y Euler-Lagrange](/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/07NoConservativas/noConservativas.ipynb)
 - [Guía de ejercicios - Fuerzas no conservativas](07NoConservativas/guíaNoConservativas.pdf)
-[![Guía de ejercicios - Fuerzas no conservativas](/figurasLaTeX/Icon_pdf-20.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/07NoConservativas/gu%C3%ADaNoConservativas.pdf)
+[![Guía de ejercicios - Fuerzas no conservativas](https://img.shields.io/badge/-PDF-red?logo=adobeacrobatreader&logoColor=white)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/07NoConservativas/gu%C3%ADaNoConservativas.pdf)
   - pset07e02
   - pset07e03
     - [Cilindros solidarios](07NoConservativas/cilíndrosSolidarios_noConservativas_ayuda.ipynb)
@@ -205,7 +206,7 @@ Se calculará dicho tensor de figuras geométricas simples, para luego avanzar a
 - [Monóxido de carbono](08TensorInercia/monóxidoCarbono_tensorInercia.ipynb)
 [![Monóxido de carbono](/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/08TensorInercia/monóxidoCarbono_tensorInercia.ipynb)
 - [Guía de ejercicios - Tensor de inercia](08TensorInercia/guíaTensorInercia.pdf)
-[![Guía de ejercicios - Tensor de inercia](/figurasLaTeX/Icon_pdf-20.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/08TensorInercia/gu%C3%ADaTensorInercia.pdf)
+[![Guía de ejercicios - Tensor de inercia](https://img.shields.io/badge/-PDF-red?logo=adobeacrobatreader&logoColor=white)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/08TensorInercia/gu%C3%ADaTensorInercia.pdf)
   - pset08e02
   - pset08e04
   - pset08e05
@@ -217,7 +218,7 @@ Se calculará dicho tensor de figuras geométricas simples, para luego avanzar a
 - [Tensor de inercia de un cubo](09MasaDistribuida/cubo_tensorInercia.ipynb)
 [![Tensor de inercia de un cubo](/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/09MasaDistribuida/cubo_tensorInercia.ipynb)
 - [Guía de ejercicios - Masa distribuida](09MasaDistribuida/guíaDistribuciónMasa.pdf)
-[![Guía de ejercicios - Masa distribuida](/figurasLaTeX/Icon_pdf-20.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/09MasaDistribuida/gu%C3%ADaDistribuci%C3%B3nMasa.pdf)
+[![Guía de ejercicios - Masa distribuida](https://img.shields.io/badge/-PDF-red?logo=adobeacrobatreader&logoColor=white)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/09MasaDistribuida/gu%C3%ADaDistribuci%C3%B3nMasa.pdf)
   - pset09e01
   - pset09e02
   - pset09e03
@@ -230,7 +231,7 @@ Se calculará dicho tensor de figuras geométricas simples, para luego avanzar a
 - [Engranaje desalineado](10RotaciónEuler/engranajeDesalineado.ipynb)
 [![Engranaje desalineado](/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/10RotaciónEuler/engranajeDesalineado.ipynb)
 - [Guía de ejercicios - Ecuaciones de Euler](10RotaciónEuler/guíaRotacionEuler.pdf)
-[![Guía de ejercicios - Ecuaciones de Euler](/figurasLaTeX/Icon_pdf-20.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/10RotaciónEuler/gu%C3%ADaRotacionEuler.pdf)
+[![Guía de ejercicios - Ecuaciones de Euler](https://img.shields.io/badge/-PDF-red?logo=adobeacrobatreader&logoColor=white)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/10RotaciónEuler/gu%C3%ADaRotacionEuler.pdf)
   - pset10e02
   - pset10e03
   - pset10e05
@@ -244,7 +245,7 @@ Se calculará dicho tensor de figuras geométricas simples, para luego avanzar a
 - [Forzado arbitrario](11Vibraciones1GdL/arbitrario1GdL.ipynb)
 [![Forzado arbitrario](/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/12Vibraciones1GdL/arbitrario1GdL.ipynb)
 - [Guía de ejercicios - Vibraciones con 1 grado de libertad](12Vibraciones1GdL/guíaVibraciones1GdL.pdf)
-[![Guía de ejercicios - Vibraciones con 1 grado de libertad](/figurasLaTeX/Icon_pdf-20.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/12Vibraciones1GdL/gu%C3%ADaVibraciones1GdL.pdf)
+[![Guía de ejercicios - Vibraciones con 1 grado de libertad](https://img.shields.io/badge/-PDF-red?logo=adobeacrobatreader&logoColor=white)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/12Vibraciones1GdL/gu%C3%ADaVibraciones1GdL.pdf)
   - pset12e01
   - pset12e02
   - pset12e03
@@ -255,7 +256,7 @@ Se calculará dicho tensor de figuras geométricas simples, para luego avanzar a
 - [Oscilaciones con múltiples grados de libertad](13VibracionesNGdL/vibracionesNGdL.ipynb)
 [![Oscilaciones con múltiples grados de libertad](/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/13VibracionesNGdL/vibracionesNGdL.ipynb)
 - [Guía de ejercicios - Vibraciones con múltiples grados de libertad](13VibracionesNGdL/guíaVibracionesNGdL.pdf)
-[![Guía de ejercicios - Vibraciones con múltiples grados de libertad](/figurasLaTeX/Icon_pdf-20.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/13VibracionesNGdL/gu%C3%ADaVibracionesNGdL.pdf)
+[![Guía de ejercicios - Vibraciones con múltiples grados de libertad](https://img.shields.io/badge/-PDF-red?logo=adobeacrobatreader&logoColor=white)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/13VibracionesNGdL/gu%C3%ADaVibracionesNGdL.pdf)
   - pset13e01
   - pset13e02
 
