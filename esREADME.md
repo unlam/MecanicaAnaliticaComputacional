@@ -27,15 +27,15 @@ Ha sido diseñado para estudiantes de ingeniería con poca o ninguna experiencia
 Los estudiantes aprenden a modelar dispositivos mecánicos como cuerpos rígidos, y a través de las ecuaciones de Euler-Lagrange analizar su dinámica y esfuerzos.
 
 
-### Materiales de aprendizaje
+### Material de aprendizaje
 
 Los nuevos temas se presentan en uno o más **[cuadernos Jupyter](https://jupyter.org/)** que combinan:
 - Teoría y conceptos de física.
 - Herramientas computacionales basadas en **[Python](https://www.python.org/)**.
-- Ejemplos prácticos que ilustran el código que realiza todas los cálculos analíticos y numéricos requeridos.
+- Ejemplos prácticos que ilustran el código que realiza todos los cálculos analíticos y numéricos requeridos.
 
-Se provee un **conjunto de problemas en PDF** por tema.
-Cada uno de sus ejercicios puede resolverse realizando modificaciones incrementales en el código de los ejemplos proporcionados posibilitando cambiar el foco del esfuerzo del estudiante de resolver expresiones matemáticas complejas hacia el modelado físico y la interpretación de los resultados.
+Para cada tema se presenta un PDF con un **conjunto de problemas**.
+Sus ejercicios pueden resolverse realizando modificaciones incrementales en el código de los ejemplos proporcionados. De esta forma, el foco del esfuerzo del estudiante se corre de resolver expresiones matemáticas complejas hacia el modelado físico y la interpretación de los resultados.
 
 
 ### Enfoque didáctico
@@ -64,27 +64,27 @@ Si tienes alguna pregunta sobre este curso, no dudes en [abrir una cuestión (is
 
 
 ## Cronograma
-Los temas del curso están divididos por áreas.
-Algunos de ellos se tratan a lo largo de más de una semana, por lo que un descriptor adicional, _Carpeta_, indica dónde encontrar el material de cada semana.
+Los temas del curso están divididos por áreas que pueden abarcar varias semanas.
+En _Carpeta semanal_ se indica cuando se continúa con la misma temática.
 
-| Sem | Área               | Carpeta          | Temática |
-|:----|:------------------:|:----------------:|:-------|
-| 01 | Mecánica Newtoniana | 01Vectorial       | Course presentation. Vector calculus using SymPy. |  
-| 02 | Mecánica analítica  | 02Energía         | Degrees of freedom. Generalized coordinates. Kinetic and potential energies. |
-| 03 | "                   | 03EulerLagrange   | Euler-Lagrange equations. |
-| 04 | "                   | 04Ligaduras       | Constraints as functions of coordinates. |
-| 05 | Numérico            | 05Simulación      | Numerical resolution of Euler-Lagrange equations. |
-| 06 | Fuerzas             | 06FuerzasLigadura | Constraint reactions by Lagrange multipliers. |
-| 07 | "                   | 07NoConservativas | Nonconservative forces in the Euler-Lagrange formalism. |
-| 08 | Cuerpo rígido       | 08InertiaTensor   | Inertia tensor of point masses systems. Steiner theorem. |
-| 09 | "                   | 09DistributedMass | Inertia tensor of masses distributions. |
-| 10 | "                   | 10EulerRotation   | Euler equations for the rigid body. |
-| 11 | "                   | "                 | **Final project: statement of the problem** |
-| 12 | Vibraciones         | 11Viblaciones1GdL | Forced oscillations in single degree of freedom systems. |
-| 13 | "                   | 12VibracionesNGdL | Forced oscillations in multiple degrees of freedom systems. |
-| 14 | "                   | "                 | " |
-| 15 | Evaluación          | 15Integrador      | **Project live presentation** |
-| 16 | "                   | "                 | **2.nd presentation chance** |
+| Carpeta semanal   | Área                | Temática |
+|:------------------|:-------------------:|:----------------|
+| 01Vectorial       | Mecánica Newtoniana | Metodología del curso. Análisis vectorial empleando SymPy. |
+| 02Energía         | Mecánica analítica  | Coordenadas generalizadas. Energías cinética y potencial. |
+| 03EulerLagrange   | "                   | Ecuaciones de Euler-Lagrange. |
+| 04Ligaduras       | "                   | Ligaduras como función de coordenadas. |
+| 05Simulación      | Numérico            | Resolución numérica de ecuaciones de Euler-Lagrange. |
+| 06FuerzaLigadura  | Fuerzas             | Fuerza de ligadura por multiplicadores de Lagrange. |
+| 07NoConservativas | "                   | Fuerzas no conservativas en el formalismo de Euler-Lagrange. |
+| 08TensorInercia   | Cuerpo rígido       | Tensor de inercia de arreglos de masas puntuales. |
+| 09MasaDistribuida | "                   | Tensor de inercia de cuerpos rígidos. |
+| 10RotaciónEuler   | "                   | Ecuaciones de Euler para el cuerpo rígido. |
+| 11 (continúa 10)  | "                   | **Proyecto final: enunciado del problema** |
+| 12Vibraciones1GdL | Vibraciones         | Oscilaciones forzadas en sistemas de un grado de libertad. |
+| 13VibracionesNGdL | "                   | Modos normales de oscilación en sistemas de múltiples grados de libertad. |
+| 14 (continúa 13)  | "                   | " |
+| 15Integrador      | Evaluación          | **Defensa del proyecto final** |
+| 16 (continúa 15)  | "                   | **2.da oportunidad de defensa** |
 
 
 

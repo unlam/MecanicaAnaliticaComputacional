@@ -7,10 +7,10 @@
 
 | S  | Fecha  | Título          | Temario                                                                                   |
 |:--:|:-------|:---------------:|:------------------------------------------------------------------------------------------|
-| 01 | 08-21* | Vectorial       | Metodología del curso. Análisis matemático simbólico computacional.                       |  
-| 02 | 08-28  | Energía         | Coordenadas generalizadas. Energía cinética y potencial gravitatoria.                     |
-| 03 | 09-04  | EulerLagrange   | Ecuaciones de Euler-Lagrange. Energía potencial elástica.                                 |
-| 04 | 09-11* | Ligaduras       | Ligaduras como función de coordenadas.                                                    |
+| 01 | 08-21* | Vectorial       | Metodología del curso. Análisis vectorial empleando SymPy. |  
+| 02 | 08-28  | Energía         | Coordenadas generalizadas. Energías cinética y potencial gravitatoria. |
+| 03 | 09-04  | EulerLagrange   | Ecuaciones de Euler-Lagrange. |
+| 04 | 09-11* | Ligaduras       | Ligaduras como función de coordenadas. |
 | 05 | 09-18  | Simulación      | Resolución numérica de las ecuaciones de Euler-Lagrange.                                  |
 | 06 | 09-25  | FuerzasLigadura | Fuerzas de ligadura por multiplicadores de Lagrange.                                      |
 | 07 | 10-02  | NoConservativas | Fuerzas no conservativas en el marco de Euler-Lagrange.                                   |
