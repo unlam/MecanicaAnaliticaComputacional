@@ -99,8 +99,8 @@ En _Carpeta semanal_ se indica cuando se continúa con la misma temática.
   - Entregar ejercicio pset01e01 una hora tras publicarse. 
   - pset01e02 al inicio del próximo encuentro semanal.
   - Aquellos del pset02, al finalizar tal encuentro (iniciarlos durante la semana).
-  - [Como realizar la entrega de ejercicios](01Vectorial/entregaEjercicios.ipynb)
-[![Entrega de ejercicios](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/01Vectorial/entregaEjercicios.ipynb)
+  - [Como realizar la entrega de ejercicios](referencia/académica/entregaEjercicios.ipynb)
+[![Entrega de ejercicios](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/académica/entregaEjercicios.ipynb)
 
 
 ### 02 Energía
