@@ -1,5 +1,5 @@
 # Cronograma | Mecánica Analítica Computacional (3024)  
-![UNLaM | DIIT](../figurasLaTeX/ambos.png "UNLaM | DIIT")  
+![UNLaM | DIIT](../figurasLaTeX/ingenieria_logo_schwarz.png "UNLaM | DIIT")  
 <!--
 ![DIIT - UNLaM](https://raw.githubusercontent.com/bettachini/MecanicaAnaliticaComputacional/master/figurasLaTeX/ambos.png)   
 -->

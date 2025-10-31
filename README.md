@@ -60,8 +60,8 @@ Los cuadernos de este repositorio importan explícitamente las siguientes biblio
   - [Matplotlib](https://matplotlib.org/) 3.10.6
 
 
-## Ponte en contacto
-Si tienes alguna pregunta sobre este curso, no dudes en [abrir una cuestión (issue)](https://github.com/unlam/MecanicaAnaliticaComputacional/issues) en su repositorio de GitHub.
+## Contacto
+De tener alguna pregunta sobre este curso, no dudar en [abrir una cuestión (issue)](https://github.com/unlam/MecanicaAnaliticaComputacional/issues) en este repositorio.
 ¡Agradecemos los comentarios y sugerencias de la comunidad!
 
 
@@ -96,16 +96,14 @@ En _Carpeta semanal_ se indica cuando se continúa con la misma temática.
 [![Cinemática vectorial](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/01Vectorial/cinemáticaVectorial.ipynb)
 - [Primer guía de ejercicios (pset01) - Cinemática vectorial](01Vectorial/guíaVectorial.pdf)
 [![Primer guía de ejercicios (pset01) - Cinemática vectorial](https://img.shields.io/badge/-PDF-red?logo=adobeacrobatreader&logoColor=white)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/01Vectorial/gu%C3%ADaVectorial.pdf)
-  - Entregar ejercicio pset01e01 una hora tras publicarse. 
-  - pset01e02 al inicio del próximo encuentro semanal.
-  - Aquellos del pset02, al finalizar tal encuentro (iniciarlos durante la semana).
+  - Hacer entrega del primer ejercicio, pset01e01, dentro del lapso de una hora. 
+  - El segundo ejercicio, pset01e02, antes del inicio del próximo encuentro semanal.
+  - Aquellos del pset02, antes del fin de tal encuentro (iniciarlos durante la semana).
   - [Como realizar la entrega de ejercicios](referencia/académica/entregaEjercicios.ipynb)
 [![Entrega de ejercicios](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/entregaEjercicios.ipynb)
 
 
 ### 02 Energía
-- [Resumen sobre principios variacionales](02Energía/apunteLanczos.pdf)
-[![Resumen sobre principios variacionales](https://img.shields.io/badge/-PDF-red?logo=adobeacrobatreader&logoColor=white/referencia/figurasLaTeX/Icon_pdf-20.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/02Energía/apunteLanczos.pdf)
 - [Energía cinética de traslación](02Energía/energíaCinéticaTraslación.ipynb)
 [![Energía cinética de traslación](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/02Energía/energíaCinéticaTraslación.ipynb)
 - [Energía potencial gravitatoria](02Energía/energíaPotencialGravitatoria.ipynb)
@@ -120,10 +118,13 @@ En _Carpeta semanal_ se indica cuando se continúa con la misma temática.
 ### 03 Ecuaciones de Euler-Lagrange
 - [Péndulos](03EulerLagrange/péndulos_eulerLagrange.ipynb)
 [![Péndulos](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/03EulerLagrange/péndulos_eulerLagrange.ipynb)
-- [Plantilla para Euler-Lagrange](03EulerLagrange/plantilla_eulerLagrange.ipynb)
-[![Plantilla para Euler-Lagrange](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/03EulerLagrange/plantilla_eulerLagrange.ipynb)
+  - [_El extraño principio de física que da forma a la realidad_](https://youtu.be/WQNiupNh0js) (video en Youtube)
+  - [_Lo esencial de Los principios variacionales de la mecánica de Cornelio Lanczos_](referencia/apuntes/apunteLanczos.pdf)
+  [![_Lo esencial de Los principios variacionales de la mecánica de Cornelio Lanczos_](https://img.shields.io/badge/-PDF-red?logo=adobeacrobatreader&logoColor=white/referencia/figurasLaTeX/Icon_pdf-20.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/referencia/apuntes/apunteLanczos.pdf)
 - [Guía de ejercicios - Euler-Lagrange](03EulerLagrange/guíaEulerLagrange.pdf)
 [![Guía de ejercicios - Euler-Lagrange](https://img.shields.io/badge/-PDF-red?logo=adobeacrobatreader&logoColor=white)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/03EulerLagrange/gu%C3%ADaEulerLagrange.pdf)
+  - [Plantilla de funciones](03EulerLagrange/plantilla_eulerLagrange.ipynb)
+  [![Plantilla de funciones](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/03EulerLagrange/plantilla_eulerLagrange.ipynb)
   - pset03e01c
   - pset03e02
   - pset03e03
@@ -294,6 +295,8 @@ Los siguientes libros son recomendados como material complementario sobre los te
 ### Mecánica analítica
 
 - Cornelius Lanczos, _The Variational Principles of Mechanics_ (University of Toronto press, 1952).
+  - Sus temáticas más relevantes para este curso se resumen en:  
+  V. A. Bettachini, [_Lo esencial de Los principios variacionales de la mecánica de Cornelio Lanczos_](referencia/apuntes/apunteLanczos.pdf) (2025)
 - Douglas Cline, [_Variational Principles in Classical Mechanics_](http://classicalmechanics.lib.rochester.edu/) (University of Rochester River Campus Libraries, Rochester, Estados Unidos de América, 3rd ed., 2021)
 - John Robert Taylor, _Mecánica Clásica_ (Reverté, Barcelona, Estado Español, 1.a. edición, 2018)
 - Jerry B. Marion, _Dinámica clásica de las partículas y sistemas_ (Reverté, Barcelona, Estado Español, 2.a. edición, 1975)
