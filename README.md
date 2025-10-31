@@ -119,12 +119,13 @@ En _Carpeta semanal_ se indica cuando se continúa con la misma temática.
 - [Péndulos](03EulerLagrange/péndulos_eulerLagrange.ipynb)
 [![Péndulos](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/03EulerLagrange/péndulos_eulerLagrange.ipynb)
   - [_El extraño principio de física que da forma a la realidad_](https://youtu.be/WQNiupNh0js) (video en Youtube)
-  - [_Lo esencial de Los principios variacionales de la mecánica de Cornelio Lanczos_](referencia/apuntes/apunteLanczos.pdf)
-  [![_Lo esencial de Los principios variacionales de la mecánica de Cornelio Lanczos_](https://img.shields.io/badge/-PDF-red?logo=adobeacrobatreader&logoColor=white/referencia/figurasLaTeX/Icon_pdf-20.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/referencia/apuntes/apunteLanczos.pdf)
+  - [_Lo esencial de "Los principios variacionales de la mecánica" de Lanczos_](referencia/apuntes/apunteLanczos.pdf)
+  [![_Lo esencial de "Los principios variacionales de la mecánica" de Lanczos_](https://img.shields.io/badge/-PDF-red?logo=adobeacrobatreader&logoColor=white/referencia/figurasLaTeX/Icon_pdf-20.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/referencia/apuntes/apunteLanczos.pdf)
 - [Guía de ejercicios - Euler-Lagrange](03EulerLagrange/guíaEulerLagrange.pdf)
 [![Guía de ejercicios - Euler-Lagrange](https://img.shields.io/badge/-PDF-red?logo=adobeacrobatreader&logoColor=white)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/03EulerLagrange/gu%C3%ADaEulerLagrange.pdf)
   - [Plantilla de funciones](03EulerLagrange/plantilla_eulerLagrange.ipynb)
   [![Plantilla de funciones](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/03EulerLagrange/plantilla_eulerLagrange.ipynb)
+    - [Cuaderno plantilla Euler-Lagrange](https://ingunlamedu.sharepoint.com/:v:/r/sites/22sMecAnComputacional/Documentos%20compartidos/03EulerLagrange/funciones.mp4?csf=1&web=1&e=3CiZai&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) (video explicativo)
   - pset03e01c
   - pset03e02
   - pset03e03
