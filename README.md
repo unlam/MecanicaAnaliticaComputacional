@@ -237,15 +237,15 @@ Se calculará dicho tensor de figuras geométricas simples, para luego avanzar a
   - pset10e05
 
 
-### 12 Vibraciones con 1 grado de libertad
+### 12 Vibraciones con un grado de libertad
 - [Oscilaciones amortiguadas](13Vibraciones1GdL/vibraciones1GdL.ipynb)
 [![Oscilaciones amortiguadas](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/12Vibraciones1GdL/vibraciones1GdL.ipynb)
 - [Forzado armónico](11Vibraciones1GdL/armónico1GdL.ipynb)
 [![Forzado armónico](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/12Vibraciones1GdL/armónico1GdL.ipynb)
 - [Forzado arbitrario](11Vibraciones1GdL/arbitrario1GdL.ipynb)
 [![Forzado arbitrario](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/12Vibraciones1GdL/arbitrario1GdL.ipynb)
-- [Guía de ejercicios - Vibraciones con 1 grado de libertad](12Vibraciones1GdL/guíaVibraciones1GdL.pdf)
-[![Guía de ejercicios - Vibraciones con 1 grado de libertad](https://img.shields.io/badge/-PDF-red?logo=adobeacrobatreader&logoColor=white)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/12Vibraciones1GdL/gu%C3%ADaVibraciones1GdL.pdf)
+- [Guía de ejercicios - Vibraciones con un grado de libertad](12Vibraciones1GdL/guíaVibraciones1GdL.pdf)
+[![Guía de ejercicios - Vibraciones con un grado de libertad](https://img.shields.io/badge/-PDF-red?logo=adobeacrobatreader&logoColor=white)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/12Vibraciones1GdL/gu%C3%ADaVibraciones1GdL.pdf)
   - pset12e01
   - pset12e02
   - pset12e03
