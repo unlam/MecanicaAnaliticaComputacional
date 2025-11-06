@@ -1,1 +1,2 @@
 {"rule":"SE_CREO2","sentence":"^\\QFunción trabajo | Fuerzas mono y poligénicas.\\E$"}
+{"rule":"CUAL_CON_TILDE","sentence":"^\\QDebe precisarse entonces cual es \\E(?:Dummy|Ina|Jimmy-|Dummy-|Maniquí-|Maniquíes-|Dummy\\+|Dummy's\\+)[0-9]+\\Q cuando hay rotación.\\E$"}
