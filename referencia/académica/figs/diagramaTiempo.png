@@ -7,7 +7,7 @@
    width="878.65997"
    height="518.20172"
    viewBox="0 0 878.65995 518.20172"
-   sodipodi:docname="diagramaTiempo.svg"
+   sodipodi:docname="diagramaTiempo.png"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xml:space="preserve"
    inkscape:export-filename="diagramaTiempo2.png"
@@ -45,7 +45,7 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="0.96246554"
-     inkscape:cx="275.33453"
+     inkscape:cx="356.37639"
      inkscape:cy="186.50018"
      inkscape:window-width="1920"
      inkscape:window-height="1060"
@@ -121,9 +121,9 @@
        transform="rotate(-90,611.89419,-253.7118)"><tspan
          x="-53.826743"
          y="0"
-         id="tspan423"><tspan
+         id="tspan2926"><tspan
            style="font-weight:bold;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle"
-           id="tspan421">Práctica</tspan></tspan></text><image
+           id="tspan2924">Práctica</tspan></tspan></text><image
        width="225.06799"
        height="105.429"
        preserveAspectRatio="none"
@@ -207,9 +207,9 @@
        transform="rotate(-90,643.38852,-286.13947)"><tspan
          x="-41.093395"
          y="0"
-         id="tspan427"><tspan
+         id="tspan2930"><tspan
            style="font-weight:bold;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle"
-           id="tspan425">Teoría</tspan></tspan></text><text
+           id="tspan2928">Teoría</tspan></tspan></text><text
        xml:space="preserve"
        style="font-size:26.6667px;line-height:1.25;font-family:serif;-inkscape-font-specification:serif;display:inline"
        x="995.59497"
@@ -241,9 +241,9 @@
        transform="rotate(-90,576.76798,-19.147629)"><tspan
          x="-53.826743"
          y="0"
-         id="tspan431"><tspan
+         id="tspan2934"><tspan
            style="font-weight:bold;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle"
-           id="tspan429">Práctica</tspan></tspan></text><text
+           id="tspan2932">Práctica</tspan></tspan></text><text
        xml:space="preserve"
        style="font-size:26.6667px;line-height:1.25;font-family:serif;-inkscape-font-specification:serif;display:inline"
        x="418.09491"
@@ -275,9 +275,9 @@
        transform="rotate(-90,608.26231,-51.575299)"><tspan
          x="-41.093395"
          y="0"
-         id="tspan435"><tspan
+         id="tspan2938"><tspan
            style="font-weight:bold;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle"
-           id="tspan433">Teoría</tspan></tspan></text><text
+           id="tspan2936">Teoría</tspan></tspan></text><text
        xml:space="preserve"
        style="font-size:26.6667px;line-height:1.25;font-family:serif;-inkscape-font-specification:serif;display:inline"
        x="725.9046"
@@ -291,7 +291,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">Práctica</tspan></text><g
        id="g11451-5"
        style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-       transform="translate(360)"><path
+       transform="translate(274)"><path
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:18;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
          d="m 636.27541,402.86294 -110.6345,93.71007"
          id="path5031-9"
