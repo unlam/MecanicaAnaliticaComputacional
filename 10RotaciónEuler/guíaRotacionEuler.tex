@@ -34,7 +34,17 @@
 		\includegraphics[width=\textwidth]{hibb_21-4}
 		% \includegraphics[width=\textwidth]{hibb21_4}
 	\end{minipage}
+	Resultado:
+	\(
+		\left\{ A_{X} : 0, \  A_{Y} : \frac{I_{y} \omega^{2} \sin{\left(\theta \right)} \cos{\left(\theta \right)}}{d_{GA} + d_{GB}} - \frac{I_{z} \omega^{2} \sin{\left(\theta \right)} \cos{\left(\theta \right)}}{d_{GA} + d_{GB}} + \frac{d_{GB} g m}{d_{GA} + d_{GB}}, \  A_{Z} : 0\right\}
+	\)
 
+	\(
+		\left\{ B_{X} : 0, \  B_{Y} : - \frac{I_{y} \omega^{2} \sin{\left(\theta \right)} \cos{\left(\theta \right)}}{d_{GA} + d_{GB}} + \frac{I_{z} \omega^{2} \sin{\left(\theta \right)} \cos{\left(\theta \right)}}{d_{GA} + d_{GB}} + \frac{d_{GA} g m}{d_{GA} + d_{GB}}\right\}
+	\)
+	\(
+	\left\{ A_{X} : 0, \  A_{Y} : 71.6, \  A_{Z} : 0, \  B_{X} : 0, \  B_{Y} : 26.5\right\}
+	\)
 
 	\item 
 	\begin{minipage}[t][4.6cm]{0.55\textwidth}
@@ -76,6 +86,11 @@
 		La barra delgada que se extiende desde A hasta B tiene una masa \(m\) y está conectada al soporte por medio de un pasador en A.
 		El soporte está rígidamente montado en la flecha.
 		Determine la velocidad angular constante requerida \(\omega\) de la flecha, para que la barra forme un ángulo \(\theta\) con la vertical.
+
+		Resultado: \(
+			\omega = \sqrt{\frac{3 g }{L \cos(\theta)}}
+			% \omega = \sqrt{\frac{3 g \cos(\theta)}{L \sin^2(\theta)}}
+		\)
 	\end{minipage}
 	\begin{minipage}[c][3cm][t]{0.2\textwidth}
 		\includegraphics[width=\textwidth]{hibb_21-45}
@@ -131,14 +146,23 @@
 	\end{minipage}
 	Tanto al incluir explícitamente una aceleración centrípeta en las ecuaciones de la segunda ley de Newton como al considerar la fuerza ficticia centrífuga, se obtiene el mismo resultado físico.
 	No obstante, es fundamental recordar que estos artificios matemáticos son consecuencia de trabajar en un sistema de referencia no inercial.
-	\begin{tasks}
-		\task Convierta los datos en unidades imperiales (pies, libras) en unidades del Sistema Internacional.
-		\task Determine las reacciones que deben proveer los cojinetes.\\
+	
+	No olvide incluir en las ecuaciones de la segunda ley de Newton la aceleración tangencial del centro de masa \(G\) del cilindro en función de \(\alpha_c\).
+	\begin{enumerate}
+		\item Determine las reacciones que deben proveer los cojinetes.\\
 		Resultado: \(
-			\left[\begin{matrix}A_{y}\\A_{z}\\B_{x}\\B_{y}\\B_{z}\end{matrix}\right] = \left[\begin{matrix}-7.52\\33.4\\268.0\\-17.4\\33.4\end{matrix}\right]
+			\left\{ A_{y} : \frac{\alpha_{c} m \left(3 R^{2} + d_{AG}^{2} - 10 d_{AG} d_{GB} + d_{GB}^{2}\right)}{12 \left(d_{AG} + d_{GB}\right)}, \  A_{z} : \frac{m \left(3 R^{2} \alpha_{c} \omega t - 13 \alpha_{c} d_{AG}^{2} \omega t - 2 \alpha_{c} d_{AG} d_{GB} \omega t - \alpha_{c} d_{GB}^{2} \omega t + 12 d_{GB} g\right)}{12 \left(d_{AG} + d_{GB}\right)}\right\}
 		\)
-		en unidades del SI.
-	\end{tasks}
+		\(
+			\left\{ B_{x} : \frac{\alpha_{c} m}{d_{AG}}, \  B_{y} : \frac{\alpha_{c} m \left(- 3 R^{2} - 13 d_{AG}^{2} - 2 d_{AG} d_{GB} - d_{GB}^{2}\right)}{12 \left(d_{AG} + d_{GB}\right)}, \  B_{z} : \frac{m \left(- 3 R^{2} \alpha_{c} \omega t + 13 \alpha_{c} d_{AG}^{2} \omega t + 2 \alpha_{c} d_{AG} d_{GB} \omega t + \alpha_{c} d_{GB}^{2} \omega t + 12 d_{AG} g\right)}{12 \left(d_{AG} + d_{GB}\right)}\right\}
+		\)
+		\item Convierta los datos en unidades imperiales (pies, libras) en unidades del Sistema Internacional para obtener las reacciones en Newton.
+		
+		Resultado: \(
+			\left\{ A_{y} : -7.52, \  A_{z} : 33.4 - 63.3 t, \  B_{x} : 268.0, \  B_{y} : -17.4, \  B_{z} : 63.3 t + 33.4\right\}
+			% \left[\begin{matrix}A_{y}\\A_{z}\\B_{x}\\B_{y}\\B_{z}\end{matrix}\right] = \left[\begin{matrix}-7.52\\33.4\\268.0\\-17.4\\33.4\end{matrix}\right]
+		\)
+	\end{enumerate}
 
 
 	\item 
