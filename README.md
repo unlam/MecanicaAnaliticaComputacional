@@ -42,10 +42,10 @@ Sus ejercicios pueden resolverse realizando modificaciones incrementales en el c
 
 ### Enfoque didáctico
 
-El material del curso se diseñó para un modelo de [**aula invertida**](https://en.wikipedia.org/wiki/Flipped_classroom) en el que los estudiantes:
-- Estudian los materiales y realizan los ejercicios antes de las reuniones semanales sincrónicas.
-- Plantean sus preguntas y dudas al personal docente en estas reuniones.
-- Terminan de resolver los problemas antes de que finalicen estas reuniones.
+El material del curso se diseñó para un modelo de [**aula invertida**](https://en.wikipedia.org/wiki/Flipped_classroom). El estudiante:
+- Estudia el material de teoría e inicia los ejercicios antes de un encuentro sincrónico semanal.
+- Durante el encuentro, el docente aclara dudas y guía a los estudiantes en la resolución de los ejercicios.
+- Los ejercicios se entregan al final de cada encuentro. 
 
 
 ### Características técnicas
