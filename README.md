@@ -50,7 +50,7 @@ El material del curso se diseñó para un modelo de [**aula invertida**](https:/
 
 ### Características técnicas
 
-- **No requiere instalación**: ejecución de cuadernos basada en la nube.
+- **No requiere instalación**: ejecución de cuadernos en la nube [Google Colaboratory](https://colab.research.google.com/).
 - **Código abierto**: se proporcionan incluso las fuentes [LaTeX](https://www.latex-project.org/) de los conjuntos de problemas.
 - **Requisitos**
 Los cuadernos de este repositorio importan explícitamente las siguientes bibliotecas de Python cuando es necesario:
@@ -118,7 +118,7 @@ En _Carpeta semanal_ se indica cuando se continúa con la misma temática.
 ### 03 Ecuaciones de Euler-Lagrange
 - [Péndulos](03EulerLagrange/péndulos_eulerLagrange.ipynb)
 [![Péndulos](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/03EulerLagrange/péndulos_eulerLagrange.ipynb)
-  - [_El extraño principio de física que da forma a la realidad_](https://youtu.be/WQNiupNh0js) (video en Youtube)
+  - [_El extraño principio de física que da forma a la realidad_](https://youtu.be/WQNiupNh0js) ![youtube](referencia/figurasLaTeX/youtube.svg)
   - [_Lo esencial de "Los principios variacionales de la mecánica" de Lanczos_](referencia/apuntes/apunteLanczos.pdf)
   [![_Lo esencial de "Los principios variacionales de la mecánica" de Lanczos_](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/referencia/apuntes/apunteLanczos.pdf)
 - [Guía de ejercicios - Euler-Lagrange](03EulerLagrange/guíaEulerLagrange.pdf)

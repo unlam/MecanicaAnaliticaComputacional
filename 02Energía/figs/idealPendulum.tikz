@@ -1,0 +1,18 @@
+\begin{tikzpicture}[scale=1.3]
+  % Define variable
+  \def\pendulumRadius{3}
+  \def\pendulumAngle{-60}
+  % Alternatively: \pgfmathsetmacro{\pendulumRadius}{3}
+
+	\coordinate (ceiling) at (0,3);
+
+  \draw [arrows=-latex] (-1,2) -> (-1,1) node [above=15, right=2] {\(\vec{g}\)}; % g vertical
+  \draw [ultra thick] (-1.5,3) -- (2,3);
+  \fill [pattern = north east lines] (-1.5,3) rectangle (2,3.2); % techo
+  \draw [dashed] (ceiling) -- (0,-.25);	% vertical
+  \draw [thick] (ceiling) -- +(\pendulumAngle:\pendulumRadius) node[midway,above,right=2] {\(\ell\)};	% inclinada
+  \shade [ball color=black!80] ($(ceiling)+(\pendulumAngle:\pendulumRadius)$) circle(0.25) node [] {\color{white} $m$};
+  %\draw [arrows=-latex] (0,.4) -> (1.25,.4) node [midway, above] {\( \psi \)}; % desplazamiento horizontal
+  \draw [arrows=-latex] (0,0) arc [start angle=-90, end angle=-65, radius=\pendulumRadius] node [below=12, left=8] {\( \phi \)};
+  % \draw [arrows=-latex] (0,0) arc [start angle=-90, end angle=-65, radius=\pendulumRadius] node [below=12, left=8] {\( \varphi \)};
+\end{tikzpicture}
