@@ -21,23 +21,57 @@ Esta obra está bajo una <a rel="license" href="https://creativecommons.org/lice
 
 -->
 
+## Índice
+- [Acerca de la asignatura](#acerca-de-la-asignatura)
+  - [Material de aprendizaje](#material-de-aprendizaje)
+  - [Enfoque didáctico](#enfoque-didáctico)
+  - [Tecnología](#tecnología)
+  - [Contacto](#contacto)
+- [Cronograma semanal](#cronograma-semanal)
+  - [01 Análisis vectorial](#01-análisis-vectorial)
+  - [02 Energía](#02-energía)
+  - [03 Ecuaciones de Euler-Lagrange](#03-ecuaciones-de-euler-lagrange)
+  - [04 Ligaduras](#04-ligaduras)
+  - [05 Simulación](#05-simulación)
+  - [06 Fuerzas de ligadura](#06-fuerzas-de-ligadura)
+  - [07 Fuerzas no conservativas](#07-fuerzas-no-conservativas)
+  - [08 Tensor de inercia](#08-tensor-de-inercia)
+  - [09 Masa distribuida](#09-masa-distribuida)
+  - [10 Ecuaciones de Euler para la rotación](#10-ecuaciones-de-euler-para-la-rotación)
+  - [12 Vibraciones con un grado de libertad](#12-vibraciones-con-un-grado-de-libertad)
+  - [13 Vibraciones con múltiples grados de libertad](#13-vibraciones-con-múltiples-grados-de-libertad)
+  - [15 Trabajo integrador](#15-trabajo-integrador)
+  - [16 2.da oportunidad de defensa](#16-2da-oportunidad-de-defensa)
+- [Bibliografía](#bibliografía)
 
-## Descripción general del curso 
 
-Este curso de grado introduce la mecánica analítica a través de métodos computacionales.
-Ha sido diseñado para estudiantes de ingeniería con poca o ninguna experiencia en programación.
-Los estudiantes aprenden a modelar dispositivos mecánicos como cuerpos rígidos, y a través de las ecuaciones de Euler-Lagrange analizar su dinámica y esfuerzos.
+
+## Acerca de la asignatura
+
+- Introduce la mecánica analítica mediante métodos computacionales en un [cronograma](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/cronograma.md) acotado a un cuatrimestre.
+- Apunta a estudiantes de ingeniería sin experiencia en programación alguna.
+- Los dispositivos mecánicos se modelan como cuerpos rígidos.
+- La dinámica del sistema y análisis de esfuerzos se derivan mediante utilizando ecuaciones de Euler-Lagrange.
+- Todas las derivaciones analíticas y soluciones numéricas se implementan computacionalmente.
+
+[Temática de la asignatura](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/tem%C3%A1tica.ipynb)
+[![Temática de la asignatura](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/tem%C3%A1tica.ipynb)  
+
+[Programa analítico](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/programa.pdf)
+[![Programa analítico](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/referencia/acad%C3%A9mica/programa.pdf)  
+
 
 
 ### Material de aprendizaje
 
-Los nuevos temas se presentan en uno o más **[cuadernos Jupyter](https://jupyter.org/)** que combinan:
+Semanalmente nuevos temas se presentan en uno o más **[cuadernos Jupyter](https://jupyter.org/)** que combinan:
 - Teoría y conceptos de física.
 - Herramientas computacionales basadas en **[Python](https://www.python.org/)**.
-- Ejemplos prácticos que ilustran el código que realiza todos los cálculos analíticos y numéricos requeridos.
+- Ejercicios resueltos que ilustran el código que efectúa todos los cálculos.
 
 Para cada tema se presenta un PDF con un **conjunto de problemas**.
-Sus ejercicios pueden resolverse realizando modificaciones incrementales en el código de los ejemplos proporcionados. De esta forma, el foco del esfuerzo del estudiante se corre de resolver expresiones matemáticas complejas hacia el modelado físico y la interpretación de los resultados.
+Sus ejercicios pueden resolverse realizando modificaciones incrementales en el código de los ejemplos proporcionados.
+De esta forma, el foco del esfuerzo del estudiante se corre de resolver expresiones matemáticas complejas hacia el modelado físico y la interpretación de los resultados.
 
 
 ### Enfoque didáctico
@@ -47,26 +81,39 @@ El material del curso se diseñó para un modelo de [**aula invertida**](https:/
 - Durante el encuentro, el docente aclara dudas y guía a los estudiantes en la resolución de los ejercicios.
 - Los ejercicios se entregan al final de cada encuentro. 
 
+[Metodología de cursada](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/metodolog%C3%ADa.ipynb)
+[![Metodología de cursada](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/metodolog%C3%ADa.ipynb)  
 
-### Características técnicas
+
+### Tecnología
 
 - **No requiere instalación**: ejecución de cuadernos en la nube [Google Colaboratory](https://colab.research.google.com/).
 - **Código abierto**: se proporcionan incluso las fuentes [LaTeX](https://www.latex-project.org/) de los conjuntos de problemas.
-- **Requisitos**
-Los cuadernos de este repositorio importan explícitamente las siguientes bibliotecas de Python cuando es necesario:
-  - [SymPy](https://www.sympy.org/en/index.html) 1.14.0
-  - [NumPy](https://numpy.org/) 2.3.3
-  - [SciPy](https://scipy.org/) 1.16.2
-  - [Matplotlib](https://matplotlib.org/) 3.10.6
+- **Python**
+  - **Bibliotecas**
+Los cuadernos de este repositorio importan explícitamente las siguientes cuando es necesario:
+  [SymPy](https://www.sympy.org/en/index.html) 1.14.0, 
+  [NumPy](https://numpy.org/) 2.3.3, 
+  [SciPy](https://scipy.org/) 1.16.2, 
+  [Matplotlib](https://matplotlib.org/) 3.10.6
+  - [Lo básico para aprovechar Python](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/b%C3%A1sicoPython.ipynb)
+  [![Lo básico para aprovechar Python](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/introducci%C3%B3nPython.ipynb)
+  - (opcional) [Algo más sobre este lenguaje](https://www.github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/másPython.ipynb)
+  [![Algo más sobre este lenguaje](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/másPython.ipynb)
+- **Jupyter**
+  - [Anotaciones en cuadernos Jupyter: Markdown y LaTeX](https://www.github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica//markdownLaTeX.ipynb)
+  [![Anotaciones en cuadernos Jupyter: Markdown y LaTeX](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/markdownLaTeX.ipynb)
+  - [Incluir imágenes en cuadernos Jupyter](https://www.github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/incluirIm%C3%A1genes.ipynb)
+  [![Incluir imágenes en cuadernos Jupyter](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/incluirIm%C3%A1genes.ipynb)
 
 
-## Contacto
+### Contacto
 De tener alguna pregunta sobre este curso, no dudar en [abrir una cuestión (issue)](https://github.com/unlam/MecanicaAnaliticaComputacional/issues) en este repositorio.
 ¡Agradecemos los comentarios y sugerencias de la comunidad!
 
 
 
-## Cronograma
+## Cronograma semanal
 Los temas del curso están divididos por áreas que pueden abarcar varias semanas.
 En _Carpeta semanal_ se indica cuando se continúa con la misma temática.
 
@@ -303,6 +350,7 @@ Los siguientes libros son recomendados como material complementario sobre los te
 - Jerry B. Marion, _Dinámica clásica de las partículas y sistemas_ (Reverté, Barcelona, Estado Español, 2.a. edición, 1975)
 
 
+<!--
 ## Referencia
 
 ### Académica
@@ -312,16 +360,8 @@ Los siguientes libros son recomendados como material complementario sobre los te
 [![Metodología de cursada](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/metodolog%C3%ADa.ipynb)
 - [Programa analítico](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/programa.pdf)
 [![Programa analítico](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/referencia/acad%C3%A9mica/programa.pdf)
-- [Textos de referencia](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/bibliograf%C3%ADa.md)
 - [Cronograma](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/cronograma.md)
+- [Textos de referencia](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/bibliograf%C3%ADa.md)
+-->
 
 
-### Informática
-- [Lo básico para aprovechar Python](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/b%C3%A1sicoPython.ipynb)
-[![Lo básico para aprovechar Python](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/introducci%C3%B3nPython.ipynb)
-- [Anotaciones en cuadernos Jupyter: Markdown y LaTeX](https://www.github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica//markdownLaTeX.ipynb)
-[![Anotaciones en cuadernos Jupyter: Markdown y LaTeX](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/markdownLaTeX.ipynb)
-- [Incluir imágenes en cuadernos Jupyter](https://www.github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/incluirIm%C3%A1genes.ipynb)
-[![Incluir imágenes en cuadernos Jupyter](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/incluirIm%C3%A1genes.ipynb)
-- [Otros aspectos del Python](https://www.github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/másPython.ipynb)
-[![Otros aspectos del Python](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/másPython.ipynb)
