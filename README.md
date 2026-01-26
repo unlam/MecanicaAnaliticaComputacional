@@ -321,33 +321,32 @@ Se calculará dicho tensor de figuras geométricas simples, para luego avanzar a
 
 ### Principal 
 Los fundamentos teóricos empleados en este curso se explican en forma completa en: 
-- Lev Davidovich Landau y E. M. Lifshitz, _Mecánica - Curso de física teórica_ (Reverté, Barcelona, Estado Español, 2.a edición, 1994)
+- Lev Davidovich Landau y E. M. Lifshitz, _Mecánica - Curso de física teórica_ (Reverté, 2.a edición, 1994)
 
-Los siguientes libros son recomendados como material complementario sobre los temas indicados.
+Los siguientes libros se citan como material complementario.
 
 ### Mecánica vectorial 
 
 - Ferdinand Pierre Beer, E. Russell Johnston, y Elliot R Eisenberg, _Mecánica vectorial para ingenieros -_
-    - _Dinámica_ (McGraw-Hill, México DF, México, 9.a. edición, 2010)
-    - _Estática_ (McGraw-Hill, México DF, México, 9.a edición 2010)
+    - _Dinámica_ (McGraw-Hill, 9.a. edición, 2010)
+    - _Estática_ (McGraw-Hill, 9.a edición 2010)
 - W. Moebs et al., [_Física universitaria - Volúmen 1_](https://openstax.org/details/books/f%C3%ADsica-universitaria-volumen-1)
- (OpenStax, Houston, Estados Unidos de América, 2021)
-- S. Alrasheed, [_Principles of Mechanics_](https://doi.org/10.1007/978-3-030-15195-9) (Springer Cham, Cham, Confederación Suiza, 1.a edición, 2019)
+ (OpenStax, 2021)
+- S. Alrasheed, [_Principles of Mechanics_](https://doi.org/10.1007/978-3-030-15195-9) (Springer Cham, 1.a edición, 2019)
 
 
 ### Mecánica analítica y vectorial
 
-- S. M. Targ, _Curso breve de mecánica teórica_ (Mir, Moscú, Unión de Repúblicas Socialistas Soviéticas, 2.a edición, 1976)
+- S. M. Targ, _Curso breve de mecánica teórica_ (Mir, 2.a edición, 1976)
 
 
 ### Mecánica analítica
 
 - Cornelius Lanczos, _The Variational Principles of Mechanics_ (University of Toronto press, 1952).
-  - Sus temáticas más relevantes para este curso se resumen en:  
-  V. A. Bettachini, [_Lo esencial de Los principios variacionales de la mecánica de Cornelio Lanczos_](referencia/apuntes/apunteLanczos.pdf) (2025)
-- Douglas Cline, [_Variational Principles in Classical Mechanics_](http://classicalmechanics.lib.rochester.edu/) (University of Rochester River Campus Libraries, Rochester, Estados Unidos de América, 3rd ed., 2021)
-- John Robert Taylor, _Mecánica Clásica_ (Reverté, Barcelona, Estado Español, 1.a. edición, 2018)
-- Jerry B. Marion, _Dinámica clásica de las partículas y sistemas_ (Reverté, Barcelona, Estado Español, 2.a. edición, 1975)
+  - [Un apunte para el curso](referencia/apuntes/apunteLanczos.pdf) [![Un apunte para el curso](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/referencia/apuntes/apunteLanczos.pdf) resume sus temáticas más relevantes.
+- Douglas Cline, [_Variational Principles in Classical Mechanics_](http://classicalmechanics.lib.rochester.edu/) (University of Rochester River Campus Libraries, 3rd ed., 2021)
+- John Robert Taylor, _Mecánica Clásica_ (Reverté, 1.a. edición, 2018)
+- Jerry B. Marion, _Dinámica clásica de las partículas y sistemas_ (Reverté, 2.a. edición, 1975)
 
 
 <!--
