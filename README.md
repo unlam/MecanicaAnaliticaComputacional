@@ -48,17 +48,17 @@ Esta obra está bajo una <a rel="license" href="https://creativecommons.org/lice
 
 ## Acerca de la asignatura
 
-- Introduce la mecánica analítica mediante métodos computacionales en un [cronograma](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/cronograma.md) acotado a un cuatrimestre.
-- Apunta a estudiantes de ingeniería sin experiencia en programación alguna.
-- Los dispositivos mecánicos se modelan como cuerpos rígidos.
-- La dinámica del sistema y análisis de esfuerzos se derivan mediante utilizando ecuaciones de Euler-Lagrange.
-- Todas las derivaciones analíticas y soluciones numéricas se implementan computacionalmente.
-
 [Temática de la asignatura](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/tem%C3%A1tica.ipynb)
 [![Temática de la asignatura](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/tem%C3%A1tica.ipynb)  
 
 [Programa analítico](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/programa.pdf)
 [![Programa analítico](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/referencia/acad%C3%A9mica/programa.pdf)  
+
+- Introduce la mecánica analítica mediante métodos computacionales en un [cronograma](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/cronograma.md) acotado a un cuatrimestre.
+- Apunta a estudiantes de ingeniería sin experiencia en programación alguna.
+- Los dispositivos mecánicos se modelan como cuerpos rígidos.
+- La dinámica del sistema y análisis de esfuerzos se derivan mediante utilizando ecuaciones de Euler-Lagrange.
+- Todas las derivaciones analíticas y soluciones numéricas se implementan computacionalmente.
 
 
 
@@ -76,13 +76,13 @@ De esta forma, el foco del esfuerzo del estudiante se corre de resolver expresio
 
 ### Enfoque didáctico
 
+[Metodología de cursada](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/metodolog%C3%ADa.ipynb)
+[![Metodología de cursada](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/metodolog%C3%ADa.ipynb)  
+
 El material del curso se diseñó para un modelo de [**aula invertida**](https://en.wikipedia.org/wiki/Flipped_classroom). El estudiante:
 - Estudia el material de teoría e inicia los ejercicios antes de un encuentro sincrónico semanal.
 - Durante el encuentro, el docente aclara dudas y guía a los estudiantes en la resolución de los ejercicios.
 - Los ejercicios se entregan al final de cada encuentro. 
-
-[Metodología de cursada](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/metodolog%C3%ADa.ipynb)
-[![Metodología de cursada](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/metodolog%C3%ADa.ipynb)  
 
 
 ### Tecnología
