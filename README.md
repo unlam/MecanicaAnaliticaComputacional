@@ -4,7 +4,7 @@
 
 Aquí se publica el material de enseñanza utilizado en la [asignatura sobre esta temática](https://ingenieria.unlam.edu.ar/preview.php?seccion=3&idArticulo=510) en la carrera de grado de [Ingeniería Mecánica](https://ingenieria.unlam.edu.ar/index.php?seccion=3&idArticulo=371) de la Universidad Nacional de La Matanza.
 
-An English version of this repository, [Computational Analytical Mechanics](www.github.com/unlam/ComputationalAnalyticalMechanics), is available.
+An English version of this repository, [Computational Analytical Mechanics](https://www.github.com/unlam/ComputationalAnalyticalMechanics), is available.
 
 [![DIIT-UNLaM](referencia/figurasLaTeX/ingenieria_logo_schwarz.png)](https://ingenieria.unlam.edu.ar/)
 [![CC BY-NC-SA](https://upload.wikimedia.org/wikipedia/commons/1/12/Cc-by-nc-sa_icon.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es)
@@ -38,10 +38,12 @@ Esta obra está bajo una <a rel="license" href="https://creativecommons.org/lice
   - [08 Tensor de inercia](#08-tensor-de-inercia)
   - [09 Masa distribuida](#09-masa-distribuida)
   - [10 Ecuaciones de Euler para la rotación](#10-ecuaciones-de-euler-para-la-rotación)
+  - 11 (continúa 10)
   - [12 Vibraciones con un grado de libertad](#12-vibraciones-con-un-grado-de-libertad)
   - [13 Vibraciones con múltiples grados de libertad](#13-vibraciones-con-múltiples-grados-de-libertad)
+  - 14 (continúa 13)
   - [15 Trabajo integrador](#15-trabajo-integrador)
-  - [16 2.da oportunidad de defensa](#16-2da-oportunidad-de-defensa)
+  - 16 Trabajo integrador - 2.da oportunidad de defensa
 - [Bibliografía](#bibliografía)
 
 
@@ -115,12 +117,11 @@ De tener alguna pregunta sobre este curso, no dudar en [abrir una cuestión (iss
 
 ## Cronograma semanal
 Los temas del curso están divididos por áreas que pueden abarcar varias semanas.
-En _Carpeta semanal_ se indica cuando se continúa con la misma temática.
 
 | Carpeta semanal   | Área                | Temática |
 |:------------------|:-------------------:|:----------------|
-| 01Vectorial       | Mecánica Newtoniana | Metodología del curso. Análisis vectorial empleando SymPy. |
-| 02Energía         | Mecánica analítica  | Coordenadas generalizadas. Energías cinética y potencial. |
+| 01Vectorial       | Mecánica Newtoniana | Metodología del curso. Análisis vectorial computacional. |
+| 02Energía         | Mecánica analítica  | Coordenadas generalizadas. Energías cinética y potencial gravitatoria. |
 | 03EulerLagrange   | "                   | Ecuaciones de Euler-Lagrange. |
 | 04Ligaduras       | "                   | Ligaduras como función de coordenadas. |
 | 05Simulación      | Numérico            | Resolución numérica de ecuaciones de Euler-Lagrange. |
@@ -131,10 +132,10 @@ En _Carpeta semanal_ se indica cuando se continúa con la misma temática.
 | 10RotaciónEuler   | "                   | Ecuaciones de Euler para el cuerpo rígido. |
 | 11 (continúa 10)  | "                   | **Proyecto final: discusión de su enunciado** |
 | 12Vibraciones1GdL | Vibraciones         | Oscilaciones forzadas en sistemas de un grado de libertad. |
-| 13VibracionesNGdL | "                   | Modos normales de oscilación en sistemas de múltiples grados de libertad. |
-| 14 (continúa 13)  | "                   | " |
+| 13VibracionesNGdL | "                   | Modos normales de oscilación en sistemas con múltiples grados de libertad. |
+| 14                | "                   | " |
 | 15Integrador      | Evaluación          | **Defensa del proyecto final** |
-| 16 (continúa 15)  | "                   | **2.da oportunidad de defensa** |
+| 16                | "                   | **2.da oportunidad de defensa** |
 
 
 
@@ -170,9 +171,6 @@ En _Carpeta semanal_ se indica cuando se continúa con la misma temática.
   [![_Lo esencial de "Los principios variacionales de la mecánica" de Lanczos_](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/referencia/apuntes/apunteLanczos.pdf)
 - [Guía de ejercicios - Euler-Lagrange](03EulerLagrange/guíaEulerLagrange.pdf)
 [![Guía de ejercicios - Euler-Lagrange](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/03EulerLagrange/gu%C3%ADaEulerLagrange.pdf)
-  - [Plantilla de funciones](03EulerLagrange/plantilla_eulerLagrange.ipynb)
-  [![Plantilla de funciones](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/03EulerLagrange/plantilla_eulerLagrange.ipynb)
-    - [Cuaderno plantilla Euler-Lagrange](https://ingunlamedu.sharepoint.com/:v:/r/sites/22sMecAnComputacional/Documentos%20compartidos/03EulerLagrange/funciones.mp4?csf=1&web=1&e=3CiZai&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) (video explicativo)
   - pset03e01c
   - pset03e02
   - pset03e03
@@ -181,6 +179,11 @@ En _Carpeta semanal_ se indica cuando se continúa con la misma temática.
     [![Energía potencial elástica](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/03EulerLagrange/energíaPotencialElástica_eulerLagrange.ipynb)
     - [Partes rotantes](03EulerLagrange/partesRotantes_eulerLagrange.ipynb)
     [![Partes rotantes](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/03EulerLagrange/partesRotantes_eulerLagrange.ipynb)
+<!--
+  - [Plantilla de funciones](03EulerLagrange/plantilla_eulerLagrange.ipynb)
+  [![Plantilla de funciones](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/03EulerLagrange/plantilla_eulerLagrange.ipynb)
+    - [Cuaderno plantilla Euler-Lagrange](https://ingunlamedu.sharepoint.com/:v:/r/sites/22sMecAnComputacional/Documentos%20compartidos/03EulerLagrange/funciones.mp4?csf=1&web=1&e=3CiZai&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) (video explicativo)
+-->
 
 
 ### 04 Ligaduras

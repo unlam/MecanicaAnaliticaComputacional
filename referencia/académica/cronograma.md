@@ -1,3 +1,5 @@
+<!-- LTeX: language=es-AR -->
+
 # Cronograma | Mecánica General (3024) 
 ![UNLaM | DIIT](../figurasLaTeX/ingenieria_logo_schwarz.png "UNLaM | DIIT")  
 <!--
@@ -18,8 +20,8 @@
 | 10 | 05-28  | TensorInercia   | Tensor de inercia de arreglos de masas puntales. |
 | 10 | 06-04* | MasaDistribuida | Tensor de inercia de cuerpos rígidos. |
 | 11 | 06-11  | RotaciónEuler   | Ecuaciones de Euler para el cuerpo rígido. |
-| 12 | 06-18  | Vibraciones1GdL | Oscilaciones forzadas de un grado de libertad y en sistemas discretos. **Integrador: enunciado**. |
-| 13 | 06-25  | VibracionesNGdL | Modos normales de oscilación en sistemas discretos. |
+| 12 | 06-18  | Vibraciones1GdL | Oscilaciones forzadas en sistemas de un grado de libertad. **Integrador: enunciado**. |
+| 13 | 06-25  | VibracionesNGdL | Modos normales de oscilación en sistemas con múltiples grados de libertad. |
 | 14 | 07-02* | _Evaluación_    | **Integrador: presentación** |
 | 15 | 07-09  | **Feriado**     | |
-| 17 | 07-16* | "               | **Recuperatorio** |
+| 16 | 07-16* | "               | **Recuperatorio** |
