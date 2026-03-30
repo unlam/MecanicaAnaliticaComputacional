@@ -346,7 +346,7 @@ Los siguientes libros se citan como material complementario.
 ### Mecánica analítica
 
 - Cornelius Lanczos, _The Variational Principles of Mechanics_ (University of Toronto press, 1952).
-  - [Un apunte para el curso](referencia/apuntes/apunteLanczos.pdf) [![Un apunte para el curso](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/referencia/apuntes/apunteLanczos.pdf) resume sus temáticas más relevantes.
+  - [Un apunte](referencia/apuntes/apunteLanczos.pdf) [![Un apunte](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/referencia/apuntes/apunteLanczos.pdf) resume sus temáticas más relevantes para el curso.
 - Douglas Cline, [_Variational Principles in Classical Mechanics_](http://classicalmechanics.lib.rochester.edu/) (University of Rochester River Campus Libraries, 3rd ed., 2021)
 - John Robert Taylor, _Mecánica Clásica_ (Reverté, 1.a. edición, 2018)
 - Jerry B. Marion, _Dinámica clásica de las partículas y sistemas_ (Reverté, 2.a. edición, 1975)
@@ -365,5 +365,3 @@ Los siguientes libros se citan como material complementario.
 - [Cronograma](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/cronograma.md)
 - [Textos de referencia](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/bibliograf%C3%ADa.md)
 -->
-
-
