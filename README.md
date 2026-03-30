@@ -130,12 +130,12 @@ Los temas del curso están divididos por áreas que pueden abarcar varias semana
 | 08TensorInercia   | Cuerpo rígido       | Tensor de inercia de arreglos de masas puntuales. |
 | 09MasaDistribuida | "                   | Tensor de inercia de cuerpos rígidos. |
 | 10RotaciónEuler   | "                   | Ecuaciones de Euler para el cuerpo rígido. |
-| 11 (continúa 10)  | "                   | **Proyecto final: discusión de su enunciado** |
+| (11)              | "                   | **Proyecto final: discusión de su enunciado** |
 | 12Vibraciones1GdL | Vibraciones         | Oscilaciones forzadas en sistemas de un grado de libertad. |
 | 13VibracionesNGdL | "                   | Modos normales de oscilación en sistemas con múltiples grados de libertad. |
-| 14                | "                   | " |
+| (14)              | "                   | " |
 | 15Integrador      | Evaluación          | **Defensa del proyecto final** |
-| 16                | "                   | **2.da oportunidad de defensa** |
+| (16)              | "                   | **2.da oportunidad de defensa** |
 
 
 
