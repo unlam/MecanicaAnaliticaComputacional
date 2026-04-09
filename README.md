@@ -79,7 +79,7 @@ De esta forma, el foco del esfuerzo del estudiante se corre de resolver expresio
 ### Enfoque didáctico
 
 [Metodología de cursada](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/metodolog%C3%ADa.ipynb)
-[![Metodología de cursada](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/metodolog%C3%ADa.ipynb)  
+[![Metodología de cursada](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/metodolog%C3%ADa.ipynb)  
 
 El material del curso se diseñó para un modelo de [**aula invertida**](https://en.wikipedia.org/wiki/Flipped_classroom). El estudiante:
 - Estudia el material de teoría e inicia los ejercicios antes de un encuentro sincrónico semanal.
