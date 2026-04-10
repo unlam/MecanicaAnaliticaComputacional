@@ -158,6 +158,7 @@ Los temas del curso están divididos por áreas que pueden abarcar varias semana
 [![Energía potencial gravitatoria](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/02Energía/energíaPotencialGravitatoria.ipynb)
 - [Guía de ejercicios - Energía](02Energía/guíaEnergía.pdf)
 [![Guía de ejercicios - Energía](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/02Energía/gu%C3%ADaEnergía.pdf)
+  - pset02e01
   - pset02e02
   - pset02e03
   - pset02e04
