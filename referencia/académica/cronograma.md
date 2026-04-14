@@ -20,8 +20,8 @@
 | 10 | 05-28  | TensorInercia   | Tensor de inercia de arreglos de masas puntales. |
 | 10 | 06-04* | MasaDistribuida | Tensor de inercia de cuerpos rígidos. |
 | 11 | 06-11  | RotaciónEuler   | Ecuaciones de Euler para el cuerpo rígido. |
-| 12 | 06-18  | Vibraciones1GdL | Oscilaciones forzadas en sistemas de un grado de libertad. **Integrador: enunciado**. |
-| 13 | 06-25  | VibracionesNGdL | Modos normales de oscilación en sistemas con múltiples grados de libertad. |
+| 12 | 06-18  | "               | **Integrador: enunciado**. |
+| 13 | 06-25  | "               | (buffer) |
 | 14 | 07-02* | _Evaluación_    | **Integrador: presentación** |
 | 15 | 07-09  | **Feriado**     | |
 | 16 | 07-16* | "               | **Recuperatorio** |
