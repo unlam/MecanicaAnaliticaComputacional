@@ -56,11 +56,10 @@ Esta obra está bajo una <a rel="license" href="https://creativecommons.org/lice
 [Programa analítico](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/programa.pdf)
 [![Programa analítico](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/referencia/acad%C3%A9mica/programa.pdf)  
 
-- Introduce la mecánica analítica mediante métodos computacionales en un [cronograma](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/cronograma.md) acotado a un cuatrimestre.
-- Apunta a estudiantes de ingeniería sin experiencia en programación alguna.
-- Los dispositivos mecánicos se modelan como cuerpos rígidos.
-- La dinámica del sistema y análisis de esfuerzos se derivan mediante utilizando ecuaciones de Euler-Lagrange.
-- Todas las derivaciones analíticas y soluciones numéricas se implementan computacionalmente.
+- Instrumenta la mecánica analítica mediante métodos computacionales con el fin de modelizar dispositivos mecánicos simples.
+- Aplicando ecuaciones de Euler-Lagrange se arriba a calcular la dinámica y esfuerzos de modelos de cuerpos rígidos.
+- Implementa computacionalmente tanto las derivaciones analíticas como las soluciones numéricas de los modelos planteados.
+- Introduce esta metodología en un [cronograma](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/cronograma.md) acotado, requiriendo como saberes previos la mecánica vectorial y análisis matemático en múltiples variables.
 
 
 
