@@ -13,7 +13,7 @@
 | 02 | 04-09  | Vectorial       | Metodología del curso. Análisis vectorial computacional. |  
 | 03 | 04-16* | Energía         | Coordenadas generalizadas. Energías cinética y potencial gravitatoria. |
 | 05 | 04-23  | EulerLagrange   | Ecuaciones de Euler-Lagrange. |
-| 06 | 05-30* | Ligaduras       | Ligaduras como función de coordenadas. |
+| 06 | 04-30* | Ligaduras       | Ligaduras como función de coordenadas. |
 | 07 | 05-07  | Simulación      | Resolución numérica de las ecuaciones de Euler-Lagrange. |
 | 08 | 05-14  | FuerzasLigadura | Fuerzas de ligadura por multiplicadores de Lagrange. |
 | 09 | 05-21* | NoConservativas | Fuerzas no conservativas en el formalismo de Euler-Lagrange. |
