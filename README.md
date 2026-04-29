@@ -8,7 +8,7 @@ An English version of this repository, [Computational Analytical Mechanics](http
 
 [![DIIT-UNLaM](referencia/figurasLaTeX/ingenieria_logo_schwarz.png)](https://ingenieria.unlam.edu.ar/)
 [![CC BY-NC-SA](https://upload.wikimedia.org/wikipedia/commons/1/12/Cc-by-nc-sa_icon.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es)
-2025 Víctor A. Bettachini
+2026 Víctor A. Bettachini
 
 <!--
 ![](referencia/figurasLaTeX/ambos.png)
@@ -139,6 +139,9 @@ Los temas del curso están divididos por áreas que pueden abarcar varias semana
 
 
 ### 01 Análisis vectorial
+
+Primeros pasos en cálculo simbólico aplicando la biblioteca SymPy para automatizar los cálculos de cinemática que en asignaturas anteriores se realizaron manualmente.
+
 - [Cinemática vectorial](01Vectorial/cinemáticaVectorial.ipynb)
 [![Cinemática vectorial](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/01Vectorial/cinemáticaVectorial.ipynb)
 - [Primer guía de ejercicios (pset01) - Cinemática vectorial](01Vectorial/guíaVectorial.pdf)
@@ -151,6 +154,9 @@ Los temas del curso están divididos por áreas que pueden abarcar varias semana
 
 
 ### 02 Energía
+
+Aprovechar la definición de funciones de Python para realizar un conjunto de pasos que permite automatizar el calcular energías de distintas configuraciones geométricas de particular puntuales.
+
 - [Energía cinética de traslación](02Energía/energíaCinéticaTraslación.ipynb)
 [![Energía cinética de traslación](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/02Energía/energíaCinéticaTraslación.ipynb)
 - [Energía potencial gravitatoria](02Energía/energíaPotencialGravitatoria.ipynb)
@@ -164,6 +170,9 @@ Los temas del curso están divididos por áreas que pueden abarcar varias semana
 
 
 ### 03 Ecuaciones de Euler-Lagrange
+
+Se presenta el primer tema novedoso del curso: la generación automática de las ecuaciones diferenciales de la dinámica para un sistema de partículas puntuales a partir de los postulados de mecánica analítica.
+
 - [Péndulos](03EulerLagrange/péndulos_eulerLagrange.ipynb)
 [![Péndulos](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/03EulerLagrange/péndulos_eulerLagrange.ipynb)
   - [_El extraño principio de física que da forma a la realidad_](https://youtu.be/WQNiupNh0js) ![youtube](referencia/figurasLaTeX/youtube.svg)
@@ -187,6 +196,9 @@ Los temas del curso están divididos por áreas que pueden abarcar varias semana
 
 
 ### 04 Ligaduras
+
+En sistemas modelados con múltiples coordenadas generalizadas hay relaciones entre ellas o sus correspondientes velocidades o aceleraciones. Muchas veces se requiere mantener explícita tal relación con una función auxiliar en vez de reducir el número de coordenadas desde un principio.
+
 - [Ligaduras como función de coordenadas](04Ligaduras/ligadurasFunción.ipynb)
 [![Ligaduras como función de coordenadas](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/04Ligaduras/ligadurasFunción.ipynb)
 - [Máquina de Atwood con ligaduras](04Ligaduras/atwood_Ligaduras.ipynb)
@@ -201,7 +213,9 @@ Los temas del curso están divididos por áreas que pueden abarcar varias semana
 
 
 ### 05 Simulación
+
 Para visualizar la dinámica de los sistemas hasta aquí modelados, se resuelven ahora sus ecuaciones de Euler-Lagrange con métodos numéricos.
+
 - [Máquina de Atwood: simulación numérica](05Simulación/atwoodSimulación_Resuelto.ipynb)
 [![Máquina de Atwood: simulación numérica](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/05Simulación/atwoodSimulación_Resuelto.ipynb)
 - [Péndulo con soporte libre en la dirección horizontal: simulación numérica](05Simulación/pénduloLibre_Simulación_Resuelto.ipynb)
@@ -217,6 +231,7 @@ Para visualizar la dinámica de los sistemas hasta aquí modelados, se resuelven
 
 
 ### 06 Fuerzas de ligadura
+
 Determinar la dinámica de cada parte en un dispositivo es importante, pero es igualmente importante determinar las tensiones que deben soportar.
 Comencemos a calcular estos torques y fuerzas.
 
@@ -236,6 +251,9 @@ Comencemos a calcular estos torques y fuerzas.
 
 
 ### 07 Fuerzas no conservativas
+
+
+
 - [Fuerzas no conservativas y Euler-Lagrange](07NoConservativas/noConservativas.ipynb)
 [![Fuerzas no conservativas y Euler-Lagrange](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/07NoConservativas/noConservativas.ipynb)
 - [Guía de ejercicios - Fuerzas no conservativas](07NoConservativas/guíaNoConservativas.pdf)
@@ -248,10 +266,10 @@ Comencemos a calcular estos torques y fuerzas.
 
 
 ### 08 Tensor de inercia
-Comenzamos a estudiar sólidos de complejidad creciente.
+
 De igual manera que una fuerza le da más o menos aceleración a distintos cuerpos según sus masas, un torque cambia más o menos la velocidad angular según cómo se distribuye la masa alrededor del eje de rotación.
 La relación es más compleja que una simple cantidad escalar como la masa, se trata de un tensor denominado de inercia.
-Se calculará dicho tensor de figuras geométricas simples, para luego avanzar a trabajar sobre dispositivos mecánicos más realistas.
+Se calculará dicho tensor para conjuntos de partículas puntuales.
 
 - [Momento angular y torque](08TensorInercia/momentoAngularTorque.ipynb)
 [![Momento angular y torque](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/08TensorInercia/momentoAngularTorque.ipynb)
@@ -267,6 +285,9 @@ Se calculará dicho tensor de figuras geométricas simples, para luego avanzar a
 
 
 ### 09 Masa distribuida
+
+Se calcula el tensor de inercia para cuerpos rígidos en que su masa está distribuida en formas geométricas simples.
+
 - [Masa distribuida](09MasaDistribuida/masaDistribuida.ipynb)
 [![Masa distribuida](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/09MasaDistribuida/masaDistribuida.ipynb)
 - [Tensor de inercia de un cubo](09MasaDistribuida/cubo_tensorInercia.ipynb)
@@ -280,6 +301,9 @@ Se calculará dicho tensor de figuras geométricas simples, para luego avanzar a
 
 
 ### 10 Ecuaciones de Euler para la rotación
+
+Contando ahora con los tensores de inercia se aplica el formalismo de Euler-Lagrange a las coordenadas generalizadas que dan cuenta de la orientación espacial de un cuerpo extenso. 
+
 - [Ecuaciones de Euler](10RotaciónEuler/ecuacionesEuler.ipynb)
 [![Ecuaciones de Euler](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/10RotaciónEuler/ecuacionesEuler.ipynb)
 - [Engranaje desalineado](10RotaciónEuler/engranajeDesalineado.ipynb)
@@ -292,11 +316,15 @@ Se calculará dicho tensor de figuras geométricas simples, para luego avanzar a
 
 
 ### 12 Vibraciones con un grado de libertad
-- [Oscilaciones amortiguadas](13Vibraciones1GdL/vibraciones1GdL.ipynb)
+
+Se analizan modelos analíticos para la dinámica de una partícula puntual levemente apartada de un equilibrio estable.
+Se grafica su dinámica tanto para casos en que se parte de un apartamiento del mínimo del pozo así como el caso en que se ejerce un forzado externo. 
+
+- [Oscilaciones amortiguadas](12Vibraciones1GdL/vibraciones1GdL.ipynb)
 [![Oscilaciones amortiguadas](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/12Vibraciones1GdL/vibraciones1GdL.ipynb)
-- [Forzado armónico](11Vibraciones1GdL/armónico1GdL.ipynb)
+- [Forzado armónico](12Vibraciones1GdL/armónico1GdL.ipynb)
 [![Forzado armónico](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/12Vibraciones1GdL/armónico1GdL.ipynb)
-- [Forzado arbitrario](11Vibraciones1GdL/arbitrario1GdL.ipynb)
+- [Forzado arbitrario](12Vibraciones1GdL/arbitrario1GdL.ipynb)
 [![Forzado arbitrario](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/12Vibraciones1GdL/arbitrario1GdL.ipynb)
 - [Guía de ejercicios - Vibraciones con un grado de libertad](12Vibraciones1GdL/guíaVibraciones1GdL.pdf)
 [![Guía de ejercicios - Vibraciones con un grado de libertad](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/12Vibraciones1GdL/gu%C3%ADaVibraciones1GdL.pdf)
@@ -307,6 +335,9 @@ Se calculará dicho tensor de figuras geométricas simples, para luego avanzar a
 
 
 ### 13 Vibraciones con múltiples grados de libertad
+
+Se presenta el formalismo para extender a sistemas de múltiples grados de libertad el análisis de dinámica tras ser levemente apartados de un equilibrio estable.
+
 - [Oscilaciones con múltiples grados de libertad](13VibracionesNGdL/vibracionesNGdL.ipynb)
 [![Oscilaciones con múltiples grados de libertad](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/13VibracionesNGdL/vibracionesNGdL.ipynb)
 - [Guía de ejercicios - Vibraciones con múltiples grados de libertad](13VibracionesNGdL/guíaVibracionesNGdL.pdf)
@@ -316,6 +347,9 @@ Se calculará dicho tensor de figuras geométricas simples, para luego avanzar a
 
 
 ### 15 Trabajo integrador
+
+Enunciado de un ejercicio que requiere aplicar varias de las temáticas de la asignatura.
+
 - [Integrador: cuerpo rígido bajo fuerzas externas](15Integrador/integradorRígido.ipynb)
 [![Integrador: cuerpo rígido bajo fuerzas externas](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/15Integrador/integradorRígido.ipynb)
 
@@ -323,12 +357,12 @@ Se calculará dicho tensor de figuras geométricas simples, para luego avanzar a
 ## Bibliografía
 
 ### Principal 
-Los fundamentos teóricos empleados en este curso se explican en forma completa en: 
+Los fundamentos teóricos empleados en este curso figuran en su totalidad en: 
 - Lev Davidovich Landau y E. M. Lifshitz, _Mecánica - Curso de física teórica_ (Reverté, 2.a edición, 1994)
 
-Los siguientes libros se citan como material complementario.
+### Complementaria
 
-### Mecánica vectorial 
+#### Mecánica vectorial 
 
 - Ferdinand Pierre Beer, E. Russell Johnston, y Elliot R Eisenberg, _Mecánica vectorial para ingenieros -_
     - _Dinámica_ (McGraw-Hill, 9.a. edición, 2010)
@@ -338,12 +372,12 @@ Los siguientes libros se citan como material complementario.
 - S. Alrasheed, [_Principles of Mechanics_](https://doi.org/10.1007/978-3-030-15195-9) (Springer Cham, 1.a edición, 2019)
 
 
-### Mecánica analítica y vectorial
+#### Mecánica analítica y vectorial
 
 - S. M. Targ, _Curso breve de mecánica teórica_ (Mir, 2.a edición, 1976)
 
 
-### Mecánica analítica
+#### Mecánica analítica
 
 - Cornelius Lanczos, _The Variational Principles of Mechanics_ (University of Toronto press, 1952).
   - [Un apunte](referencia/apuntes/apunteLanczos.pdf) [![Un apunte](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/referencia/apuntes/apunteLanczos.pdf) resume sus temáticas más relevantes para el curso.
