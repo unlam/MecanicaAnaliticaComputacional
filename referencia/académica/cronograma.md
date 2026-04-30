@@ -15,8 +15,8 @@
 | 05 | 04-23  | EulerLagrange   | Ecuaciones de Euler-Lagrange. |
 | 06 | 04-30* | Ligaduras       | Ligaduras como función de coordenadas. |
 | 07 | 05-07  | Simulación      | Resolución numérica de las ecuaciones de Euler-Lagrange. |
-| 08 | 05-14  | FuerzasLigadura | Fuerzas de ligadura por multiplicadores de Lagrange. |
-| 09 | 05-21* | NoConservativas | Fuerzas no conservativas en el formalismo de Euler-Lagrange. |
+| 08 | 05-14* | FuerzasLigadura | Fuerzas de ligadura por multiplicadores de Lagrange. |
+| 09 | 05-21  | NoConservativas | Fuerzas no conservativas en el formalismo de Euler-Lagrange. |
 | 10 | 05-28  | TensorInercia   | Tensor de inercia de arreglos de masas puntales. |
 | 10 | 06-04  | MasaDistribuida | Tensor de inercia de cuerpos rígidos. |
 | 11 | 06-11* | RotaciónEuler   | Ecuaciones de Euler para el cuerpo rígido. |
