@@ -171,7 +171,7 @@ Aprovechar la definición de funciones de Python para realizar un conjunto de pa
 
 ### 03 Ecuaciones de Euler-Lagrange
 
-Se presenta el primer tema novedoso del curso: la generación automática de las ecuaciones diferenciales de la dinámica para un sistema de partículas puntuales a partir de los postulados de mecánica analítica.
+De los principios de la mecánica analítica se derivan tales ecuaciones. Con estas basta con tener las energías de un sistema para generar automáticamente soluciones para su dinámica.
 
 - [Péndulos](03EulerLagrange/péndulos_eulerLagrange.ipynb)
 [![Péndulos](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/03EulerLagrange/péndulos_eulerLagrange.ipynb)
@@ -197,7 +197,7 @@ Se presenta el primer tema novedoso del curso: la generación automática de las
 
 ### 04 Ligaduras
 
-En sistemas modelados con múltiples coordenadas generalizadas hay relaciones entre ellas o sus correspondientes velocidades o aceleraciones. Muchas veces se requiere mantener explícita tal relación con una función auxiliar en vez de reducir el número de coordenadas desde un principio.
+Donde hay contactos o uniones entre partes de un sistema, las coordenadas generalizadas responden a relaciones matemáticas entre ellas.
 
 - [Ligaduras como función de coordenadas](04Ligaduras/ligadurasFunción.ipynb)
 [![Ligaduras como función de coordenadas](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/04Ligaduras/ligadurasFunción.ipynb)
@@ -214,7 +214,7 @@ En sistemas modelados con múltiples coordenadas generalizadas hay relaciones en
 
 ### 05 Simulación
 
-Para visualizar la dinámica de los sistemas hasta aquí modelados, se resuelven ahora sus ecuaciones de Euler-Lagrange con métodos numéricos.
+Para interpretar las ecuaciones de la dinámica generadas por Euler-Lagrange se las resuelve con métodos numéricos.
 
 - [Máquina de Atwood: simulación numérica](05Simulación/atwoodSimulación_Resuelto.ipynb)
 [![Máquina de Atwood: simulación numérica](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/05Simulación/atwoodSimulación_Resuelto.ipynb)
@@ -232,8 +232,7 @@ Para visualizar la dinámica de los sistemas hasta aquí modelados, se resuelven
 
 ### 06 Fuerzas de ligadura
 
-Determinar la dinámica de cada parte en un dispositivo es importante, pero es igualmente importante determinar las tensiones que deben soportar.
-Comencemos a calcular estos torques y fuerzas.
+Además de la dinámica, Euler-Lagrange permite determinar los torques y fuerzas requeridos para mantener contactos u otras ligaduras entre partes de un sistema.
 
 - [Introducción a las fuerzas de ligadura](06FuerzasLigadura/fuerzasLigadura.ipynb)
 [![Introducción a las fuerzas de ligadura](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/06FuerzasLigadura/fuerzasLigadura.ipynb)
@@ -252,7 +251,7 @@ Comencemos a calcular estos torques y fuerzas.
 
 ### 07 Fuerzas no conservativas
 
-
+Hasta aquí Euler-Lagrange solo contempló la influencia externa de campos conservativos, como el gravitatorio. Pero ahora contemplaremos las influencias más usuales, como la fricción o amortigüamientos.
 
 - [Fuerzas no conservativas y Euler-Lagrange](07NoConservativas/noConservativas.ipynb)
 [![Fuerzas no conservativas y Euler-Lagrange](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/07NoConservativas/noConservativas.ipynb)
@@ -267,9 +266,9 @@ Comencemos a calcular estos torques y fuerzas.
 
 ### 08 Tensor de inercia
 
-De igual manera que una fuerza le da más o menos aceleración a distintos cuerpos según sus masas, un torque cambia más o menos la velocidad angular según cómo se distribuye la masa alrededor del eje de rotación.
-La relación es más compleja que una simple cantidad escalar como la masa, se trata de un tensor denominado de inercia.
-Se calculará dicho tensor para conjuntos de partículas puntuales.
+La proporción entre un cambio de velocidad, la llamada aceleración, y la fuerza que la causa es un escalar llamado masa.
+La proporción de dicho cambio para la velocidad angular y el torque que lo provoca es un objeto matemático más complicado denominado tensor de inercia.
+Se lo calcula para conjuntos de partículas puntuales.
 
 - [Momento angular y torque](08TensorInercia/momentoAngularTorque.ipynb)
 [![Momento angular y torque](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/08TensorInercia/momentoAngularTorque.ipynb)
@@ -286,7 +285,7 @@ Se calculará dicho tensor para conjuntos de partículas puntuales.
 
 ### 09 Masa distribuida
 
-Se calcula el tensor de inercia para cuerpos rígidos en que su masa está distribuida en formas geométricas simples.
+Se calculan tensores de inercia para cuerpos rígidos cuya masa está distribuida dentro de formas geométricas simples.
 
 - [Masa distribuida](09MasaDistribuida/masaDistribuida.ipynb)
 [![Masa distribuida](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/09MasaDistribuida/masaDistribuida.ipynb)
@@ -302,7 +301,7 @@ Se calcula el tensor de inercia para cuerpos rígidos en que su masa está distr
 
 ### 10 Ecuaciones de Euler para la rotación
 
-Contando ahora con los tensores de inercia se aplica el formalismo de Euler-Lagrange a las coordenadas generalizadas que dan cuenta de la orientación espacial de un cuerpo extenso. 
+Contando ahora con los tensores de inercia se aplica el formalismo de Euler-Lagrange a las coordenadas generalizadas que dan cuenta de la orientación espacial de un cuerpo. 
 
 - [Ecuaciones de Euler](10RotaciónEuler/ecuacionesEuler.ipynb)
 [![Ecuaciones de Euler](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/10RotaciónEuler/ecuacionesEuler.ipynb)
@@ -317,8 +316,8 @@ Contando ahora con los tensores de inercia se aplica el formalismo de Euler-Lagr
 
 ### 12 Vibraciones con un grado de libertad
 
-Se analizan modelos analíticos para la dinámica de una partícula puntual levemente apartada de un equilibrio estable.
-Se grafica su dinámica tanto para casos en que se parte de un apartamiento del mínimo del pozo así como el caso en que se ejerce un forzado externo. 
+Se modela la dinámica de una partícula puntual levemente apartada de un equilibrio estable.
+Además de contemplar el inevitable amortiguamento, se estudia el efecto de fuerzas externas al sistema. 
 
 - [Oscilaciones amortiguadas](12Vibraciones1GdL/vibraciones1GdL.ipynb)
 [![Oscilaciones amortiguadas](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/12Vibraciones1GdL/vibraciones1GdL.ipynb)
@@ -336,7 +335,7 @@ Se grafica su dinámica tanto para casos en que se parte de un apartamiento del 
 
 ### 13 Vibraciones con múltiples grados de libertad
 
-Se presenta el formalismo para extender a sistemas de múltiples grados de libertad el análisis de dinámica tras ser levemente apartados de un equilibrio estable.
+Se extiende el estudio a sistemas de múltiples grados de libertad levemente apartados de un equilibrio estable.
 
 - [Oscilaciones con múltiples grados de libertad](13VibracionesNGdL/vibracionesNGdL.ipynb)
 [![Oscilaciones con múltiples grados de libertad](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/13VibracionesNGdL/vibracionesNGdL.ipynb)
