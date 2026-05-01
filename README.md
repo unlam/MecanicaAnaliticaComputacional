@@ -4,22 +4,11 @@
 
 Aquí se publica el material de enseñanza utilizado en la [asignatura sobre esta temática](https://ingenieria.unlam.edu.ar/preview.php?seccion=3&idArticulo=510) en la carrera de grado de [Ingeniería Mecánica](https://ingenieria.unlam.edu.ar/index.php?seccion=3&idArticulo=371) de la Universidad Nacional de La Matanza.
 
-An English version of this repository, [Computational Analytical Mechanics](https://www.github.com/unlam/ComputationalAnalyticalMechanics), is available.
+An English version of this repository, [Computational Analytical Mechanics](https://github.com/unlam/ComputationalAnalyticalMechanics), is available.
 
 [![DIIT-UNLaM](referencia/figurasLaTeX/ingenieria_logo_schwarz.png)](https://ingenieria.unlam.edu.ar/)
 [![CC BY-NC-SA](https://upload.wikimedia.org/wikipedia/commons/1/12/Cc-by-nc-sa_icon.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es)
 2026 Víctor A. Bettachini
-
-<!--
-![](referencia/figurasLaTeX/ambos.png)
-
-<a href="https://unlam.github.io/MecanicaAnaliticaComputacional/opener.html" target="_blank">Lanzador de cuadernos Jupyter</a> 
-
-Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
-
-<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
-
--->
 
 ## Índice
 - [Acerca de la asignatura](#acerca-de-la-asignatura)
@@ -38,12 +27,12 @@ Esta obra está bajo una <a rel="license" href="https://creativecommons.org/lice
   - [08 Tensor de inercia](#08-tensor-de-inercia)
   - [09 Masa distribuida](#09-masa-distribuida)
   - [10 Ecuaciones de Euler para la rotación](#10-ecuaciones-de-euler-para-la-rotación)
-  - 11 (continúa 10)
+  - 11 (continuación de 10)
   - [12 Vibraciones con un grado de libertad](#12-vibraciones-con-un-grado-de-libertad)
   - [13 Vibraciones con múltiples grados de libertad](#13-vibraciones-con-múltiples-grados-de-libertad)
-  - 14 (continúa 13)
+  - 14 (continuación de 13)
   - [15 Trabajo integrador](#15-trabajo-integrador)
-  - 16 Trabajo integrador - 2.da oportunidad de defensa
+  - 16 Trabajo integrador - segunda oportunidad de defensa
 - [Bibliografía](#bibliografía)
 
 
@@ -56,10 +45,10 @@ Esta obra está bajo una <a rel="license" href="https://creativecommons.org/lice
 [Programa analítico](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/programa.pdf)
 [![Programa analítico](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/referencia/acad%C3%A9mica/programa.pdf)  
 
-- Instrumenta la mecánica analítica mediante métodos computacionales con el fin de modelizar dispositivos mecánicos simples.
-- Aplicando ecuaciones de Euler-Lagrange se arriba a calcular la dinámica y esfuerzos de modelos de cuerpos rígidos.
-- Implementa computacionalmente tanto las derivaciones analíticas como las soluciones numéricas de los modelos planteados.
-- Introduce esta metodología en un [cronograma](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/cronograma.md) acotado, requiriendo como saberes previos la mecánica vectorial y análisis matemático en múltiples variables.
+- Instrumenta la mecánica analítica mediante métodos computacionales para modelar sistemas mecánicos simples.
+- Mediante las ecuaciones de Euler-Lagrange se calcula la dinámica y los esfuerzos de modelos de cuerpos rígidos.
+- Desarrolla tanto las derivaciones analíticas como las soluciones numéricas de los modelos planteados.
+- Presenta esta metodología en un [cronograma](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/cronograma.md) acotado y requiere como saberes previos la mecánica vectorial y el análisis matemático en múltiples variables.
 
 
 
@@ -88,24 +77,21 @@ El material del curso se diseñó para un modelo de [**aula invertida**](https:/
 
 ### Tecnología
 
-- **No requiere instalación**: ejecución de cuadernos en la nube [Google Colaboratory](https://colab.research.google.com/).
+- **No requiere instalación**: ejecución de cuadernos en la nube con [Google Colaboratory](https://colab.research.google.com/) (requiere cuenta de Google).
 - **Código abierto**: se proporcionan incluso las fuentes [LaTeX](https://www.latex-project.org/) de los conjuntos de problemas.
 - **Python**
-  - **Bibliotecas**
-Los cuadernos de este repositorio importan explícitamente las siguientes cuando es necesario:
-  [SymPy](https://www.sympy.org/en/index.html) 1.14.0, 
-  [NumPy](https://numpy.org/) 2.3.3, 
-  [SciPy](https://scipy.org/) 1.16.2, 
-  [Matplotlib](https://matplotlib.org/) 3.10.6
-  - [Lo básico para aprovechar Python](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/b%C3%A1sicoPython.ipynb)
-  [![Lo básico para aprovechar Python](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/introducci%C3%B3nPython.ipynb)
-  - (opcional) [Algo más sobre este lenguaje](https://www.github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/másPython.ipynb)
+   - [Lo básico para aprovechar Python](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/b%C3%A1sicoPython.ipynb)
+  [![Lo básico para aprovechar Python](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/b%C3%A1sicoPython.ipynb)
+  - (opcional) [Algo más sobre este lenguaje](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/másPython.ipynb)
   [![Algo más sobre este lenguaje](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/másPython.ipynb)
+  - Bibliotecas utilizadas: [SymPy](https://www.sympy.org/) 1.14, [NumPy](https://numpy.org/) 2.3.3, [SciPy](https://scipy.org/) 1.16.2, [Matplotlib](https://matplotlib.org/) 3.10.6 
+
+
 - **Jupyter**
-  - [Anotaciones en cuadernos Jupyter: Markdown y LaTeX](https://www.github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica//markdownLaTeX.ipynb)
-  [![Anotaciones en cuadernos Jupyter: Markdown y LaTeX](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/markdownLaTeX.ipynb)
-  - [Incluir imágenes en cuadernos Jupyter](https://www.github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/incluirIm%C3%A1genes.ipynb)
-  [![Incluir imágenes en cuadernos Jupyter](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/incluirIm%C3%A1genes.ipynb)
+  - [Anotaciones en cuadernos Jupyter: Markdown y LaTeX](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/MarkdownLaTeX.ipynb)
+  [![Anotaciones en cuadernos Jupyter: Markdown y LaTeX](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/MarkdownLaTeX.ipynb)
+  - [Incluir imágenes en cuadernos Jupyter](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/im%C3%A1genesNotebooks.ipynb)
+  [![Incluir imágenes en cuadernos Jupyter](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/im%C3%A1genesNotebooks.ipynb)
 
 
 ### Contacto
@@ -124,7 +110,7 @@ Los temas del curso están divididos por áreas que pueden abarcar varias semana
 | 03EulerLagrange   | "                   | Ecuaciones de Euler-Lagrange. |
 | 04Ligaduras       | "                   | Ligaduras como función de coordenadas. |
 | 05Simulación      | Numérico            | Resolución numérica de ecuaciones de Euler-Lagrange. |
-| 06FuerzaLigadura  | Fuerzas             | Fuerza de ligadura por multiplicadores de Lagrange. |
+| 06FuerzasLigadura  | Fuerzas             | Fuerza de ligadura por multiplicadores de Lagrange. |
 | 07NoConservativas | "                   | Fuerzas no conservativas en el formalismo de Euler-Lagrange. |
 | 08TensorInercia   | Cuerpo rígido       | Tensor de inercia de arreglos de masas puntuales. |
 | 09MasaDistribuida | "                   | Tensor de inercia de cuerpos rígidos. |
@@ -134,7 +120,7 @@ Los temas del curso están divididos por áreas que pueden abarcar varias semana
 | 13VibracionesNGdL | "                   | Modos normales de oscilación en sistemas con múltiples grados de libertad. |
 | (14)              | "                   | " |
 | 15Integrador      | Evaluación          | **Defensa del proyecto final** |
-| (16)              | "                   | **2.da oportunidad de defensa** |
+| (16)              | "                   | **Segunda oportunidad de defensa** |
 
 
 
@@ -144,18 +130,18 @@ Primeros pasos en cálculo simbólico aplicando la biblioteca SymPy para automat
 
 - [Cinemática vectorial](01Vectorial/cinemáticaVectorial.ipynb)
 [![Cinemática vectorial](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/01Vectorial/cinemáticaVectorial.ipynb)
-- [Primer guía de ejercicios (pset01) - Cinemática vectorial](01Vectorial/guíaVectorial.pdf)
-[![Primer guía de ejercicios (pset01) - Cinemática vectorial](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/01Vectorial/gu%C3%ADaVectorial.pdf)
+- [Primera guía de ejercicios (pset01) - Cinemática vectorial](01Vectorial/guíaVectorial.pdf)
+[![Primera guía de ejercicios (pset01) - Cinemática vectorial](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/01Vectorial/gu%C3%ADaVectorial.pdf)
   - Hacer entrega del primer ejercicio, pset01e01, dentro del lapso de una hora. 
   - El segundo ejercicio, pset01e02, antes del inicio del próximo encuentro semanal.
-  - Aquellos del pset02, antes del fin de tal encuentro (iniciarlos durante la semana).
-  - [Como realizar la entrega de ejercicios](referencia/académica/entregaEjercicios.ipynb)
+  - Los ejercicios del pset02 deben entregarse antes del fin de ese encuentro (se recomienda iniciarlos durante la semana).
+  - [Cómo realizar la entrega de ejercicios](referencia/académica/entregaEjercicios.ipynb)
 [![Entrega de ejercicios](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/entregaEjercicios.ipynb)
 
 
 ### 02 Energía
 
-Aprovechar la definición de funciones de Python para realizar un conjunto de pasos que permite automatizar el calcular energías de distintas configuraciones geométricas de particular puntuales.
+Se aprovecha la definición de funciones de Python para automatizar el cálculo de energías en distintas configuraciones geométricas de partículas puntuales.
 
 - [Energía cinética de traslación](02Energía/energíaCinéticaTraslación.ipynb)
 [![Energía cinética de traslación](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/02Energía/energíaCinéticaTraslación.ipynb)
@@ -206,7 +192,7 @@ Donde hay contactos o uniones entre partes de un sistema, las coordenadas genera
 - [Resolución de sistemas lineales](04Ligaduras/resoluciónSistemasLineales.ipynb)
 [![Resolución de sistemas lineales](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/04Ligaduras/resoluciónSistemasLineales.ipynb)
 - [Guía de ejercicios - Ligaduras](04Ligaduras/guíaLigaduras.pdf)
-[![Guía de ejercicios - Ligaduras](/referencia/figurasLaTeX/PDF.svg)](http://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/04Ligaduras/gu%C3%ADaLigaduras.pdf)
+[![Guía de ejercicios - Ligaduras](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/04Ligaduras/gu%C3%ADaLigaduras.pdf)
   - pset04e02
   - pset04e03
   - pset04e04
@@ -214,7 +200,7 @@ Donde hay contactos o uniones entre partes de un sistema, las coordenadas genera
 
 ### 05 Simulación
 
-Para interpretar las ecuaciones de la dinámica generadas por Euler-Lagrange se las resuelve con métodos numéricos.
+Para interpretar las ecuaciones de la dinámica generadas por Euler-Lagrange, estas se resuelven con métodos numéricos.
 
 - [Máquina de Atwood: simulación numérica](05Simulación/atwoodSimulación_Resuelto.ipynb)
 [![Máquina de Atwood: simulación numérica](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/05Simulación/atwoodSimulación_Resuelto.ipynb)
@@ -227,7 +213,7 @@ Para interpretar las ecuaciones de la dinámica generadas por Euler-Lagrange se 
   - pset05e03
   - pset05e04
 - Referencia
-    - [2D and 3D graphics with matplotlib](https://www.github.com/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb) [![2D and 3D graphics with matplotlib](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb)
+  - [2D and 3D graphics with matplotlib](https://github.com/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb) [![2D and 3D graphics with matplotlib](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb)
 
 
 ### 06 Fuerzas de ligadura
@@ -251,7 +237,7 @@ Además de la dinámica, Euler-Lagrange permite determinar los torques y fuerzas
 
 ### 07 Fuerzas no conservativas
 
-Hasta aquí Euler-Lagrange solo contempló la influencia externa de campos conservativos, como el gravitatorio. Pero ahora contemplaremos las influencias más usuales, como la fricción o amortigüamientos.
+Hasta aquí el formalismo de Euler-Lagrange solo contempló la influencia externa de campos conservativos, como el gravitatorio. En esta sección se incorporan influencias más usuales, como la fricción y los amortiguamientos.
 
 - [Fuerzas no conservativas y Euler-Lagrange](07NoConservativas/noConservativas.ipynb)
 [![Fuerzas no conservativas y Euler-Lagrange](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/07NoConservativas/noConservativas.ipynb)
@@ -303,8 +289,8 @@ Se calculan tensores de inercia para cuerpos rígidos cuya masa está distribuid
 
 Contando ahora con los tensores de inercia se aplica el formalismo de Euler-Lagrange a las coordenadas generalizadas que dan cuenta de la orientación espacial de un cuerpo. 
 
-- [Ecuaciones de Euler](10RotaciónEuler/ecuacionesEuler.ipynb)
-[![Ecuaciones de Euler](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/10RotaciónEuler/ecuacionesEuler.ipynb)
+- [Ecuaciones de Euler](10RotaciónEuler/rotaciónEuler.ipynb)
+[![Ecuaciones de Euler](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/10RotaciónEuler/rotaci%C3%B3nEuler.ipynb)
 - [Engranaje desalineado](10RotaciónEuler/engranajeDesalineado.ipynb)
 [![Engranaje desalineado](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/10RotaciónEuler/engranajeDesalineado.ipynb)
 - [Guía de ejercicios - Ecuaciones de Euler](10RotaciónEuler/guíaRotacionEuler.pdf)
@@ -317,7 +303,7 @@ Contando ahora con los tensores de inercia se aplica el formalismo de Euler-Lagr
 ### 12 Vibraciones con un grado de libertad
 
 Se modela la dinámica de una partícula puntual levemente apartada de un equilibrio estable.
-Además de contemplar el inevitable amortiguamento, se estudia el efecto de fuerzas externas al sistema. 
+Además de contemplar el inevitable amortiguamiento, se estudia el efecto de fuerzas externas al sistema. 
 
 - [Oscilaciones amortiguadas](12Vibraciones1GdL/vibraciones1GdL.ipynb)
 [![Oscilaciones amortiguadas](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/12Vibraciones1GdL/vibraciones1GdL.ipynb)
@@ -364,10 +350,9 @@ Los fundamentos teóricos empleados en este curso figuran en su totalidad en:
 #### Mecánica vectorial 
 
 - Ferdinand Pierre Beer, E. Russell Johnston, y Elliot R Eisenberg, _Mecánica vectorial para ingenieros -_
-    - _Dinámica_ (McGraw-Hill, 9.a. edición, 2010)
-    - _Estática_ (McGraw-Hill, 9.a edición 2010)
-- W. Moebs et al., [_Física universitaria - Volúmen 1_](https://openstax.org/details/books/f%C3%ADsica-universitaria-volumen-1)
- (OpenStax, 2021)
+    - _Dinámica_ (McGraw-Hill, 9.a edición, 2010)
+    - _Estática_ (McGraw-Hill, 9.a edición, 2010)
+- W. Moebs et al., [_Física universitaria - Volumen 1_](https://openstax.org/details/books/f%C3%ADsica-universitaria-volumen-1) (OpenStax, 2021)
 - S. Alrasheed, [_Principles of Mechanics_](https://doi.org/10.1007/978-3-030-15195-9) (Springer Cham, 1.a edición, 2019)
 
 
@@ -378,23 +363,8 @@ Los fundamentos teóricos empleados en este curso figuran en su totalidad en:
 
 #### Mecánica analítica
 
-- Cornelius Lanczos, _The Variational Principles of Mechanics_ (University of Toronto press, 1952).
+- Cornelius Lanczos, _The Variational Principles of Mechanics_ (University of Toronto Press, 1952).
   - [Un apunte](referencia/apuntes/apunteLanczos.pdf) [![Un apunte](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/referencia/apuntes/apunteLanczos.pdf) resume sus temáticas más relevantes para el curso.
-- Douglas Cline, [_Variational Principles in Classical Mechanics_](http://classicalmechanics.lib.rochester.edu/) (University of Rochester River Campus Libraries, 3rd ed., 2021)
-- John Robert Taylor, _Mecánica Clásica_ (Reverté, 1.a. edición, 2018)
-- Jerry B. Marion, _Dinámica clásica de las partículas y sistemas_ (Reverté, 2.a. edición, 1975)
-
-
-<!--
-## Referencia
-
-### Académica
-- [Temática de la asignatura](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/tem%C3%A1tica.ipynb)
-[![Temática de la asignatura](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/tem%C3%A1tica.ipynb)  
-- [Metodología de cursada](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/metodolog%C3%ADa.ipynb)
-[![Metodología de cursada](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/metodolog%C3%ADa.ipynb)
-- [Programa analítico](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/programa.pdf)
-[![Programa analítico](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/referencia/acad%C3%A9mica/programa.pdf)
-- [Cronograma](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/cronograma.md)
-- [Textos de referencia](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/bibliograf%C3%ADa.md)
--->
+- Douglas Cline, [_Variational Principles in Classical Mechanics_](https://classicalmechanics.lib.rochester.edu/) (University of Rochester River Campus Libraries, 3.a edición, 2021)
+- John Robert Taylor, _Mecánica Clásica_ (Reverté, 1.a edición, 2018)
+- Jerry B. Marion, _Dinámica clásica de las partículas y sistemas_ (Reverté, 2.a edición, 1975)
