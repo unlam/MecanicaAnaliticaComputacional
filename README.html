@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>readme</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="README_files/libs/clipboard/clipboard.min.js"></script>
+<script src="README_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="README_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="README_files/libs/quarto-html/popper.min.js"></script>
+<script src="README_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="README_files/libs/quarto-html/anchor.min.js"></script>
+<link href="README_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="README_files/libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="README_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="README_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="README_files/libs/bootstrap/bootstrap-f551cdb63e09474bd664a9fbfee792a5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+
+
+
+<!-- LTeX: language=es-AR -->
+<section id="mecánica-analítica-computacional" class="level1">
+<h1>Mecánica Analítica Computacional</h1>
+<p>Aquí se publica el material de enseñanza utilizado en la <a href="https://ingenieria.unlam.edu.ar/preview.php?seccion=3&amp;idArticulo=510">asignatura sobre esta temática</a> en la carrera de grado de <a href="https://ingenieria.unlam.edu.ar/index.php?seccion=3&amp;idArticulo=371">Ingeniería Mecánica</a> de la Universidad Nacional de La Matanza.</p>
+<p>An English version of this repository, <a href="https://github.com/unlam/ComputationalAnalyticalMechanics">Computational Analytical Mechanics</a>, is available.</p>
+<p><a href="https://ingenieria.unlam.edu.ar/"><img src="referencia/figurasLaTeX/ingenieria_logo_schwarz.png" class="img-fluid" alt="DIIT-UNLaM"></a> <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es"><img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Cc-by-nc-sa_icon.svg" class="img-fluid" alt="CC BY-NC-SA"></a> 2026 Víctor A. Bettachini</p>
+<section id="índice" class="level2">
+<h2 class="anchored" data-anchor-id="índice">Índice</h2>
+<ul>
+<li><a href="#acerca-de-la-asignatura">Acerca de la asignatura</a>
+<ul>
+<li><a href="#material-de-aprendizaje">Material de aprendizaje</a></li>
+<li><a href="#enfoque-didáctico">Enfoque didáctico</a></li>
+<li><a href="#tecnología">Tecnología</a></li>
+<li><a href="#contacto">Contacto</a></li>
+</ul></li>
+<li><a href="#cronograma-semanal">Cronograma semanal</a>
+<ul>
+<li><a href="#01-análisis-vectorial">01 Análisis vectorial</a></li>
+<li><a href="#02-energía">02 Energía</a></li>
+<li><a href="#03-ecuaciones-de-euler-lagrange">03 Ecuaciones de Euler-Lagrange</a></li>
+<li><a href="#04-ligaduras">04 Ligaduras</a></li>
+<li><a href="#05-simulación">05 Simulación</a></li>
+<li><a href="#06-fuerzas-de-ligadura">06 Fuerzas de ligadura</a></li>
+<li><a href="#07-fuerzas-no-conservativas">07 Fuerzas no conservativas</a></li>
+<li><a href="#08-tensor-de-inercia">08 Tensor de inercia</a></li>
+<li><a href="#09-masa-distribuida">09 Masa distribuida</a></li>
+<li><a href="#10-ecuaciones-de-euler-para-la-rotación">10 Ecuaciones de Euler para la rotación</a></li>
+<li>11 (continuación de 10)</li>
+<li><a href="#12-vibraciones-con-un-grado-de-libertad">12 Vibraciones con un grado de libertad</a></li>
+<li><a href="#13-vibraciones-con-múltiples-grados-de-libertad">13 Vibraciones con múltiples grados de libertad</a></li>
+<li>14 (continuación de 13)</li>
+<li><a href="#15-trabajo-integrador">15 Trabajo integrador</a></li>
+<li>16 Trabajo integrador - segunda oportunidad de defensa</li>
+</ul></li>
+<li><a href="#bibliografía">Bibliografía</a></li>
+</ul>
+</section>
+<section id="acerca-de-la-asignatura" class="level2">
+<h2 class="anchored" data-anchor-id="acerca-de-la-asignatura">Acerca de la asignatura</h2>
+<p><a href="https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/tem%C3%A1tica.ipynb">Temática de la asignatura</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/tem%C3%A1tica.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Temática de la asignatura"></a></p>
+<p><a href="https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/programa.pdf">Programa analítico</a> <a href="https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/referencia/acad%C3%A9mica/programa.pdf"><img src="./referencia/figurasLaTeX/PDF.svg" class="img-fluid" alt="Programa analítico"></a></p>
+<ul>
+<li>Instrumenta la mecánica analítica mediante métodos computacionales para modelar sistemas mecánicos simples.</li>
+<li>Mediante las ecuaciones de Euler-Lagrange se calcula la dinámica y los esfuerzos de modelos de cuerpos rígidos.</li>
+<li>Desarrolla tanto las derivaciones analíticas como las soluciones numéricas de los modelos planteados.</li>
+<li>Presenta esta metodología en un <a href="https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/cronograma.md">cronograma</a> acotado y requiere como saberes previos la mecánica vectorial y el análisis matemático en múltiples variables.</li>
+</ul>
+<section id="material-de-aprendizaje" class="level3">
+<h3 class="anchored" data-anchor-id="material-de-aprendizaje">Material de aprendizaje</h3>
+<p>Semanalmente nuevos temas se presentan en uno o más <strong><a href="https://jupyter.org/">cuadernos Jupyter</a></strong> que combinan: - Teoría y conceptos de física. - Herramientas computacionales basadas en <strong><a href="https://www.python.org/">Python</a></strong>. - Ejercicios resueltos que ilustran el código que efectúa todos los cálculos.</p>
+<p>Para cada tema se presenta un PDF con un <strong>conjunto de problemas</strong>. Sus ejercicios pueden resolverse realizando modificaciones incrementales en el código de los ejemplos proporcionados. De esta forma, el foco del esfuerzo del estudiante se corre de resolver expresiones matemáticas complejas hacia el modelado físico y la interpretación de los resultados.</p>
+</section>
+<section id="enfoque-didáctico" class="level3">
+<h3 class="anchored" data-anchor-id="enfoque-didáctico">Enfoque didáctico</h3>
+<p><a href="https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/metodolog%C3%ADa.ipynb">Metodología de cursada</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/metodolog%C3%ADa.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Metodología de cursada"></a></p>
+<p>El material del curso se diseñó para un modelo de <a href="https://en.wikipedia.org/wiki/Flipped_classroom"><strong>aula invertida</strong></a>. El estudiante: - Estudia el material de teoría e inicia los ejercicios antes de un encuentro sincrónico semanal. - Durante el encuentro, el docente aclara dudas y guía a los estudiantes en la resolución de los ejercicios. - Los ejercicios se entregan al final de cada encuentro.</p>
+</section>
+<section id="tecnología" class="level3">
+<h3 class="anchored" data-anchor-id="tecnología">Tecnología</h3>
+<ul>
+<li><strong>No requiere instalación</strong>: ejecución de cuadernos en la nube con <a href="https://colab.research.google.com/">Google Colaboratory</a> (requiere cuenta de Google).</li>
+<li><strong>Código abierto</strong>: se proporcionan incluso las fuentes <a href="https://www.latex-project.org/">LaTeX</a> de los conjuntos de problemas.</li>
+<li><strong>Python</strong>
+<ul>
+<li><a href="https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/b%C3%A1sicoPython.ipynb">Lo básico para aprovechar Python</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/b%C3%A1sicoPython.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Lo básico para aprovechar Python"></a></li>
+<li>(opcional) <a href="https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/másPython.ipynb">Algo más sobre este lenguaje</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/másPython.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Algo más sobre este lenguaje"></a></li>
+<li>Bibliotecas utilizadas: <a href="https://www.sympy.org/">SymPy</a> 1.14, <a href="https://numpy.org/">NumPy</a> 2.3.3, <a href="https://scipy.org/">SciPy</a> 1.16.2, <a href="https://matplotlib.org/">Matplotlib</a> 3.10.6</li>
+</ul></li>
+<li><strong>Jupyter</strong>
+<ul>
+<li><a href="https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/MarkdownLaTeX.ipynb">Anotaciones en cuadernos Jupyter: Markdown y LaTeX</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/MarkdownLaTeX.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Anotaciones en cuadernos Jupyter: Markdown y LaTeX"></a></li>
+<li><a href="https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/im%C3%A1genesNotebooks.ipynb">Incluir imágenes en cuadernos Jupyter</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/im%C3%A1genesNotebooks.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Incluir imágenes en cuadernos Jupyter"></a></li>
+</ul></li>
+</ul>
+</section>
+<section id="contacto" class="level3">
+<h3 class="anchored" data-anchor-id="contacto">Contacto</h3>
+<p>De tener alguna pregunta sobre este curso, no dudar en <a href="https://github.com/unlam/MecanicaAnaliticaComputacional/issues">abrir una cuestión (issue)</a> en este repositorio. ¡Agradecemos los comentarios y sugerencias de la comunidad!</p>
+</section>
+</section>
+<section id="cronograma-semanal" class="level2">
+<h2 class="anchored" data-anchor-id="cronograma-semanal">Cronograma semanal</h2>
+<p>Los temas del curso están divididos por áreas que pueden abarcar varias semanas.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 36%">
+<col style="width: 29%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Carpeta semanal</th>
+<th style="text-align: center;">Área</th>
+<th style="text-align: left;">Temática</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">01Vectorial</td>
+<td style="text-align: center;">Mecánica Newtoniana</td>
+<td style="text-align: left;">Metodología del curso. Análisis vectorial computacional.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">02Energía</td>
+<td style="text-align: center;">Mecánica analítica</td>
+<td style="text-align: left;">Coordenadas generalizadas. Energías cinética y potencial gravitatoria.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">03EulerLagrange</td>
+<td style="text-align: center;">”</td>
+<td style="text-align: left;">Ecuaciones de Euler-Lagrange.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">04Ligaduras</td>
+<td style="text-align: center;">”</td>
+<td style="text-align: left;">Ligaduras como función de coordenadas.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">05Simulación</td>
+<td style="text-align: center;">Numérico</td>
+<td style="text-align: left;">Resolución numérica de ecuaciones de Euler-Lagrange.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">06FuerzasLigadura</td>
+<td style="text-align: center;">Fuerzas</td>
+<td style="text-align: left;">Fuerza de ligadura por multiplicadores de Lagrange.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">07NoConservativas</td>
+<td style="text-align: center;">”</td>
+<td style="text-align: left;">Fuerzas no conservativas en el formalismo de Euler-Lagrange.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">08TensorInercia</td>
+<td style="text-align: center;">Cuerpo rígido</td>
+<td style="text-align: left;">Tensor de inercia de arreglos de masas puntuales.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">09MasaDistribuida</td>
+<td style="text-align: center;">”</td>
+<td style="text-align: left;">Tensor de inercia de cuerpos rígidos.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10RotaciónEuler</td>
+<td style="text-align: center;">”</td>
+<td style="text-align: left;">Ecuaciones de Euler para el cuerpo rígido.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">(11)</td>
+<td style="text-align: center;">”</td>
+<td style="text-align: left;"><strong>Proyecto final: discusión de su enunciado</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">12Vibraciones1GdL</td>
+<td style="text-align: center;">Vibraciones</td>
+<td style="text-align: left;">Oscilaciones forzadas en sistemas de un grado de libertad.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">13VibracionesNGdL</td>
+<td style="text-align: center;">”</td>
+<td style="text-align: left;">Modos normales de oscilación en sistemas con múltiples grados de libertad.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">(14)</td>
+<td style="text-align: center;">”</td>
+<td style="text-align: left;">”</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">15Integrador</td>
+<td style="text-align: center;">Evaluación</td>
+<td style="text-align: left;"><strong>Defensa del proyecto final</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">(16)</td>
+<td style="text-align: center;">”</td>
+<td style="text-align: left;"><strong>Segunda oportunidad de defensa</strong></td>
+</tr>
+</tbody>
+</table>
+<section id="análisis-vectorial" class="level3">
+<h3 class="anchored" data-anchor-id="análisis-vectorial">01 Análisis vectorial</h3>
+<p>Primeros pasos en cálculo simbólico aplicando la biblioteca SymPy para automatizar los cálculos de cinemática que en asignaturas anteriores se realizaron manualmente.</p>
+<ul>
+<li><a href="01Vectorial/cinemáticaVectorial.ipynb">Cinemática vectorial</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/01Vectorial/cinemáticaVectorial.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Cinemática vectorial"></a></li>
+<li><a href="01Vectorial/guíaVectorial.pdf">Primera guía de ejercicios (pset01) - Cinemática vectorial</a> <a href="https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/01Vectorial/gu%C3%ADaVectorial.pdf"><img src="./referencia/figurasLaTeX/PDF.svg" class="img-fluid" alt="Primera guía de ejercicios (pset01) - Cinemática vectorial"></a>
+<ul>
+<li>Hacer entrega del primer ejercicio, pset01e01, dentro del lapso de una hora.</li>
+<li>El segundo ejercicio, pset01e02, antes del inicio del próximo encuentro semanal.</li>
+<li>Los ejercicios del pset02 deben entregarse antes del fin de ese encuentro (se recomienda iniciarlos durante la semana).</li>
+<li><a href="referencia/académica/entregaEjercicios.ipynb">Cómo realizar la entrega de ejercicios</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/entregaEjercicios.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Entrega de ejercicios"></a></li>
+</ul></li>
+</ul>
+</section>
+<section id="energía" class="level3">
+<h3 class="anchored" data-anchor-id="energía">02 Energía</h3>
+<p>Se aprovecha la definición de funciones de Python para automatizar el cálculo de energías en distintas configuraciones geométricas de partículas puntuales.</p>
+<ul>
+<li><a href="02Energía/energíaCinéticaTraslación.ipynb">Energía cinética de traslación</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/02Energía/energíaCinéticaTraslación.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Energía cinética de traslación"></a></li>
+<li><a href="02Energía/energíaPotencialGravitatoria.ipynb">Energía potencial gravitatoria</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/02Energía/energíaPotencialGravitatoria.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Energía potencial gravitatoria"></a></li>
+<li><a href="02Energía/guíaEnergía.pdf">Guía de ejercicios - Energía</a> <a href="https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/02Energía/gu%C3%ADaEnergía.pdf"><img src="./referencia/figurasLaTeX/PDF.svg" class="img-fluid" alt="Guía de ejercicios - Energía"></a>
+<ul>
+<li>pset02e01</li>
+<li>pset02e02</li>
+<li>pset02e03</li>
+<li>pset02e04</li>
+</ul></li>
+</ul>
+</section>
+<section id="ecuaciones-de-euler-lagrange" class="level3">
+<h3 class="anchored" data-anchor-id="ecuaciones-de-euler-lagrange">03 Ecuaciones de Euler-Lagrange</h3>
+<p>De los principios de la mecánica analítica se derivan tales ecuaciones. Con estas basta con tener las energías de un sistema para generar automáticamente soluciones para su dinámica.</p>
+<ul>
+<li><a href="03EulerLagrange/péndulos_eulerLagrange.ipynb">Péndulos</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/03EulerLagrange/péndulos_eulerLagrange.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Péndulos"></a>
+<ul>
+<li><a href="https://youtu.be/WQNiupNh0js"><em>El extraño principio de física que da forma a la realidad</em></a> <img src="referencia/figurasLaTeX/youtube.svg" class="img-fluid" alt="youtube"></li>
+<li><a href="referencia/apuntes/apunteLanczos.pdf"><em>Lo esencial de “Los principios variacionales de la mecánica” de Lanczos</em></a> <a href="https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/referencia/apuntes/apunteLanczos.pdf"><img src="./referencia/figurasLaTeX/PDF.svg" class="img-fluid" alt="Lo esencial de “Los principios variacionales de la mecánica” de Lanczos"></a></li>
+</ul></li>
+<li><a href="03EulerLagrange/guíaEulerLagrange.pdf">Guía de ejercicios - Euler-Lagrange</a> <a href="https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/03EulerLagrange/gu%C3%ADaEulerLagrange.pdf"><img src="./referencia/figurasLaTeX/PDF.svg" class="img-fluid" alt="Guía de ejercicios - Euler-Lagrange"></a>
+<ul>
+<li>pset03e01c</li>
+<li>pset03e02</li>
+<li>pset03e03</li>
+<li>pset03e04
+<ul>
+<li><a href="03EulerLagrange/energíaPotencialElástica_eulerLagrange.ipynb">Energía potencial elástica</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/03EulerLagrange/energíaPotencialElástica_eulerLagrange.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Energía potencial elástica"></a></li>
+<li><a href="03EulerLagrange/partesRotantes_eulerLagrange.ipynb">Partes rotantes</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/03EulerLagrange/partesRotantes_eulerLagrange.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Partes rotantes"></a> &lt;!–</li>
+</ul></li>
+<li><a href="03EulerLagrange/plantilla_eulerLagrange.ipynb">Plantilla de funciones</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/03EulerLagrange/plantilla_eulerLagrange.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Plantilla de funciones"></a>
+<ul>
+<li><a href="https://ingunlamedu.sharepoint.com/:v:/r/sites/22sMecAnComputacional/Documentos%20compartidos/03EulerLagrange/funciones.mp4?csf=1&amp;web=1&amp;e=3CiZai&amp;nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Cuaderno plantilla Euler-Lagrange</a> (video explicativo) –&gt;</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="ligaduras" class="level3">
+<h3 class="anchored" data-anchor-id="ligaduras">04 Ligaduras</h3>
+<p>Donde hay contactos o uniones entre partes de un sistema, las coordenadas generalizadas responden a relaciones matemáticas entre ellas.</p>
+<ul>
+<li><a href="04Ligaduras/ligadurasFunción.ipynb">Ligaduras como función de coordenadas</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/04Ligaduras/ligadurasFunción.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Ligaduras como función de coordenadas"></a></li>
+<li><a href="04Ligaduras/atwood_Ligaduras.ipynb">Máquina de Atwood con ligaduras</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/04Ligaduras/atwood_Ligaduras.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Máquina de Atwood con ligaduras"></a></li>
+<li><a href="04Ligaduras/resoluciónSistemasLineales.ipynb">Resolución de sistemas lineales</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/04Ligaduras/resoluciónSistemasLineales.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Resolución de sistemas lineales"></a></li>
+<li><a href="04Ligaduras/guíaLigaduras.pdf">Guía de ejercicios - Ligaduras</a> <a href="https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/04Ligaduras/gu%C3%ADaLigaduras.pdf"><img src="./referencia/figurasLaTeX/PDF.svg" class="img-fluid" alt="Guía de ejercicios - Ligaduras"></a>
+<ul>
+<li>pset04e02</li>
+<li>pset04e03</li>
+<li>pset04e04</li>
+</ul></li>
+</ul>
+</section>
+<section id="simulación" class="level3">
+<h3 class="anchored" data-anchor-id="simulación">05 Simulación</h3>
+<p>Para interpretar las ecuaciones de la dinámica generadas por Euler-Lagrange, estas se resuelven con métodos numéricos.</p>
+<ul>
+<li><a href="05Simulación/atwoodSimulación_Resuelto.ipynb">Máquina de Atwood: simulación numérica</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/05Simulación/atwoodSimulación_Resuelto.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Máquina de Atwood: simulación numérica"></a></li>
+<li><a href="05Simulación/pénduloLibre_Simulación_Resuelto.ipynb">Péndulo con soporte libre en la dirección horizontal: simulación numérica</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/05Simulación/pénduloLibre_Simulación_Resuelto.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Péndulo con soporte libre en la dirección horizontal: simulación numérica"></a></li>
+<li><a href="05Simulación/guíaSimulación.pdf">Guía de ejercicios - Simulación</a> <a href="https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/05Simulación/gu%C3%ADaSimulación.pdf"><img src="./referencia/figurasLaTeX/PDF.svg" class="img-fluid" alt="Guía de ejercicios - Simulación"></a>
+<ul>
+<li>pset05e02a</li>
+<li>pset05e02c</li>
+<li>pset05e03</li>
+<li>pset05e04</li>
+</ul></li>
+<li>Referencia
+<ul>
+<li><a href="https://github.com/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb">2D and 3D graphics with matplotlib</a> <a href="https://colab.research.google.com/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" class="img-fluid" alt="2D and 3D graphics with matplotlib"></a></li>
+</ul></li>
+</ul>
+</section>
+<section id="fuerzas-de-ligadura" class="level3">
+<h3 class="anchored" data-anchor-id="fuerzas-de-ligadura">06 Fuerzas de ligadura</h3>
+<p>Además de la dinámica, Euler-Lagrange permite determinar los torques y fuerzas requeridos para mantener contactos u otras ligaduras entre partes de un sistema.</p>
+<ul>
+<li><a href="06FuerzasLigadura/fuerzasLigadura.ipynb">Introducción a las fuerzas de ligadura</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/06FuerzasLigadura/fuerzasLigadura.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Introducción a las fuerzas de ligadura"></a></li>
+<li><a href="06FuerzasLigadura/pénduloIdeal_FuerzasLigadura.ipynb">Péndulo físico ideal</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/06FuerzasLigadura/pénduloIdeal_FuerzasLigadura.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Péndulo físico ideal"></a></li>
+<li><a href="06FuerzasLigadura/rodadura_FuerzasLigadura.ipynb">Rodadura</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/06FuerzasLigadura/rodadura_FuerzasLigadura.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Rodadura"></a></li>
+<li><a href="06FuerzasLigadura/sistemasNoHolónomos.ipynb">Sistemas no holónomos</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/06FuerzasLigadura/sistemasNoHolónomos.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Sistemas no holónomos"></a></li>
+<li><a href="06FuerzasLigadura/guíaFuerzasLigadura.pdf">Guía de ejercicios - Fuerzas de ligadura</a> <a href="https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/06FuerzasLigadura/gu%C3%ADaFuerzasLigadura.pdf"><img src="./referencia/figurasLaTeX/PDF.svg" class="img-fluid" alt="Guía de ejercicios - Fuerzas de ligadura"></a>
+<ul>
+<li>pset06e03</li>
+<li>pset06e04</li>
+<li>pset06e05</li>
+</ul></li>
+</ul>
+</section>
+<section id="fuerzas-no-conservativas" class="level3">
+<h3 class="anchored" data-anchor-id="fuerzas-no-conservativas">07 Fuerzas no conservativas</h3>
+<p>Hasta aquí el formalismo de Euler-Lagrange solo contempló la influencia externa de campos conservativos, como el gravitatorio. En esta sección se incorporan influencias más usuales, como la fricción y los amortiguamientos.</p>
+<ul>
+<li><a href="07NoConservativas/noConservativas.ipynb">Fuerzas no conservativas y Euler-Lagrange</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/07NoConservativas/noConservativas.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Fuerzas no conservativas y Euler-Lagrange"></a></li>
+<li><a href="07NoConservativas/guíaNoConservativas.pdf">Guía de ejercicios - Fuerzas no conservativas</a> <a href="https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/07NoConservativas/gu%C3%ADaNoConservativas.pdf"><img src="./referencia/figurasLaTeX/PDF.svg" class="img-fluid" alt="Guía de ejercicios - Fuerzas no conservativas"></a>
+<ul>
+<li>pset07e02</li>
+<li>pset07e03
+<ul>
+<li><a href="07NoConservativas/cilíndrosSolidarios_noConservativas_ayuda.ipynb">Cilindros solidarios</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/07NoConservativas/cilíndrosSolidarios_noConservativas_ayuda.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Cilindros solidarios"></a></li>
+</ul></li>
+<li>pset07e04</li>
+</ul></li>
+</ul>
+</section>
+<section id="tensor-de-inercia" class="level3">
+<h3 class="anchored" data-anchor-id="tensor-de-inercia">08 Tensor de inercia</h3>
+<p>La proporción entre un cambio de velocidad, la llamada aceleración, y la fuerza que la causa es un escalar llamado masa. La proporción de dicho cambio para la velocidad angular y el torque que lo provoca es un objeto matemático más complicado denominado tensor de inercia. Se lo calcula para conjuntos de partículas puntuales.</p>
+<ul>
+<li><a href="08TensorInercia/momentoAngularTorque.ipynb">Momento angular y torque</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/08TensorInercia/momentoAngularTorque.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Momento angular y torque"></a></li>
+<li><a href="08TensorInercia/tensorInercia.ipynb">Tensor de inercia</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/08TensorInercia/tensorInercia.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Tensor de inercia"></a></li>
+<li><a href="08TensorInercia/monóxidoCarbono_tensorInercia.ipynb">Monóxido de carbono</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/08TensorInercia/monóxidoCarbono_tensorInercia.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Monóxido de carbono"></a></li>
+<li><a href="08TensorInercia/guíaTensorInercia.pdf">Guía de ejercicios - Tensor de inercia</a> <a href="https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/08TensorInercia/gu%C3%ADaTensorInercia.pdf"><img src="./referencia/figurasLaTeX/PDF.svg" class="img-fluid" alt="Guía de ejercicios - Tensor de inercia"></a>
+<ul>
+<li>pset08e02</li>
+<li>pset08e04</li>
+<li>pset08e05</li>
+</ul></li>
+</ul>
+</section>
+<section id="masa-distribuida" class="level3">
+<h3 class="anchored" data-anchor-id="masa-distribuida">09 Masa distribuida</h3>
+<p>Se calculan tensores de inercia para cuerpos rígidos cuya masa está distribuida dentro de formas geométricas simples.</p>
+<ul>
+<li><a href="09MasaDistribuida/masaDistribuida.ipynb">Masa distribuida</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/09MasaDistribuida/masaDistribuida.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Masa distribuida"></a></li>
+<li><a href="09MasaDistribuida/cubo_tensorInercia.ipynb">Tensor de inercia de un cubo</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/09MasaDistribuida/cubo_tensorInercia.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Tensor de inercia de un cubo"></a></li>
+<li><a href="09MasaDistribuida/guíaDistribuciónMasa.pdf">Guía de ejercicios - Masa distribuida</a> <a href="https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/09MasaDistribuida/gu%C3%ADaDistribuci%C3%B3nMasa.pdf"><img src="./referencia/figurasLaTeX/PDF.svg" class="img-fluid" alt="Guía de ejercicios - Masa distribuida"></a>
+<ul>
+<li>pset09e01</li>
+<li>pset09e02</li>
+<li>pset09e04</li>
+<li>pset09e05</li>
+<li>pset09e06</li>
+<li>pset09e07
+<ul>
+<li><a href="08TensorInercia/rodaduraCono.pdf">Rodadura de un cono</a> <a href="https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/08TensorInercia/rodaduraCono.pdf"><img src="./referencia/figurasLaTeX/PDF.svg" class="img-fluid" alt="Rodadura de un cono"></a></li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="ecuaciones-de-euler-para-la-rotación" class="level3">
+<h3 class="anchored" data-anchor-id="ecuaciones-de-euler-para-la-rotación">10 Ecuaciones de Euler para la rotación</h3>
+<p>Contando ahora con los tensores de inercia se aplica el formalismo de Euler-Lagrange a las coordenadas generalizadas que dan cuenta de la orientación espacial de un cuerpo.</p>
+<ul>
+<li><a href="10RotaciónEuler/rotaciónEuler.ipynb">Ecuaciones de Euler</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/10RotaciónEuler/rotaci%C3%B3nEuler.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Ecuaciones de Euler"></a></li>
+<li><a href="10RotaciónEuler/engranajeDesalineado.ipynb">Engranaje desalineado</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/10RotaciónEuler/engranajeDesalineado.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Engranaje desalineado"></a></li>
+<li><a href="10RotaciónEuler/guíaRotacionEuler.pdf">Guía de ejercicios - Ecuaciones de Euler</a> <a href="https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/10RotaciónEuler/gu%C3%ADaRotacionEuler.pdf"><img src="./referencia/figurasLaTeX/PDF.svg" class="img-fluid" alt="Guía de ejercicios - Ecuaciones de Euler"></a>
+<ul>
+<li>pset10e02</li>
+<li>pset10e03</li>
+<li>pset10e05</li>
+</ul></li>
+</ul>
+</section>
+<section id="vibraciones-con-un-grado-de-libertad" class="level3">
+<h3 class="anchored" data-anchor-id="vibraciones-con-un-grado-de-libertad">12 Vibraciones con un grado de libertad</h3>
+<p>Se modela la dinámica de una partícula puntual levemente apartada de un equilibrio estable. Además de contemplar el inevitable amortiguamiento, se estudia el efecto de fuerzas externas al sistema.</p>
+<ul>
+<li><a href="12Vibraciones1GdL/vibraciones1GdL.ipynb">Oscilaciones amortiguadas</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/12Vibraciones1GdL/vibraciones1GdL.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Oscilaciones amortiguadas"></a></li>
+<li><a href="12Vibraciones1GdL/armónico1GdL.ipynb">Forzado armónico</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/12Vibraciones1GdL/armónico1GdL.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Forzado armónico"></a></li>
+<li><a href="12Vibraciones1GdL/arbitrario1GdL.ipynb">Forzado arbitrario</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/12Vibraciones1GdL/arbitrario1GdL.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Forzado arbitrario"></a></li>
+<li><a href="12Vibraciones1GdL/guíaVibraciones1GdL.pdf">Guía de ejercicios - Vibraciones con un grado de libertad</a> <a href="https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/12Vibraciones1GdL/gu%C3%ADaVibraciones1GdL.pdf"><img src="./referencia/figurasLaTeX/PDF.svg" class="img-fluid" alt="Guía de ejercicios - Vibraciones con un grado de libertad"></a>
+<ul>
+<li>pset12e01</li>
+<li>pset12e02</li>
+<li>pset12e03</li>
+<li>pset12e04</li>
+</ul></li>
+</ul>
+</section>
+<section id="vibraciones-con-múltiples-grados-de-libertad" class="level3">
+<h3 class="anchored" data-anchor-id="vibraciones-con-múltiples-grados-de-libertad">13 Vibraciones con múltiples grados de libertad</h3>
+<p>Se extiende el estudio a sistemas de múltiples grados de libertad levemente apartados de un equilibrio estable.</p>
+<ul>
+<li><a href="13VibracionesNGdL/vibracionesNGdL.ipynb">Oscilaciones con múltiples grados de libertad</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/13VibracionesNGdL/vibracionesNGdL.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Oscilaciones con múltiples grados de libertad"></a></li>
+<li><a href="13VibracionesNGdL/guíaVibracionesNGdL.pdf">Guía de ejercicios - Vibraciones con múltiples grados de libertad</a> <a href="https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/13VibracionesNGdL/gu%C3%ADaVibracionesNGdL.pdf"><img src="./referencia/figurasLaTeX/PDF.svg" class="img-fluid" alt="Guía de ejercicios - Vibraciones con múltiples grados de libertad"></a>
+<ul>
+<li>pset13e01</li>
+<li>pset13e02</li>
+</ul></li>
+</ul>
+</section>
+<section id="trabajo-integrador" class="level3">
+<h3 class="anchored" data-anchor-id="trabajo-integrador">15 Trabajo integrador</h3>
+<p>Enunciado de un ejercicio que requiere aplicar varias de las temáticas de la asignatura.</p>
+<ul>
+<li><a href="15Integrador/integradorRígido.ipynb">Integrador: cuerpo rígido bajo fuerzas externas</a> <a href="https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/15Integrador/integradorRígido.ipynb"><img src="./referencia/figurasLaTeX/colab-badge-es.svg" class="img-fluid" alt="Integrador: cuerpo rígido bajo fuerzas externas"></a></li>
+</ul>
+</section>
+</section>
+<section id="bibliografía" class="level2">
+<h2 class="anchored" data-anchor-id="bibliografía">Bibliografía</h2>
+<section id="principal" class="level3">
+<h3 class="anchored" data-anchor-id="principal">Principal</h3>
+<p>Los fundamentos teóricos empleados en este curso figuran en su totalidad en: - Lev Davidovich Landau y E. M. Lifshitz, <em>Mecánica - Curso de física teórica</em> (Reverté, 2.a edición, 1994)</p>
+</section>
+<section id="complementaria" class="level3">
+<h3 class="anchored" data-anchor-id="complementaria">Complementaria</h3>
+<section id="mecánica-vectorial" class="level4">
+<h4 class="anchored" data-anchor-id="mecánica-vectorial">Mecánica vectorial</h4>
+<ul>
+<li>Ferdinand Pierre Beer, E. Russell Johnston, y Elliot R Eisenberg, <em>Mecánica vectorial para ingenieros -</em>
+<ul>
+<li><em>Dinámica</em> (McGraw-Hill, 9.a edición, 2010)</li>
+<li><em>Estática</em> (McGraw-Hill, 9.a edición, 2010)</li>
+</ul></li>
+<li>W. Moebs et al., <a href="https://openstax.org/details/books/f%C3%ADsica-universitaria-volumen-1"><em>Física universitaria - Volumen 1</em></a> (OpenStax, 2021)</li>
+<li>S. Alrasheed, <a href="https://doi.org/10.1007/978-3-030-15195-9"><em>Principles of Mechanics</em></a> (Springer Cham, 1.a edición, 2019)</li>
+</ul>
+</section>
+<section id="mecánica-analítica-y-vectorial" class="level4">
+<h4 class="anchored" data-anchor-id="mecánica-analítica-y-vectorial">Mecánica analítica y vectorial</h4>
+<ul>
+<li>S. M. Targ, <em>Curso breve de mecánica teórica</em> (Mir, 2.a edición, 1976)</li>
+</ul>
+</section>
+<section id="mecánica-analítica" class="level4">
+<h4 class="anchored" data-anchor-id="mecánica-analítica">Mecánica analítica</h4>
+<ul>
+<li>Cornelius Lanczos, <em>The Variational Principles of Mechanics</em> (University of Toronto Press, 1952).
+<ul>
+<li><a href="referencia/apuntes/apunteLanczos.pdf">Un apunte</a> <a href="https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/referencia/apuntes/apunteLanczos.pdf"><img src="./referencia/figurasLaTeX/PDF.svg" class="img-fluid" alt="Un apunte"></a> resume sus temáticas más relevantes para el curso.</li>
+</ul></li>
+<li>Douglas Cline, <a href="https://classicalmechanics.lib.rochester.edu/"><em>Variational Principles in Classical Mechanics</em></a> (University of Rochester River Campus Libraries, 3.a edición, 2021)</li>
+<li>John Robert Taylor, <em>Mecánica Clásica</em> (Reverté, 1.a edición, 2018)</li>
+<li>Jerry B. Marion, <em>Dinámica clásica de las partículas y sistemas</em> (Reverté, 2.a edición, 1975)</li>
+</ul>
+</section>
+</section>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
