@@ -96,45 +96,53 @@
 	\begin{minipage}[t][4.5cm]{0.62\textwidth}
 		\textbf{Partícula deslizando sobre una semiesfera} [Marion (e) ex. 7.10]\\
 		La partícula de masa \(m\), considerada puntual, desliza sobre una semiesfera de radio \(R\) sin fricción.
-		\begin{enumerate}
-			\item Encuentre la fuerza de la ligadura.\\
-			Resultado: \(Q_{\rho} = m \left(- R \dot{\theta}^{2} + g \cos{\left(\theta \right)}\right)\)
-			\item Calcule el ángulo en que la partícula se despega de la semiesfera.\\
-			Resultado: \(\theta^\mathrm{despegue} \approx 48.19^\circ\) 
-		\end{enumerate}
+		Esto impone que \(\rho = R\) y \(\dot{\rho} \equiv 0\).
+
+		Para obtener \(\theta_\mathrm{despegue}\) hay que tener presente que:
+		\begin{itemize}
+			\item Cuando la fuerza de ligadura para la coordenada radial, \(Q_{\rho}\), sea nula es el momento en que se produce el despegue.
+			\item Al no haber rozamiento la energía mecánica (cinética + potencial) es constante.
+		\end{itemize}
 	\end{minipage}
 	\begin{minipage}[c][0cm][t]{0.3\textwidth}
 		\input{figs/semiSphere.tikz}
 		% \includegraphics[width=\textwidth]{marion7_10}
 	\end{minipage}
-	
-	Para llegar al ángulo de despegue debe resolver la ecuación diferencial a la que arribará tras resolver la problemática de las fuerzas de ligadura, que será $\ddot{\theta} = \dfrac{g \sin(\theta)}{R}$.
-	Esta expresión es integrable para el recorrido que hace la partícula.
-	Para facilitar esto se intercala por regla de la cadena derivaciones en función de \(\theta\) en la definición de la aceleración.
-	$$
-		\ddot{\theta} 
-		= \frac{d \dot{\theta} }{d t} 
-		= \frac{d \theta}{d t} \frac{d \dot{\theta}}{d \theta} 
-		= \dot{\theta} \frac{d \dot{\theta}}{d \theta}
-	$$
-
-	Como la partícula parte de $\theta(t=0) = 0$ con $\dot{\theta}(t=0) = 0$.
-	$$
-	\begin{aligned}
-		\ddot{\theta} = \dot{\theta} \frac{d \dot{\theta}}{d \theta}
-		&= \frac{g}{R} \sin(\theta)\\
-		\dot{\theta} d \dot{\theta}
-		&= \frac{g}{R} \sin(\theta) d \theta \\
-		\int_0^{\dot{\theta}_\mathrm{despegue}} \dot{\theta} d \dot{\theta}
-		&= \frac{g}{R} \int_0^{\theta_\mathrm{despegue}} \sin{\theta} d \theta\\
-		\frac{\dot{\theta}^2}{2} \bigg|_0^{\dot{\theta}_\mathrm{despegue}}
-		&= \frac{g}{R} (-\cos{\theta}) \bigg|_0^{\theta_\mathrm{despegue}}\\
-		\frac{\dot{\theta}_\mathrm{despegue}^2}{2}
-		&= \frac{g}{R} (-\cos(\theta_\mathrm{despegue}) + 1)\\
-	\end{aligned}
-	$$
-	Con esto hay que substituir $\dot{\theta}^2$ en una expresión de $F^\mathrm{ligadura}_{\rho}$, que debe ser nula en el momento de despegue.
-
+	\begin{enumerate}
+		\item Encuentre la fuerza de la ligadura. 
+		Resultado: \(Q_{\rho} = m \left(- R \dot{\theta}^{2} + g \cos{\left(\theta \right)}\right)\)
+		\item Iguale (ecuación) la energía mecánica inicial con la de despegue. Para esto tendrá que substituir en su expresión una vez para las condiciones iniciales (cuando estaba arriba) y otra vez para el momento del despegue.
+		\item Con la ecuación que iguala las energías mecánicas y con la de \(Q_{\rho}= 0\) (al momento del despegue) podrá calcular el ángulo en que la partícula se despega de la semiesfera.
+		Resultado: \(\theta^\mathrm{despegue} \approx 48.19^\circ\) 
+	\end{enumerate}
+	%	
+%	Para llegar al ángulo de despegue debe resolver la ecuación diferencial a la que arribará tras resolver la problemática de las fuerzas de ligadura, que será $\ddot{\theta} = \dfrac{g \sin(\theta)}{R}$.
+%	Esta expresión es integrable para el recorrido que hace la partícula.
+%	Para facilitar esto se intercala por regla de la cadena derivaciones en función de \(\theta\) en la definición de la aceleración.
+%	$$
+%		\ddot{\theta} 
+%		= \frac{d \dot{\theta} }{d t} 
+%		= \frac{d \theta}{d t} \frac{d \dot{\theta}}{d \theta} 
+%		= \dot{\theta} \frac{d \dot{\theta}}{d \theta}
+%	$$
+%
+%	Como la partícula parte de $\theta(t=0) = 0$ con $\dot{\theta}(t=0) = 0$.
+%	$$
+%	\begin{aligned}
+%		\ddot{\theta} = \dot{\theta} \frac{d \dot{\theta}}{d \theta}
+%		&= \frac{g}{R} \sin(\theta)\\
+%		\dot{\theta} d \dot{\theta}
+%		&= \frac{g}{R} \sin(\theta) d \theta \\
+%		\int_0^{\dot{\theta}_\mathrm{despegue}} \dot{\theta} d \dot{\theta}
+%		&= \frac{g}{R} \int_0^{\theta_\mathrm{despegue}} \sin{\theta} d \theta\\
+%		\frac{\dot{\theta}^2}{2} \bigg|_0^{\dot{\theta}_\mathrm{despegue}}
+%		&= \frac{g}{R} (-\cos{\theta}) \bigg|_0^{\theta_\mathrm{despegue}}\\
+%		\frac{\dot{\theta}_\mathrm{despegue}^2}{2}
+%		&= \frac{g}{R} (-\cos(\theta_\mathrm{despegue}) + 1)\\
+%	\end{aligned}
+%	$$
+%	Con esto hay que substituir $\dot{\theta}^2$ en una expresión de $F^\mathrm{ligadura}_{\rho}$, que debe ser nula en el momento de despegue.
+%
 
 \end{enumerate}
 
