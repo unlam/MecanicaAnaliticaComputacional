@@ -81,20 +81,26 @@
 
 
 	\item 
-	\begin{minipage}[t][4.5cm]{0.75\textwidth}
+	\begin{minipage}[t][3cm]{0.65\textwidth}
 		\textbf{Barra en rotación}
 		La barra delgada que se extiende desde A hasta B tiene una masa \(m\) y está conectada al soporte por medio de un pasador en A.
 		El soporte está rígidamente montado en la flecha.
 		Determine la velocidad angular constante requerida \(\omega\) de la flecha, para que la barra forme un ángulo \(\theta\) con la vertical.
-
+	\end{minipage}
+	\begin{minipage}[c][5cm][t]{0.3\textwidth}
+		\includegraphics[width=\textwidth]{hibb_21-45_axis}
+	\end{minipage}
 		Resultado: \(
 			\omega = \sqrt{\frac{3 g }{L \cos(\theta)}}
 			% \omega = \sqrt{\frac{3 g \cos(\theta)}{L \sin^2(\theta)}}
 		\)
-	\end{minipage}
-	\begin{minipage}[c][3cm][t]{0.2\textwidth}
-		\includegraphics[width=\textwidth]{hibb_21-45}
-	\end{minipage}
+		.
+	Se sugieren los siguientes pasos:
+	\begin{enumerate}
+		\item Rotar en \(\theta\) el tensor de inercia de la barra en su centro de masa hasta el sistema de ejes azul.
+		\item Sume el tensor de Steiner para obtener tal tensor calculado desde el origen del sistema rojo.
+		\item Ese desplazamiento entre los origenes de ambos sistemas es el mismo que debe consirerarse para el torque que produce el peso de la barra.
+	\end{enumerate}
 
 
 	\item 
