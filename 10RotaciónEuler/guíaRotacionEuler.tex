@@ -81,20 +81,28 @@
 
 
 	\item 
-	\begin{minipage}[t][4.5cm]{0.75\textwidth}
+	\begin{minipage}[t][1cm]{0.65\textwidth}
 		\textbf{Barra en rotación}
 		La barra delgada que se extiende desde A hasta B tiene una masa \(m\) y está conectada al soporte por medio de un pasador en A.
 		El soporte está rígidamente montado en la flecha.
 		Determine la velocidad angular constante requerida \(\omega\) de la flecha, para que la barra forme un ángulo \(\theta\) con la vertical.
-
+	\end{minipage}
+	\begin{minipage}[c][5cm][t]{0.3\textwidth}
+		\includegraphics[width=\textwidth]{hibb_21-45_axis2}
+	\end{minipage}
 		Resultado: \(
-			\omega = \sqrt{\frac{3 g }{L \cos(\theta)}}
+			\omega = \frac{3}{2} \sqrt{\frac{6 g}{L \left(- 9 \sin^{2}{\left(\theta \right)} - 15 \cos{\left(\theta \right)} + 13\right)}} \sin{\left(\theta \right)}			% \omega = \sqrt{\frac{3 g }{L \cos(\theta)}}
 			% \omega = \sqrt{\frac{3 g \cos(\theta)}{L \sin^2(\theta)}}
 		\)
-	\end{minipage}
-	\begin{minipage}[c][3cm][t]{0.2\textwidth}
-		\includegraphics[width=\textwidth]{hibb_21-45}
-	\end{minipage}
+		.
+	Se sugieren los siguientes pasos:
+	\begin{enumerate}
+		\item Obtener el tensor de inercia en los ejes de la barra (sistema azul).
+		\item Sumar el tensor de Steiner de un desplazamiento $L/2$ en el eje longitudinal para calcular el tensor de inercia en A.
+		\item Rotar en \(\theta\) para obtener el tensor de inercia en ejes paralelos al sistema rojo pero con origen en $A$.
+		\item Sumar el tensor de Steiner para obtener el tensor calculado en el origen del sistema rojo.
+		\item El desplazamiento entre los origenes de ambos sistemas es el que debe consirerarse para el torque que produce el peso de la barra.
+	\end{enumerate}
 
 
 	\item 
