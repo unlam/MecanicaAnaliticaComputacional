@@ -5,23 +5,23 @@
 <!--
 ![DIIT - UNLaM](https://raw.githubusercontent.com/bettachini/MecanicaAnaliticaComputacional/master/figurasLaTeX/ambos.png)   
 -->
-2026 1.er cuatrimestre | [Cronograma académico](https://www.unlam.edu.ar/calendario-academico/)
+2026 2.do cuatrimestre | [Cronograma académico](https://www.unlam.edu.ar/calendario-academico/)
 
 | S  | Fecha  | Título          | Temario                                                                                   |
 |:--:|:-------|:---------------:|:------------------------------------------------------------------------------------------|
-| 01 | 04-02  | **Feriado**     | |
-| 02 | 04-09  | Vectorial       | Metodología del curso. Análisis vectorial computacional. |  
-| 03 | 04-16* | Energía         | Coordenadas generalizadas. Energías cinética y potencial gravitatoria. |
-| 05 | 04-23  | EulerLagrange   | Ecuaciones de Euler-Lagrange. |
-| 06 | 04-30* | Ligaduras       | Ligaduras como función de coordenadas. |
-| 07 | 05-07  | Simulación      | Resolución numérica de las ecuaciones de Euler-Lagrange. |
-| 08 | 05-14* | FuerzasLigadura | Fuerzas de ligadura por multiplicadores de Lagrange. |
-| 09 | 05-21  | NoConservativas | Fuerzas no conservativas en el formalismo de Euler-Lagrange. |
-| 10 | 05-28  | TensorInercia   | Tensor de inercia de arreglos de masas puntales. |
-| 10 | 06-04  | MasaDistribuida | Tensor de inercia de cuerpos rígidos. |
-| 11 | 06-11* | RotaciónEuler   | Ecuaciones de Euler para el cuerpo rígido. |
-| 12 | 06-18  | "               | **Integrador: enunciado**. |
-| 13 | 06-25  | "               | (buffer) |
-| 14 | 07-02* | _Evaluación_    | **Integrador: presentación** |
-| 15 | 07-09  | **Feriado**     | |
-| 16 | 07-16* | "               | **Recuperatorio** |
+| 01 | 08-20* | Vectorial       | Metodología del curso. Análisis vectorial computacional. |  
+| 02 | 08-27  | Energía         | Coordenadas generalizadas. Energías cinética y potencial gravitatoria. |
+| 03 | 09-03  | EulerLagrange   | Ecuaciones de Euler-Lagrange. |
+| 04 | 09-10* | Ligaduras       | Ligaduras como función de coordenadas. |
+| 05 | 09-17  | Simulación      | Resolución numérica de las ecuaciones de Euler-Lagrange. |
+| 06 | 09-24  | FuerzasLigadura | Fuerzas de ligadura por multiplicadores de Lagrange. |
+| 07 | 10-01* | NoConservativas | Fuerzas no conservativas en el formalismo de Euler-Lagrange. |
+| 08 | 10-08  | TensorInercia   | Tensor de inercia de arreglos de masas puntales. |
+| 09 | 10-15  | "               | (buffer) |
+| 10 | 10-22  | MasaDistribuida | Tensor de inercia de cuerpos rígidos. |
+| 11 | 10-29  | "               | (buffer) |
+| 12 | 11-05* | RotaciónEuler   | Ecuaciones de Euler para el cuerpo rígido. |
+| 13 | 11-12  | "               | **Integrador: enunciado**. |
+| 14 | 11-19  | "               | (buffer) |
+| 15 | 11-26* | _Evaluación_    | **Integrador: presentación** |
+| 16 | 12-03* | "               | **Recuperatorio** |
