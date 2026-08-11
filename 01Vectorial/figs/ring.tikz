@@ -1,0 +1,9 @@
+\begin{tikzpicture}[x=0.5cm,y=0.5cm,z=0.3cm, scale=1]
+	% The axes
+	\draw [-LaTeX] (0,0) -- (5,0) node[above] {$x$};
+	\draw [-LaTeX] (0,0) -- (0,5) node[right] {$y$};
+	\draw [very thick] (0,0) circle [radius= 4];
+	\draw [-LaTeX, dashed] (1,0) arc [radius=1, start angle=0, end angle=300] node[midway,left] {$\varphi$};
+	\draw [dashed] (0,0) -- ($(0,0)+(-60:4)$) node [midway,right] {$R$}; 
+	\shade [ball color=black!80] ($(0,0)+(-60:4)$) circle(0.5) node [] {\color{white} $m$};
+\end{tikzpicture}

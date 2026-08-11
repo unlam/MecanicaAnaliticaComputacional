@@ -1,0 +1,49 @@
+\begin{tikzpicture}[x=0.5cm,y=0.5cm,z=0.3cm, scale=0.85]
+	% The axes
+	\draw[-LaTeX] (xyz cs:x=-8.5) -- (xyz cs:x=8.5) node[above] {$x$};
+	\draw[-LaTeX] (xyz cs:y=-5.5) -- (xyz cs:y=8.5) node[right] {$z$};
+	\draw[-LaTeX] (xyz cs:z=-8.5) -- (xyz cs:z=8.5) node[right] {$y$};
+	% The thin ticks
+	\foreach \cooZ in {-5,-4,...,8} {
+		\draw (-1.5pt,\cooZ) -- (1.5pt,\cooZ);
+	}
+	\foreach \coo in {-8,-7,...,8}
+	{
+		\draw (\coo,-1.5pt) -- (\coo,1.5pt);
+		\draw (xyz cs:y=-0.15pt,z=\coo) -- (xyz cs:y=0.15pt,z=\coo);
+	}
+	% The thick ticks
+	\foreach \coo in {-5,5}
+	{
+		\draw[thick] (\coo,-3pt) -- (\coo,3pt) node[below=6pt] {\coo};
+		\draw[thick] (-3pt,\coo) -- (3pt,\coo) node[left=6pt] {\coo};
+		\draw[thick] (xyz cs:y=-0.3pt,z=\coo) -- (xyz cs:y=0.3pt,z=\coo) node[below=8pt] {\coo};
+	}
+	% base of versors
+	\coordinate (O) at (0,0,0);
+	\draw[thick,blue,-LaTeX] (O) -- (1,0,0) node[anchor=north]{$\hat{e}_x$};
+	\draw[thick,blue,-LaTeX] (O) -- (0,0,1) node[anchor=west]{$\hat{e}_y$};
+	\draw[thick,blue,-LaTeX] (O) -- (0,1,0) node[anchor=east]{$\hat{e}_z$};
+	% Dashed lines for the points
+	\draw[dashed]
+	(xyz cs:z=-5) --
+	+(0,7) coordinate (u) --
+	(xyz cs:y=7) --
+	+(-5,0) --
+	++(xyz cs:x=-5,z=-5) coordinate (v) --
+	+(0,-7) coordinate (w) --
+	cycle;
+	\draw[dashed] (u) -- (v);
+	\draw[dashed] (-5,7) -- (-5,0) -- (w);
+	\draw[dashed] (3,0) |- (0,5);
+	% Dots and labels for
+	\coordinate (a) at (3,5);
+	\coordinate (b) at (v);
+	\node[fill,circle,inner sep=1.5pt,label={above right:$(3,0,5)$}] at (a) {};
+	\node[fill,circle,inner sep=1.5pt,label={above right:$(-5,-5,7)$}] at (b) {};
+	\draw[red,-LaTeX] (O) -- (a) node [midway, above, left]{$\vec{r}_a$};
+	\draw[red,-LaTeX] (O) -- (b) node [midway, below]{$\vec{r}_b$};
+	% % The origin
+	% \node[align=center] at (3,-3) (ori) {(0,0,0)\\\text{origen}};
+	% \draw[-LaTeX,help lines] (ori) .. controls (1,-2) and (1.2,-1.5) .. (0,0,0);
+\end{tikzpicture}
