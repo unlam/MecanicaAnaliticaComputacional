@@ -10,6 +10,7 @@ An English version of this repository, [Computational Analytical Mechanics](http
 [![CC BY-NC-SA](https://upload.wikimedia.org/wikipedia/commons/1/12/Cc-by-nc-sa_icon.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es)
 2026 Víctor A. Bettachini
 
+
 ## Índice
 - [Acerca de la asignatura](#acerca-de-la-asignatura)
   - [Material de aprendizaje](#material-de-aprendizaje)
@@ -36,7 +37,6 @@ An English version of this repository, [Computational Analytical Mechanics](http
 - [Bibliografía](#bibliografía)
 
 
-
 ## Acerca de la asignatura
 
 [Temática de la asignatura](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/tem%C3%A1tica.ipynb)
@@ -51,17 +51,19 @@ An English version of this repository, [Computational Analytical Mechanics](http
 - Presenta esta metodología en un [cronograma](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/cronograma.md) acotado y requiere como saberes previos la mecánica vectorial y el análisis matemático en múltiples variables.
 
 
-
 ### Material de aprendizaje
 
-Semanalmente nuevos temas se presentan en uno o más **[cuadernos Jupyter](https://jupyter.org/)** que combinan:
-- Teoría y conceptos de física.
-- Herramientas computacionales basadas en **[Python](https://www.python.org/)**.
-- Ejercicios resueltos que ilustran el código que efectúa todos los cálculos.
+Los **[cuadernos Jupyter](https://jupyter.org/)** se han convertido en la herramienta preferida en el ámbito universitario para la resolución de problemas y la investigación computacional, desde las ciencias a la ingeniería, pasando por las humanidades. Al entrelazar la computación con el contenido disciplinar, los cuadernos Jupyter ponen en práctica el pensamiento computacional, no para acotarse al mundo de las ciencias e ingenierías de la computación, sino para extender el alcance de toda actividad académica en el ámbito de la educación superior.
 
-Para cada tema se presenta un PDF con un **conjunto de problemas**.
-Sus ejercicios pueden resolverse realizando modificaciones incrementales en el código de los ejemplos proporcionados.
-De esta forma, el foco del esfuerzo del estudiante se corre de resolver expresiones matemáticas complejas hacia el modelado físico y la interpretación de los resultados.
+Las temáticas se separan en carpetas conteniendo cuadernos de **teoría y ejemplo** y otros de **ejercitación**.
+1. **Teoría y ejemplo**
+  - Explican conceptos de física.
+  - Les aplican a la resolución de problemas.
+  - El código **[Python](https://www.python.org/)** que efectúa los cálculos requeridos.
+2. **Ejercitación**:
+  - El enunciado del ejercicio y usualmente el resultado buscado.
+  - Se resuelven copiando y modificando los códigos de los cuadernos de **teoría y ejemplo**.
+  - Al resolver la computadora los cálculos el foco del esfuerzo está en el modelización de la física involucrada y en la interpretación de los resultados.
 
 
 ### Enfoque didáctico
@@ -110,7 +112,7 @@ Los temas del curso están divididos por áreas que pueden abarcar varias semana
 | 03EulerLagrange   | "                   | Ecuaciones de Euler-Lagrange. |
 | 04Ligaduras       | "                   | Ligaduras como función de coordenadas. |
 | 05Simulación      | Numérico            | Resolución numérica de ecuaciones de Euler-Lagrange. |
-| 06FuerzasLigadura  | Fuerzas             | Fuerza de ligadura por multiplicadores de Lagrange. |
+| 06FuerzasLigadura | Fuerzas             | Fuerza de ligadura por multiplicadores de Lagrange. |
 | 07NoConservativas | "                   | Fuerzas no conservativas en el formalismo de Euler-Lagrange. |
 | 08TensorInercia   | Cuerpo rígido       | Tensor de inercia de arreglos de masas puntuales. |
 | 09MasaDistribuida | "                   | Tensor de inercia de cuerpos rígidos. |
