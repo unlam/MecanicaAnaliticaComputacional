@@ -53,13 +53,11 @@ An English version of this repository, [Computational Analytical Mechanics](http
 
 ### Material de aprendizaje
 
-Los **[cuadernos Jupyter](https://jupyter.org/)** se han convertido en la herramienta preferida en el ámbito universitario para la resolución de problemas y la investigación computacional, desde las ciencias a la ingeniería, pasando por las humanidades. Al entrelazar la computación con el contenido disciplinar, los cuadernos Jupyter ponen en práctica el pensamiento computacional, no para acotarse al mundo de las ciencias e ingenierías de la computación, sino para extender el alcance de toda actividad académica en el ámbito de la educación superior.
-
-Las temáticas se separan en carpetas conteniendo cuadernos de **teoría y ejemplo** y otros de **ejercitación**.
+Las temáticas se separan en carpetas que contienen los **[cuadernos Jupyter](https://jupyter.org/)** de **teoría y ejemplo** y de **ejercitación**.
 1. **Teoría y ejemplo**
   - Explican conceptos de física.
-  - Les aplican a la resolución de problemas.
-  - El código **[Python](https://www.python.org/)** que efectúa los cálculos requeridos.
+  - Les aplican a problemas de ejemplo.
+  - Incluyen el código **[Python](https://www.python.org/)** que los resuelve.
 2. **Ejercitación**:
   - El enunciado del ejercicio y usualmente el resultado buscado.
   - Se resuelven copiando y modificando los códigos de los cuadernos de **teoría y ejemplo**.
