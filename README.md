@@ -130,8 +130,11 @@ Primeros pasos en cálculo simbólico aplicando la biblioteca SymPy para automat
 
 - [Cinemática vectorial](01Vectorial/cinemáticaVectorial.ipynb)
 [![Cinemática vectorial](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/01Vectorial/cinemáticaVectorial.ipynb)
+<!--
 - [Primera guía de ejercicios (pset01) - Cinemática vectorial](01Vectorial/guíaVectorial.pdf)
 [![Primera guía de ejercicios (pset01) - Cinemática vectorial](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/01Vectorial/gu%C3%ADaVectorial.pdf)
+-->
+- Primer conjunto de ejercicios (pset01) - Cinemática vectorial
   - Hacer entrega del primer ejercicio, pset01e01, durante el primer encuentro semanal. 
   - El segundo ejercicio, pset01e02, antes del inicio del próximo encuentro semanal.
   - [Cómo realizar la entrega de ejercicios](referencia/académica/entregaEjercicios.ipynb)
@@ -146,8 +149,11 @@ Se aprovecha la definición de funciones de Python para automatizar el cálculo 
 [![Energía cinética de traslación](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/02Energía/energíaCinéticaTraslación.ipynb)
 - [Energía potencial gravitatoria](02Energía/energíaPotencialGravitatoria.ipynb)
 [![Energía potencial gravitatoria](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/02Energía/energíaPotencialGravitatoria.ipynb)
+<!--
 - [Guía de ejercicios - Energía](02Energía/guíaEnergía.pdf)
 [![Guía de ejercicios - Energía](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/02Energía/gu%C3%ADaEnergía.pdf)
+-->
+- Conjunto de ejercicios (pset02) - Energía
   - pset02e01
   - pset02e02
   - pset02e03
