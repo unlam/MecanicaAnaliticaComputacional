@@ -132,9 +132,8 @@ Primeros pasos en cálculo simbólico aplicando la biblioteca SymPy para automat
 [![Cinemática vectorial](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/01Vectorial/cinemáticaVectorial.ipynb)
 - [Primera guía de ejercicios (pset01) - Cinemática vectorial](01Vectorial/guíaVectorial.pdf)
 [![Primera guía de ejercicios (pset01) - Cinemática vectorial](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/01Vectorial/gu%C3%ADaVectorial.pdf)
-  - Hacer entrega del primer ejercicio, pset01e01, dentro del lapso de una hora. 
+  - Hacer entrega del primer ejercicio, pset01e01, durante el primer encuentro semanal. 
   - El segundo ejercicio, pset01e02, antes del inicio del próximo encuentro semanal.
-  - Los ejercicios del pset02 deben entregarse antes del fin de ese encuentro (se recomienda iniciarlos durante la semana).
   - [Cómo realizar la entrega de ejercicios](referencia/académica/entregaEjercicios.ipynb)
 [![Entrega de ejercicios](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/acad%C3%A9mica/entregaEjercicios.ipynb)
 
