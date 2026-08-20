@@ -82,15 +82,15 @@ El material del curso se diseñó para un modelo de [**aula invertida**](https:/
 - **Python**
    - [Lo básico para aprovechar Python](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/b%C3%A1sicoPython.ipynb)
   [![Lo básico para aprovechar Python](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/b%C3%A1sicoPython.ipynb)
-  - (opcional) [Algo más sobre este lenguaje](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/másPython.ipynb)
+  - (lectura opcional, sólo para el interesado) [Algo más sobre este lenguaje](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/másPython.ipynb)
   [![Algo más sobre este lenguaje](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/másPython.ipynb)
   - Bibliotecas utilizadas: [SymPy](https://www.sympy.org/) 1.14, [NumPy](https://numpy.org/) 2.3.3, [SciPy](https://scipy.org/) 1.16.2, [Matplotlib](https://matplotlib.org/) 3.10.6 
 
 
 - **Jupyter**
-  - [Anotaciones en cuadernos Jupyter: Markdown y LaTeX](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/MarkdownLaTeX.ipynb)
+  - Leer cuando se necesite hacer [anotaciones en cuadernos Jupyter: Markdown y LaTeX](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/MarkdownLaTeX.ipynb)
   [![Anotaciones en cuadernos Jupyter: Markdown y LaTeX](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/MarkdownLaTeX.ipynb)
-  - [Incluir imágenes en cuadernos Jupyter](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/im%C3%A1genesNotebooks.ipynb)
+  - Leer cuando se necesite [incluir imágenes en cuadernos Jupyter](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/im%C3%A1genesNotebooks.ipynb)
   [![Incluir imágenes en cuadernos Jupyter](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/im%C3%A1genesNotebooks.ipynb)
 
 
