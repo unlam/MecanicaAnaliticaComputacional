@@ -169,16 +169,20 @@ De los principios de la mecánica analítica se derivan tales ecuaciones. Con es
   - [_El extraño principio de física que da forma a la realidad_](https://youtu.be/WQNiupNh0js) ![youtube](referencia/figurasLaTeX/youtube.svg)
   - [_Lo esencial de "Los principios variacionales de la mecánica" de Lanczos_](referencia/apuntes/apunteLanczos.pdf)
   [![_Lo esencial de "Los principios variacionales de la mecánica" de Lanczos_](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/referencia/apuntes/apunteLanczos.pdf)
+<!--
 - [Guía de ejercicios - Euler-Lagrange](03EulerLagrange/guíaEulerLagrange.pdf)
 [![Guía de ejercicios - Euler-Lagrange](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/03EulerLagrange/gu%C3%ADaEulerLagrange.pdf)
+-->
   - pset03e01c
   - pset03e02
   - pset03e03
   - pset03e04
+<!--
     - [Energía potencial elástica](03EulerLagrange/energíaPotencialElástica_eulerLagrange.ipynb)
     [![Energía potencial elástica](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/03EulerLagrange/energíaPotencialElástica_eulerLagrange.ipynb)
     - [Partes rotantes](03EulerLagrange/partesRotantes_eulerLagrange.ipynb)
     [![Partes rotantes](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/03EulerLagrange/partesRotantes_eulerLagrange.ipynb)
+-->
 <!--
   - [Plantilla de funciones](03EulerLagrange/plantilla_eulerLagrange.ipynb)
   [![Plantilla de funciones](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/03EulerLagrange/plantilla_eulerLagrange.ipynb)
