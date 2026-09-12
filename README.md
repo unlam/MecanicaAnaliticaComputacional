@@ -200,8 +200,10 @@ Donde hay contactos o uniones entre partes de un sistema, las coordenadas genera
 [![Máquina de Atwood con ligaduras](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/04Ligaduras/atwood_Ligaduras.ipynb)
 - [Resolución de sistemas lineales](04Ligaduras/resoluciónSistemasLineales.ipynb)
 [![Resolución de sistemas lineales](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/04Ligaduras/resoluciónSistemasLineales.ipynb)
+<!--
 - [Guía de ejercicios - Ligaduras](04Ligaduras/guíaLigaduras.pdf)
 [![Guía de ejercicios - Ligaduras](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/04Ligaduras/gu%C3%ADaLigaduras.pdf)
+-->
   - pset04e02
   - pset04e03
   - pset04e04
@@ -215,8 +217,10 @@ Para interpretar las ecuaciones de la dinámica generadas por Euler-Lagrange, es
 [![Máquina de Atwood: simulación numérica](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/05Simulación/atwoodSimulación_Resuelto.ipynb)
 - [Péndulo con soporte libre en la dirección horizontal: simulación numérica](05Simulación/pénduloLibre_Simulación_Resuelto.ipynb)
 [![Péndulo con soporte libre en la dirección horizontal: simulación numérica](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/05Simulación/pénduloLibre_Simulación_Resuelto.ipynb)
+<!--
 - [Guía de ejercicios - Simulación](05Simulación/guíaSimulación.pdf)
 [![Guía de ejercicios - Simulación](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/05Simulación/gu%C3%ADaSimulación.pdf)
+-->
   - pset05e02a
   - pset05e02c
   - pset05e03
