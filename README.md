@@ -241,8 +241,10 @@ Además de la dinámica, Euler-Lagrange permite determinar los torques y fuerzas
 [![Rodadura](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/06FuerzasLigadura/rodadura_FuerzasLigadura.ipynb)
 - [Sistemas no holónomos](06FuerzasLigadura/sistemasNoHolónomos.ipynb)
 [![Sistemas no holónomos](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/06FuerzasLigadura/sistemasNoHolónomos.ipynb)
+<!--
 - [Guía de ejercicios - Fuerzas de ligadura](06FuerzasLigadura/guíaFuerzasLigadura.pdf)
 [![Guía de ejercicios - Fuerzas de ligadura](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/06FuerzasLigadura/gu%C3%ADaFuerzasLigadura.pdf)
+-->
   - pset06e03
   - pset06e04
   - pset06e05
