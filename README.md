@@ -256,8 +256,10 @@ Hasta aquí el formalismo de Euler-Lagrange solo contempló la influencia extern
 
 - [Fuerzas no conservativas y Euler-Lagrange](07NoConservativas/noConservativas.ipynb)
 [![Fuerzas no conservativas y Euler-Lagrange](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/07NoConservativas/noConservativas.ipynb)
+<!--
 - [Guía de ejercicios - Fuerzas no conservativas](07NoConservativas/guíaNoConservativas.pdf)
 [![Guía de ejercicios - Fuerzas no conservativas](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/07NoConservativas/gu%C3%ADaNoConservativas.pdf)
+-->
   - pset07e02
   - pset07e03
     - [Cilindros solidarios](07NoConservativas/cilíndrosSolidarios_noConservativas_ayuda.ipynb)
