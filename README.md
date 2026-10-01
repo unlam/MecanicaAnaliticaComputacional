@@ -134,7 +134,7 @@ Primeros pasos en cálculo simbólico aplicando la biblioteca SymPy para automat
 - [Primera guía de ejercicios (pset01) - Cinemática vectorial](01Vectorial/guíaVectorial.pdf)
 [![Primera guía de ejercicios (pset01) - Cinemática vectorial](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/01Vectorial/gu%C3%ADaVectorial.pdf)
 -->
-- Primer conjunto de ejercicios (pset01) - Cinemática vectorial
+- Conjunto de ejercicios 1
   - Hacer entrega del primer ejercicio, pset01e01, durante el primer encuentro semanal. 
   - El segundo ejercicio, pset01e02, antes del inicio del próximo encuentro semanal.
   - [Cómo realizar la entrega de ejercicios](referencia/académica/entregaEjercicios.ipynb)
@@ -153,7 +153,7 @@ Se aprovecha la definición de funciones de Python para automatizar el cálculo 
 - [Guía de ejercicios - Energía](02Energía/guíaEnergía.pdf)
 [![Guía de ejercicios - Energía](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/02Energía/gu%C3%ADaEnergía.pdf)
 -->
-- Conjunto de ejercicios (pset02) - Energía
+- Conjunto de ejercicios 2
   - pset02e01
   - pset02e02
   - pset02e03
@@ -173,6 +173,7 @@ De los principios de la mecánica analítica se derivan tales ecuaciones. Con es
 - [Guía de ejercicios - Euler-Lagrange](03EulerLagrange/guíaEulerLagrange.pdf)
 [![Guía de ejercicios - Euler-Lagrange](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/03EulerLagrange/gu%C3%ADaEulerLagrange.pdf)
 -->
+- Conjunto de ejercicios 3
   - pset03e01c
   - pset03e02
   - pset03e03
@@ -204,6 +205,7 @@ Donde hay contactos o uniones entre partes de un sistema, las coordenadas genera
 - [Guía de ejercicios - Ligaduras](04Ligaduras/guíaLigaduras.pdf)
 [![Guía de ejercicios - Ligaduras](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/04Ligaduras/gu%C3%ADaLigaduras.pdf)
 -->
+- Conjunto de ejercicios 4
   - pset04e02
   - pset04e03
   - pset04e04
@@ -221,6 +223,7 @@ Para interpretar las ecuaciones de la dinámica generadas por Euler-Lagrange, es
 - [Guía de ejercicios - Simulación](05Simulación/guíaSimulación.pdf)
 [![Guía de ejercicios - Simulación](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/05Simulación/gu%C3%ADaSimulación.pdf)
 -->
+- Conjunto de ejercicios 5
   - pset05e02a
   - pset05e02c
   - pset05e03
@@ -245,6 +248,7 @@ Además de la dinámica, Euler-Lagrange permite determinar los torques y fuerzas
 - [Guía de ejercicios - Fuerzas de ligadura](06FuerzasLigadura/guíaFuerzasLigadura.pdf)
 [![Guía de ejercicios - Fuerzas de ligadura](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/06FuerzasLigadura/gu%C3%ADaFuerzasLigadura.pdf)
 -->
+- Conjunto de ejercicios 6
   - pset06e03
   - pset06e04
   - pset06e05
@@ -260,11 +264,15 @@ Hasta aquí el formalismo de Euler-Lagrange solo contempló la influencia extern
 - [Guía de ejercicios - Fuerzas no conservativas](07NoConservativas/guíaNoConservativas.pdf)
 [![Guía de ejercicios - Fuerzas no conservativas](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/07NoConservativas/gu%C3%ADaNoConservativas.pdf)
 -->
-  - pset07e02
-  - pset07e03
-    - [Cilindros solidarios](07NoConservativas/cilíndrosSolidarios_noConservativas_ayuda.ipynb)
-    [![Cilindros solidarios](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/07NoConservativas/cilíndrosSolidarios_noConservativas_ayuda.ipynb)
-  - pset07e04
+- Conjunto de ejercicios 7
+  - [pset07e02](07NoConservativas/pset07e02.ipynb)
+    [![pset07e02](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/07NoConservativas/pset07e02.ipynb)
+  - [pset07e03](07NoConservativas/pset07e03.ipynb)
+    [![pset07e03](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/07NoConservativas/pset07e03.ipynb)
+    - [Cilindros solidarios (ayuda)](07NoConservativas/cilíndrosSolidarios_noConservativas_ayuda.ipynb)
+    [![Cilindros solidarios (ayuda)](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/07NoConservativas/cilíndrosSolidarios_noConservativas_ayuda.ipynb)
+  - [pset07e04](07NoConservativas/pset07e04.ipynb)
+    [![pset07e04](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/07NoConservativas/pset07e04.ipynb)
 
 
 ### 08 Tensor de inercia
@@ -281,6 +289,7 @@ Se lo calcula para conjuntos de partículas puntuales.
   [![Monóxido de carbono](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/08TensorInercia/monóxidoCarbono_tensorInercia.ipynb)
 - [Guía de ejercicios - Tensor de inercia](08TensorInercia/guíaTensorInercia.pdf)
   [![Guía de ejercicios - Tensor de inercia](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/08TensorInercia/gu%C3%ADaTensorInercia.pdf)
+- Conjunto de ejercicios 8
   - pset08e02
   - pset08e04
   - pset08e05
@@ -296,6 +305,7 @@ Se calculan tensores de inercia para cuerpos rígidos cuya masa está distribuid
 [![Tensor de inercia de un cubo](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/09MasaDistribuida/cubo_tensorInercia.ipynb)
 - [Guía de ejercicios - Masa distribuida](09MasaDistribuida/guíaDistribuciónMasa.pdf)
 [![Guía de ejercicios - Masa distribuida](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/09MasaDistribuida/gu%C3%ADaDistribuci%C3%B3nMasa.pdf)
+- Conjunto de ejercicios 9
   - pset09e01
   - pset09e02
   - pset09e04
@@ -316,6 +326,7 @@ Contando ahora con los tensores de inercia se aplica el formalismo de Euler-Lagr
 [![Engranaje desalineado](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/10RotaciónEuler/engranajeDesalineado.ipynb)
 - [Guía de ejercicios - Ecuaciones de Euler](10RotaciónEuler/guíaRotacionEuler.pdf)
 [![Guía de ejercicios - Ecuaciones de Euler](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/10RotaciónEuler/gu%C3%ADaRotacionEuler.pdf)
+- Conjunto de ejercicios 10
   - pset10e02
   - pset10e03
   - pset10e05
@@ -334,6 +345,7 @@ Además de contemplar el inevitable amortiguamiento, se estudia el efecto de fue
 [![Forzado arbitrario](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/12Vibraciones1GdL/arbitrario1GdL.ipynb)
 - [Guía de ejercicios - Vibraciones con un grado de libertad](12Vibraciones1GdL/guíaVibraciones1GdL.pdf)
 [![Guía de ejercicios - Vibraciones con un grado de libertad](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/12Vibraciones1GdL/gu%C3%ADaVibraciones1GdL.pdf)
+- Conjunto de ejercicios 12
   - pset12e01
   - pset12e02
   - pset12e03
@@ -348,6 +360,7 @@ Se extiende el estudio a sistemas de múltiples grados de libertad levemente apa
 [![Oscilaciones con múltiples grados de libertad](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/13VibracionesNGdL/vibracionesNGdL.ipynb)
 - [Guía de ejercicios - Vibraciones con múltiples grados de libertad](13VibracionesNGdL/guíaVibracionesNGdL.pdf)
 [![Guía de ejercicios - Vibraciones con múltiples grados de libertad](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/13VibracionesNGdL/gu%C3%ADaVibracionesNGdL.pdf)
+- Conjunto de ejercicios 13
   - pset13e01
   - pset13e02
 
