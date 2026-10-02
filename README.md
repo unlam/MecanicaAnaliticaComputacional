@@ -281,18 +281,23 @@ La proporción entre un cambio de velocidad, la llamada aceleración, y la fuerz
 La proporción de dicho cambio para la velocidad angular y el torque que lo provoca es un objeto matemático más complicado denominado tensor de inercia.
 Se lo calcula para conjuntos de partículas puntuales.
 
-- [Momento angular y torque](08TensorInercia/momentoAngularTorque.ipynb)
-  [![Momento angular y torque](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/08TensorInercia/momentoAngularTorque.ipynb)
-- [Tensor de inercia](08TensorInercia/tensorInercia.ipynb)
-  [![Tensor de inercia](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/08TensorInercia/tensorInercia.ipynb)
-- [Monóxido de carbono](08TensorInercia/monóxidoCarbono_tensorInercia.ipynb)
-  [![Monóxido de carbono](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/08TensorInercia/monóxidoCarbono_tensorInercia.ipynb)
+- [Momento angular y torque](08TensorInercia/momento_angular_torque.ipynb)
+  [![Momento angular y torque](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/08TensorInercia/momento_angular_torque.ipynb)
+- [Tensor de inercia](08TensorInercia/tensor_inercia.ipynb)
+  [![Tensor de inercia](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/08TensorInercia/tensor_inercia.ipynb)
+- [Monóxido de carbono](08TensorInercia/monóxido_carbono_tensor_inercia.ipynb)
+  [![Monóxido de carbono](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/08TensorInercia/monóxido_carbono_tensor_inercia.ipynb)
+<!--
 - [Guía de ejercicios - Tensor de inercia](08TensorInercia/guíaTensorInercia.pdf)
   [![Guía de ejercicios - Tensor de inercia](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/08TensorInercia/gu%C3%ADaTensorInercia.pdf)
+-->
 - Conjunto de ejercicios 8
-  - pset08e02
-  - pset08e04
-  - pset08e05
+  - [pset08e02](08TensorInercia/pset08e02.ipynb)
+  [![pset0802](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/08TensorInercia/pset08e02.ipynb)
+  - [pset08e03](08TensorInercia/pset08e03.ipynb)
+  [![pset0803](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/08TensorInercia/pset08e03.ipynb)
+  - [pset08e04](08TensorInercia/pset08e04.ipynb)
+  [![pset0804](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/08TensorInercia/pset08e04.ipynb)
 
 
 ### 09 Masa distribuida
@@ -303,17 +308,25 @@ Se calculan tensores de inercia para cuerpos rígidos cuya masa está distribuid
 [![Masa distribuida](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/09MasaDistribuida/masaDistribuida.ipynb)
 - [Tensor de inercia de un cubo](09MasaDistribuida/cubo_tensorInercia.ipynb)
 [![Tensor de inercia de un cubo](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/09MasaDistribuida/cubo_tensorInercia.ipynb)
+<!--
 - [Guía de ejercicios - Masa distribuida](09MasaDistribuida/guíaDistribuciónMasa.pdf)
 [![Guía de ejercicios - Masa distribuida](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/09MasaDistribuida/gu%C3%ADaDistribuci%C3%B3nMasa.pdf)
+-->
 - Conjunto de ejercicios 9
-  - pset09e01
-  - pset09e02
-  - pset09e04
-  - pset09e05
-  - pset09e06
-  - pset09e07
-    - [Rodadura de un cono](08TensorInercia/rodaduraCono.pdf)
-      [![Rodadura de un cono](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/08TensorInercia/rodaduraCono.pdf)
+  - [pset09e01](09MasaDistribuida/pset09e01.ipynb)
+  [![pset09e01](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/09MasaDistribuida/pset09e01.ipynb)
+  - [pset09e02](09MasaDistribuida/pset09e02.ipynb)
+  [![pset09e02](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/09MasaDistribuida/pset09e02.ipynb)
+  - [pset09e04](09MasaDistribuida/pset09e04.ipynb)
+  [![pset09e04](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/09MasaDistribuida/pset09e04.ipynb)
+  - [pset09e05](09MasaDistribuida/pset09e05.ipynb)
+  [![pset09e05](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/09MasaDistribuida/pset09e05.ipynb)
+  - [pset09e06](09MasaDistribuida/pset09e06.ipynb)
+  [![pset09e06](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/09MasaDistribuida/pset09e06.ipynb)
+  - [pset09e07](09MasaDistribuida/pset09e07.ipynb)
+  [![pset09e07](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/09MasaDistribuida/pset09e07.ipynb)
+    - [Rodadura de un cono](09MasaDistribuida/rodaduraCono.pdf)
+      [![Rodadura de un cono](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/09MasaDistribuida/rodaduraCono.pdf)
 
 
 ### 10 Ecuaciones de Euler para la rotación
