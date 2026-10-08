@@ -17,11 +17,11 @@
 | 06 | 09-24  | Simulación      | Resolución numérica de las ecuaciones de Euler-Lagrange. |
 | 07 | 10-01* | FuerzasLigadura | Fuerzas de ligadura por multiplicadores de Lagrange. |
 | 08 | 10-08  | NoConservativas | Fuerzas no conservativas en el formalismo de Euler-Lagrange. |
-| 09 | 10-15  | TensorInercia   | Tensor de inercia de arreglos de masas puntales. |
-| 10 | 10-22  | MasaDistribuida | Tensor de inercia de cuerpos rígidos. |
-| 11 | 10-29  | "               | (buffer) |
-| 12 | 11-05* | RotaciónEuler   | Ecuaciones de Euler para el cuerpo rígido. |
-| 13 | 11-12  | "               | **Integrador: enunciado**. |
+| 09 | 10-15  | "               | (buffer) |
+| 10 | 10-22  | TensorInercia   | Tensor de inercia de arreglos de masas puntales. |
+| 11 | 10-29* | MasaDistribuida | Tensor de inercia de cuerpos rígidos. |
+| 12 | 11-05  | "               | (buffer) |
+| 13 | 11-12  | RotaciónEuler   | Ecuaciones de Euler para el cuerpo rígido. **Integrador: enunciado**. |
 | 14 | 11-19  | "               | (buffer) |
 | 15 | 11-26* | _Evaluación_    | **Integrador: presentación** |
 | 16 | 12-03* | "               | **Recuperatorio** |
