@@ -82,8 +82,8 @@ El material del curso se diseñó para un modelo de [**aula invertida**](https:/
 - **Python**
    - [Lo básico para aprovechar Python](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/b%C3%A1sicoPython.ipynb)
   [![Lo básico para aprovechar Python](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/b%C3%A1sicoPython.ipynb)
-  - (lectura opcional, sólo para el interesado) [Algo más sobre este lenguaje](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/másPython.ipynb)
-  [![Algo más sobre este lenguaje](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/másPython.ipynb)
+  - Lectura opcional sobre [más tópicos del lenguaje Python](https://github.com/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/másPython.ipynb)
+  [![Más tópicos del lenguaje Python](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/referencia/inform%C3%A1tica/másPython.ipynb) 
   - Bibliotecas utilizadas: [SymPy](https://www.sympy.org/) 1.14, [NumPy](https://numpy.org/) 2.3.3, [SciPy](https://scipy.org/) 1.16.2, [Matplotlib](https://matplotlib.org/) 3.10.6 
 
 
@@ -166,9 +166,10 @@ De los principios de la mecánica analítica se derivan tales ecuaciones. Con es
 
 - [Péndulos](03EulerLagrange/péndulos_eulerLagrange.ipynb)
 [![Péndulos](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/03EulerLagrange/péndulos_eulerLagrange.ipynb)
-  - [_El extraño principio de física que da forma a la realidad_](https://youtu.be/WQNiupNh0js) ![youtube](referencia/figurasLaTeX/youtube.svg)
+- El enlace al video [_Lo más cerca que llegamos a una teoría sobre todo_](https://youtu.be/WQNiupNh0js?t=1680) ![youtube](referencia/figurasLaTeX/youtube.svg) empieza en el minuto 28. Luego verle desde el principio. Es una introducción excelente a...
+  - lo que se explica en las secciones 5 y 6 del apunte
   - [_Lo esencial de "Los principios variacionales de la mecánica" de Lanczos_](referencia/apuntes/apunteLanczos.pdf)
-  [![_Lo esencial de "Los principios variacionales de la mecánica" de Lanczos_](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/referencia/apuntes/apunteLanczos.pdf)
+  [![_Lo esencial de "Los principios variacionales de la mecánica" de Lanczos_](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/referencia/apuntes/apunteLanczos.pdf). Obviamente para entender lo de la sección 5 hay que entender los de las cuatro precedentes.
 <!--
 - [Guía de ejercicios - Euler-Lagrange](03EulerLagrange/guíaEulerLagrange.pdf)
 [![Guía de ejercicios - Euler-Lagrange](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/03EulerLagrange/gu%C3%ADaEulerLagrange.pdf)
