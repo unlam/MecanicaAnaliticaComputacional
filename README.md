@@ -338,10 +338,11 @@ Contando ahora con los tensores de inercia se aplica el formalismo de Euler-Lagr
 [![Ecuaciones de Euler](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/10RotaciónEuler/rotaci%C3%B3nEuler.ipynb)
 - [Engranaje desalineado](10RotaciónEuler/engranajeDesalineado.ipynb)
 [![Engranaje desalineado](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/10RotaciónEuler/engranajeDesalineado.ipynb)
+<!--
 - [Guía de ejercicios - Ecuaciones de Euler](10RotaciónEuler/guíaRotacionEuler.pdf)
 [![Guía de ejercicios - Ecuaciones de Euler](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/10RotaciónEuler/gu%C3%ADaRotacionEuler.pdf)
+-->
 - Conjunto de ejercicios 10
-  - pset10e02
   - pset10e03
   - pset10e05
 
