@@ -343,8 +343,10 @@ Contando ahora con los tensores de inercia se aplica el formalismo de Euler-Lagr
 [![Guía de ejercicios - Ecuaciones de Euler](/referencia/figurasLaTeX/PDF.svg)](https://github.com/unlam/MecanicaAnaliticaComputacional/raw/refs/heads/main/10RotaciónEuler/gu%C3%ADaRotacionEuler.pdf)
 -->
 - Conjunto de ejercicios 10
-  - pset10e03
-  - pset10e05
+  - [pset10e03](10RotaciónEuler/pset10e03.ipynb)
+  [![pset09e03](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/10RotaciónEuler/pset10e03.ipynb)
+  - [pset10e05](10RotaciónEuler/pset10e05.ipynb)
+  [![pset09e05](/referencia/figurasLaTeX/colab-badge-es.svg)](https://colab.research.google.com/github/unlam/MecanicaAnaliticaComputacional/blob/main/10RotaciónEuler/pset10e05.ipynb)
 
 
 ### 12 Vibraciones con un grado de libertad
